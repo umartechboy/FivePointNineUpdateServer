@@ -4,4 +4,4 @@ About = This is just another test project
 Last Updated = 2018-Dec-08 04:35:30
 What's New = V4 is just dummy
 Current Version = 2
-Icon = NIL
+App ID = ECF2CA8979FE3FE1FBA77F063CDE7AE9
