@@ -1,0 +1,7 @@
+Application Title = Test Project
+Company = Qosain
+About = This is just a test project
+Last Updated = 2020-Jan-08 04:35:30
+What's New = V4 is just dummy
+Current Version = 4
+Icon = NIL
