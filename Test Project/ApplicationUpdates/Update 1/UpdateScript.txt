@@ -6,6 +6,7 @@ copy 79a824a42684da88251b96233f7346ed Big files\phpMyAdmin-4.9.2-all-languages.z
 copy ff8e1faabc9e58ca43b3869f2efae7c3 Big files\phpMyAdmin-5.0.0-rc1-all-languages (2).zip
 copy ff8e1faabc9e58ca43b3869f2efae7c3 Big files\phpMyAdmin-5.0.0-rc1-all-languages.zip
 Version = 2
-What's New = 1. Added some really massive files.<$lb$>2. Checking line breaks in whats new<$lb$>
+What's New = 1. Added some really massive files<$lb$>2. testing multi line whats new<$lb$>3. testing mult part zip
 Update Size= 93.25 MB
 Final Size = 97.53 MB
+Zip Parts = 5
