@@ -1,0 +1,11 @@
+mkdir Big files
+copy bcd2ee685f58e518228bf588f05ca039 Big files\Dust_Sampler_Manual (2).pdf
+copy bcd2ee685f58e518228bf588f05ca039 Big files\Dust_Sampler_Manual.pdf
+copy 79a824a42684da88251b96233f7346ed Big files\phpMyAdmin-4.9.2-all-languages (2).zip
+copy 79a824a42684da88251b96233f7346ed Big files\phpMyAdmin-4.9.2-all-languages.zip
+copy ff8e1faabc9e58ca43b3869f2efae7c3 Big files\phpMyAdmin-5.0.0-rc1-all-languages (2).zip
+copy ff8e1faabc9e58ca43b3869f2efae7c3 Big files\phpMyAdmin-5.0.0-rc1-all-languages.zip
+Version = 2
+What's New = 1. Added some really massive files.<$lb$>2. Checking line breaks in whats new<$lb$>
+Update Size= 93.25 MB
+Final Size = 97.53 MB
