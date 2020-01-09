@@ -1,7 +1,9 @@
 Application Title = Test Project
 Company = Qosain
-About = This is just a test project
-Last Updated = 2020-Jan-08 04:35:30
-What's New = V4 is just dummy
+Last Updated = 2020-Jan-09 12:35:02
+What's New = 1. Checking size going down<$lb$>2. test file delete
 Current Version = 4
+About = This is just a test project
 App ID = 8F494911E5CF1D361F4D12BE44DBEB2B
+Update Size= -7.63 MB
+Final Size = 101.82 MB
