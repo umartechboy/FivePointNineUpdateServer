@@ -1,0 +1,6 @@
+copy f092e89626e00320845d63c15dc73bdb FileZilla_3.46.3_win64-setup.exe
+Version = 3
+What's New = Checking update 2
+Update Size= 7.63 MB
+Final Size = 109.45 MB
+Zip Parts = 1
