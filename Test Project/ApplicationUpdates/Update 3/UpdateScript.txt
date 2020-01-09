@@ -1,0 +1,6 @@
+rmfile f092e89626e00320845d63c15dc73bdb FileZilla_3.46.3_win64-setup.exe
+Version = 4
+What's New = 1. Checking size going down<$lb$>2. test file delete
+Update Size= -7.63 MB
+Final Size = 101.82 MB
+Zip Parts = 1
