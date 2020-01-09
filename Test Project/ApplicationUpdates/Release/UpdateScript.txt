@@ -17,8 +17,7 @@ copy d0cbca4018971f89af588c40ba726c34 v1f3.jpg
 copy d41d8cd98f00b204e9800998ecf8427e v1f3.txt
 copy d41d8cd98f00b204e9800998ecf8427e v2f1.txt
 Version = 1
-What's New = 1. First release
-2. added some massive files
+What's New = 1. First release<$lb$>2. added some massive files
 Update Size= 4.29 MB
 Final Size = 4.29 MB
 Published on = 2020-Jan-09 12:35:02
