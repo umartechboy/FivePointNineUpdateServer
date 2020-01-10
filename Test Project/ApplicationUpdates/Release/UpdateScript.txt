@@ -21,4 +21,5 @@ What's New = 1. First release<$lb$>2. added some massive files
 Update Size= 4.29 MB
 Final Size = 4.29 MB
 Published on = 2020-Jan-09 12:35:02
+Zip Size = 4.22 MB
 Zip Parts = 1
