@@ -21,6 +21,6 @@ What's New = re pack with hashes
 Update Size = 4.29 MB
 Final Size = 4.29 MB
 Published on = 2020-Jan-10 08:00:27
-Release Hash = 9b22e4483e63beae58650f9965bdfb6f
+Zip Hash = 9b22e4483e63beae58650f9965bdfb6f
 Zip Size = 4.22 MB
 Zip Parts = 1
