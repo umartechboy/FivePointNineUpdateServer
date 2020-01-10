@@ -7,6 +7,6 @@ What's New = update 3
 Update Size = 2.8 MB
 Final Size = 72.06 MB
 Published on = 2020-Jan-10 11:57:06
-Release Hash = 589da32cc79d7422fe893a368ecffc86
+zip Hash = 589da32cc79d7422fe893a368ecffc86
 Zip Size = 2.27 MB
 Zip Parts = 1
