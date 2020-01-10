@@ -3,5 +3,6 @@ Version = 4
 What's New = 1. Checking size going down<$lb$>2. test file delete
 Update Size= -7.63 MB
 Final Size = 101.82 MB
+Zip Size = 0 MB
 Zip Parts = 1
 Published on = 2020-Jan-09 12:35:02
