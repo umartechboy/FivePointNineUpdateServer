@@ -7,5 +7,5 @@ Update Size = -1.43 MB
 Final Size = 69.27 MB
 Published on = 2020-Jan-10 11:22:14
 zip Hash = 578b92fbdbeb8068e312650e70fe467e
-Zip Size = 0 MB
+zip Size = 0 MB
 Zip Parts = 1
