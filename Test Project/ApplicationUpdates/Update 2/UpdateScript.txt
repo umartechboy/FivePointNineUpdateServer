@@ -3,5 +3,6 @@ Version = 3
 What's New = Checking update 2
 Update Size= 7.63 MB
 Final Size = 109.45 MB
+Zip Size = 7.60 MB
 Zip Parts = 1
 Published on = 2020-Jan-09 12:35:02
