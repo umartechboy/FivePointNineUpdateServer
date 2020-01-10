@@ -1,0 +1,9 @@
+Application Title = ED Desktop
+Company = Qosain Scientific
+Last Updated = 2020-Jan-10 10:26:54
+What's New = This is the first stable release.
+Current Version = 1
+About = Electo-deposition Desktop goes along Qosain ED setups to provide a lucid user interface.
+App ID = 5B7369378859E27EECACCAEB5B907C23
+Update Size= 0.41 MB
+Final Size = 0.41 MB
