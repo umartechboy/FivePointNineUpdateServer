@@ -1,8 +1,11 @@
-copy f092e89626e00320845d63c15dc73bdb FileZilla_3.46.3_win64-setup.exe
+rmfile d0cbca4018971f89af588c40ba726c34 v1f1.jpg
+rmfile d41d8cd98f00b204e9800998ecf8427e v1f1.txt
+rmfile d0cbca4018971f89af588c40ba726c34 v1f2.jpg
 Version = 3
-What's New = Checking update 2
-Update Size= 7.63 MB
-Final Size = 109.45 MB
-Zip Size = 7.60 MB
+What's New = deletion
+Update Size = -1.43 MB
+Final Size = 69.27 MB
+Published on = 2020-Jan-10 11:22:14
+Release Hash = 578b92fbdbeb8068e312650e70fe467e
+Zip Size = 0 MB
 Zip Parts = 1
-Published on = 2020-Jan-09 12:35:02
