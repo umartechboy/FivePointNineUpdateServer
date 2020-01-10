@@ -1,9 +1,9 @@
 Application Title = Test Project
-Company = Qosain
-Last Updated = 2020-Jan-09 12:35:02
-What's New = 1. Checking size going down<$lb$>2. test file delete
+Company = Five Point Nine
+Last Updated = 2020-Jan-10 11:57:06
+What's New = update 3
 Current Version = 4
-About = This is just a test project
-App ID = 8F494911E5CF1D361F4D12BE44DBEB2B
-Update Size= -7.63 MB
-Final Size = 101.82 MB
+About = about the file
+App ID = D70911430AB15B6E1CAFA68FFED79C6F
+Update Size= 2.8 MB
+Final Size = 72.06 MB
