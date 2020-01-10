@@ -1,14 +1,17 @@
-mkdir Big files
-copy bcd2ee685f58e518228bf588f05ca039 Big files\Dust_Sampler_Manual (2).pdf
-copy bcd2ee685f58e518228bf588f05ca039 Big files\Dust_Sampler_Manual.pdf
-copy 79a824a42684da88251b96233f7346ed Big files\phpMyAdmin-4.9.2-all-languages (2).zip
-copy 79a824a42684da88251b96233f7346ed Big files\phpMyAdmin-4.9.2-all-languages.zip
-copy ff8e1faabc9e58ca43b3869f2efae7c3 Big files\phpMyAdmin-5.0.0-rc1-all-languages (2).zip
-copy ff8e1faabc9e58ca43b3869f2efae7c3 Big files\phpMyAdmin-5.0.0-rc1-all-languages.zip
+mkdir BigFiles
+copy d8780a49e031d178386ca660a31e2fd2 BigFiles\drive-download-20200101T171538Z-001.zip
+copy bcd2ee685f58e518228bf588f05ca039 BigFiles\Dust_Sampler_Manual - Copy.pdf
+copy bcd2ee685f58e518228bf588f05ca039 BigFiles\Dust_Sampler_Manual.pdf
+copy 45892177d4551031dcc2ed83bedca5bc BigFiles\mybb_1822.zip
+copy 3195795bd14d6709f8eb3db752af1d92 BigFiles\nuget.exe
+copy f446fd9628545f8d439786dde8d590d5 BigFiles\NuGet.Tools (1).vsix
 Version = 2
-What's New = 1. Added some really massive files<$lb$>2. testing multi line whats new<$lb$>3. testing mult part zip
-Update Size= 93.25 MB
-Final Size = 97.53 MB
-Zip Size = 92.4 MB
-Zip Parts = 5
-Published on = 2020-Jan-09 12:35:02
+What's New = big files
+Update Size = 66.41 MB
+Final Size = 70.69 MB
+Published on = 2020-Jan-10 08:01:21
+Release Hash = 4aaa0117c38a38305dfc4e009f754282
+Update 1 Hash = bdf92330690b1eae858afeb7d0ef53b9
+Update 2 Hash = ac3fbaa9d5afe8dc3b7dbd3e33d707d3
+Zip Size = 60.65 MB
+Zip Parts = 3
