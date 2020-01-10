@@ -1,8 +1,12 @@
-rmfile f092e89626e00320845d63c15dc73bdb FileZilla_3.46.3_win64-setup.exe
+copy d0cbca4018971f89af588c40ba726c34 20191218_154500 copy.jpg
+copy f5d96b8f27e9ffad3f95c377f0705ecf completed.rar
+copy 3a37312509712d4e12d27240137ff377 desktop.ini
+copy daf7283dd58558458f36783e2a317e78 TapSplash.exe
 Version = 4
-What's New = 1. Checking size going down<$lb$>2. test file delete
-Update Size= -7.63 MB
-Final Size = 101.82 MB
-Zip Size = 0 MB
+What's New = update 3
+Update Size = 2.8 MB
+Final Size = 72.06 MB
+Published on = 2020-Jan-10 11:57:06
+Release Hash = 589da32cc79d7422fe893a368ecffc86
+Zip Size = 2.27 MB
 Zip Parts = 1
-Published on = 2020-Jan-09 12:35:02
