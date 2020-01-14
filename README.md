@@ -53,10 +53,10 @@ No matter which way the update process is triggered,
 5. Create the update package and upload to GitHub.
 
 Creation of a package results in updateion/creation of a first-time-only App ID and three package update files.
-1. A project sumamry, (root/ApplicationUpdates/Sumamry.txt)
-2. The ZIP update package ((root/ApplicationUpdates/[Update N]/UpdatePackage.zip)) which contains any additional files that must be added to the new script. This file cannot be ignored even if it doesn't contain any data
+1. A project sumamry, (root\InstallationPackage\PackageUpdates\Sumamry.txt)
+2. The ZIP update package ((root\InstallationPackage\PackageUpdates\[Update N]/UpdatePackage.zip)) which contains any additional files that must be added to the new script. This file cannot be ignored even if it doesn't contain any data
    where [Update N] = Release, Update 1, Update 2, Update 3 ...
-3. The ZIP update package ((root/ApplicationUpdates/[Update N]/UpdateScript.txt)) which contains neccessary information about the update such as integral application version, what's new?, installation and post-installation scripts, etc.
+3. The ZIP update package ((root\InstallationPackage\PackageUpdates/[Update N]/UpdateScript.txt)) which contains neccessary information about the update such as integral application version, what's new?, installation and post-installation scripts, etc.
 
 ### b. Uploading the package to the cloud ###
 Uploading the update package files to github is simple.
@@ -77,4 +77,4 @@ Every now and then, we need to create offline, CD/USB installation packages for 
 1. Create the upload package just like the online package except, confirm that "Create an offline Pacakge" is checked in the package creator before pressing the "Create" button.
 2. Optionally, you may choose "Create Autorun" to automatically create an autorun compatible with disk/USB drives.
 3. The setup may ask for an icon image file which will be used as a thumbnail of the package tile in the installation wizard.
-4. Copy the setup.exe (which is essentially the same exe as the standard Qosain package explorer) alongwith the directory "ApplicationUpdates" and Autorun.inf (if required) to the USB/CD's root.
+4. Copy the setup.exe (which is essentially the same exe as the standard Qosain package explorer) alongwith the directory "PackageUpdates" and Autorun.inf (if required) to the USB/CD's root.
