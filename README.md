@@ -3,6 +3,8 @@
 (Formerly known as FivePointNine UpdateServer)
 Qosain Package Manger is a data installation and update management service that provides tools for both developers and users to easily get the latest updates using a GitHub cloud as well as offline packages.
 
+# Downloads #
+[Qosain Package Explorer](https://raw.githubusercontent.com/umartechboy/FivePointNineUpdateServer/master/QosainPackageManager.exe "Download Qosain Package Manager now")
 # Features #
 1. A single package doing multiple tasks for content creators and users
 2. Create and distribute GitHub cloud based and offline installers
