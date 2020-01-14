@@ -1,7 +1,0 @@
-Application Title = Test Project 3
-Company = Qosain
-About = This is just another test project 3
-Last Updated = 2018-Dec-08 04:35:30
-What's New = V4 is just dummy
-Current Version = 2
-App ID = 86E687EEED376A60DE1173B3DDB33C83
