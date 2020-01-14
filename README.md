@@ -48,48 +48,35 @@ For automatic updates,
 2. use the "Update.exe" file which can be found in the package installation directory.  The rest of the process is similar to installing a package.
 
 ### Option 3 -- Manually applied offline updates  ###
-See [enter link description here](option-2----using-the-developer-provided-installer)
+See [enter link description here](#option-3----using-the-developer-provided-offline-installer) which describes getting an offline installation package. The same process can be used for creating offline update packages.
 
-### Option 2 -- Using Qosain Package Explorer ###
-Online packages can be updated right where they were installed from. The process is similar to installing a new package.
-1. Use the developer provided installer or search using Qosain Package Explorer to check if your package has any updates available. If there are any updates, they may be applied using the "Update from vM to vN" button next to your package (N and M are integers).
-2. This will open up Qosain Package Updater similar to the one used to install the package; except that it may not offer an option to select the installation location.
-
-### Option 2 -- Offline Updates ###
-Installing a newer version of a package
-
-## 3. Making a new cloud based package ##
+## 3. Making a new package ##
 ### a. Basic package creation ###
-**Please note that the update manger logically treates the first release just like an update.**
-1. Rename the Package Manger as "UpdateCreator.exe" (case-insensetive) and copy to the root location of the package.
+**Please note that the update manger logically treats the first release just like an update.**
+1. Rename the Qosain Package Explorer download from [this GitHub link](https://raw.githubusercontent.com/umartechboy/FivePointNineUpdateServer/master/QosainPackageManager.exe "Download Qosain Package Manager now") as "UpdateCreator.exe" (case-insensitive) and copy to the root location of the package.
 2. Run the Exe.
 3. Press "Scan" to scan the directory for changes and updates.
 4. Optionally, you may add some pre-set post-build commands to the update script which will be executed at the time this update is installed.
 5. Create the update package and upload to GitHub.
 
-Creation of a package results in updateion/creation of a first-time-only App ID and three package update files.
-1. A project sumamry, (root\InstallationPackage\PackageUpdates\Sumamry.txt)
-2. The ZIP update package ((root\InstallationPackage\PackageUpdates\[Update N]/UpdatePackage.zip)) which contains any additional files that must be added to the new script. This file cannot be ignored even if it doesn't contain any data
-   where [Update N] = Release, Update 1, Update 2, Update 3 ...
-3. The ZIP update package ((root\InstallationPackage\PackageUpdates/[Update N]/UpdateScript.txt)) which contains neccessary information about the update such as integral application version, what's new?, installation and post-installation scripts, etc.
+Creation of a package results in updating/creating these 4 files.
+1. A project summary, (root\InstallationPackage\PackageUpdates\Sumamry.txt)
+2. A multi-part ZIP update package ((root\InstallationPackage\PackageUpdates\[Update N]/[UpdatePackage.zXX])) which contains any additional files that must be added to the new script. This file cannot be ignored even if it doesn't contain any data (here [Update N] = Release, Update 1, Update 2, Update 3 ... and [UpdatePackage.zXX] = UpdatePackge.zip, UpdatePackge.z01, UpdatePackge.z02 ...
+3. The ZIP update package (root\InstallationPackage\PackageUpdates\[Update N]/UpdateScript.txt) which contains necessary information about the update such as integral application version, what's new?, installation and post-installation scripts, etc.
+4. A package thumbnail icon (root\InstallationPackage\PackageUpdates\Icon.png)
+5. A first-time-only App ID (a Hash code which looks like FBC66FD44955AEE5836A9D161D528DA1)
+6. A Setup.exe for offline installation.
 
 ### b. Uploading the package to the cloud ###
-Uploading the update package files to github is simple.
-1. Sumamry goes to GitHubRepRoot/PackageName/Summary.txt (over-write if a previous summary already exists)
-2. UpdatePackage.zip goes to GitHubRepRoot/PackageName/[Update N]/UpdatePackage.zip
-3. UpdateScript goes to GitHubRepRoot/PackageName/[Update N]/UpdateScript.txt
-4. In the first upload (Release), add an Icon.png file to GitHubRepRoot/PackageName/Icon.png.
-5. After the first upload (Release), append in a newline the complete URL of the Github package root (e.g. https://github.com/username/gitrep/tree/master/Test%20Project%201) to GitHubRepRoot/projects.txt.
+Uploading the update package files to GitHub is simple.
+1. All the files go to the root of your project directory in the same structure in which they appear within root\InstallationPackage. For example, the summary file appears in GitHubRepRoot/PackageName/PackageUpdates/Summary.txt. Over-write if a previous summary already exists.
+3. After the first upload (Release), append in a newline the complete URL of the Github package root (e.g. https://github.com/username/gitrep/tree/master/Test%20Project%201) to GitHubRepRoot/projects.txt.
+
+### c. Making Offline installer/updater ###
+The contents of the directory "root\InstallationPackage" can be distributed as offline installation and update packages. The directory contains a Setup.exe file which will be used by the users to install packages from the offline repository located along-with it in PackageUpdates directory.
 
 ### c. Enabling embedded package updates ###
-The installer automatically creates a "updater XX.exe" (XX is the App ID from the update creation step) file in the root folder of the installed package. This file is the same Qosain Package Explorer except it automatically populates the packages list only by the package specified by the XX in the executable's name. In your executable package, call this file and exit the environment, leaving all the files ready to be modified by the updater.
+The installer automatically creates an "Update.exe" file in the root folder of the installed package. This file is the same Qosain Package Explorer except it automatically populates the packages list only by the relavent package. In your executable package, call this file and exit the environment within 2-3 seconds, leaving all the files ready to be modified by the updater.
 
 ### d. Creating custom online package installers and updaters ###
 Rename the latest Qosain Package Explorer as "Installer XX.exe" (XX is the App ID from the update creation step) and you are done! This exe works just like the standard package explorer except it automatically populates the packages list only by the package specified by the XX in the executable's name. Provide your users with this exe with restriction not to rename file which will serve as an all-in-one installer and updater for your custom application.
-
-## 4. Making a new offline package installer ##
-Every now and then, we need to create offline, CD/USB installation packages for our products. For this a similar procedure is used as the one used for online packages.
-1. Create the upload package just like the online package except, confirm that "Create an offline Pacakge" is checked in the package creator before pressing the "Create" button.
-2. Optionally, you may choose "Create Autorun" to automatically create an autorun compatible with disk/USB drives.
-3. The setup may ask for an icon image file which will be used as a thumbnail of the package tile in the installation wizard.
-4. Copy the setup.exe (which is essentially the same exe as the standard Qosain package explorer) alongwith the directory "PackageUpdates" and Autorun.inf (if required) to the USB/CD's root.
