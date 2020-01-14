@@ -1,47 +1,62 @@
+
 #  Qosain Package Manager #
 (Formerly known as FivePointNine UpdateServer)
-Qosain Package Manger is an installation and update management service that provides tool for both developers and users to easily get the latest updates using GitHub cloud as well as offline packages.
+Qosain Package Manger is a data installation and update management service that provides tools for both developers and users to easily get the latest updates using a GitHub cloud as well as offline packages.
 
-# What does it do? #
-The application provides a system to create cloud based application installation and updates management for projects that receive frequent updates. 
+# Features #
+1. A single package doing multiple tasks for content creators and users
+2. Create and distribute GitHub cloud based and offline installers
+3. Doesn't use any proprietary services
+4. Non-admin installations also supported
+5. No coding required 
 
-# How does it do it? #
-1. The developer uses Qosain Package Manger to create a release for their project. 
-2. The release and the project summary is uploaded on a GitHub repository, (currently fixed to the current rep).
-3. Whenever the developer makes an update, it is uploaded to the same repository.
-4. The users may now download the universal "Qosain Package Explorer" or the developer's provided "Qosain Package Installer" to install the package alongwith any new updates available on their system.
+# How does it do it? (Online Mode) #
+1. The developer uses Qosain Package Manger to create a release for their content project. 
+2. The structured package is uploaded on a GitHub repository, (currently fixed to the current rep).
+3. Whenever the developer makes an update, it is uploaded to the same repository along-with any previous updates.
+4. The users may now download the universal "Qosain Package Explorer" or the developer's provided "Qosain Package Installer" to install the package along-with any new updates available on their system.
 5. The users can check for updates using the universal "Qosain Package Explorer" or the same developer's provided "Qosain Package Installer" in the future.
-6. The developer may optionally embed the updater in all their executable packages. This way, they can integrate software updates within their appliactions.
+6. If internet is not available on the target machine, the same GitHub packages can act as standalone, self extracting installers. Even updates can be distributed offline in this fashion.
+7. The developer may optionally embed the updater in all their executable packages. This way, they can integrate software updates within their applications.
 
 # Usage #
 The same application is used to create, explore, install and update packages. Different functionality is achieved by changing the way the executable is called.
 
 ## 1. Installing a Package ##
 ### Option 1 -- Using Qosain Package Explorer ###
-1. Download the Qosain Package Manager from [this GitHub link](https://raw.githubusercontent.com/umartechboy/FivePointNineUpdateServer/master/QosainPackageManager.exe "Download the Qosain Package Manager now").  (**Note:** don't rename the file)
+1. Download the Qosain Package Manager from [this GitHub link](https://raw.githubusercontent.com/umartechboy/FivePointNineUpdateServer/master/QosainPackageManager.exe "Download Qosain Package Manager now").  (**Note:** don't rename the file after downloading)
 2. Run the program and use the search button to search for your desired package. For convenience, the search bar supports wildcards. This means that you can search for your package without entering the exact name. For example, To search for a package named Qosain PhysLogger Desktop, the search string **qos** * **phys** * **desk** or even **qosa** * **phy**  will make the results include our desired package.
 3. Press the "Install" button to open up the installation wizard. 
 4. To complete the installation, the wizard provides several installation options like changing the installation directory, letting other users use the same package installation etc.
 
-### Option 2 -- Using the developer provided installer ###
-You may also get a custom installer for your specific package from the developer. Don't rename this file or it may not work as expected. Run the installer which works just like the standard Qosain Package Explorer, except it automatically populates the installation screen only with your required package. The rest of the process is the same as the one used for the package explorer.
+### Option 2 -- Using the developer provided online installer ###
+You may also get a custom installer for your specific package from the developer. Don't rename this file or it may not work as expected. Run the installer which works just like the standard Qosain Package Installer which works just like the standard Qosain Package explorer, except it automatically populates the installation screen only with your required package. The rest of the process is the same as the one used for the package explorer.
+
+### Option 3 -- Using the developer provided offline installer ###
+1. If the target computer doesn't have an internet connection, you can request the developer to provide you with an offline installer.
+2. Alternatively, using some other internet powered machine, you can make an offline package on your own using Qosain Package Manager which can be downloaded from [this GitHub link](https://raw.githubusercontent.com/umartechboy/FivePointNineUpdateServer/master/QosainPackageManager.exe "Download Qosain Package Manager now"). 
+3. Just search for your package and instead of installing it, choose the "Re-distribute" option to download and make an offline installation package. 
+4. The offline package contains a classic "Setup.exe" file which can install your desired package without using the internet.
 
 ## 2. Package Updates ##
+### Option 1 -- Manually search for the updates online ###
+Updating the application is similar to installing one. A package with newer version automatically detects any previously installed versions and updates it. So, all the methods used for the first instillation can be repeated to update your packages. 
 
-### Option 1 -- Automatic Updates ###
+### Option 2 -- Automatic updates ###
 For automatic updates,
 1. use the update option embedded in your executable packages (the developer may choose not to include embedded updates) or,
-2. use the "updater XX.exe" file (XX refers to a hash code similar to D70911430AB15B6E1CAFA68FFED79C6F) which can be found in the package update installation directory. 
+2. use the "Update.exe" file which can be found in the package installation directory.  The rest of the process is similar to installing a package.
 
-The installer works just like the standard Qosain Package Explorer, except it automatically populates the installation screen only with your required package. The rest of the process is the same as the one used for the package explorer.
+### Option 3 -- Manually applied offline updates  ###
+See [enter link description here](option-2----using-the-developer-provided-installer)
 
-### Option 2 -- Using Qosain Package Explorer or Qosain Package Installer ###
-Packages can be updated right where they were installed from. The process is similar to installing a new package.
+### Option 2 -- Using Qosain Package Explorer ###
+Online packages can be updated right where they were installed from. The process is similar to installing a new package.
 1. Use the developer provided installer or search using Qosain Package Explorer to check if your package has any updates available. If there are any updates, they may be applied using the "Update from vM to vN" button next to your package (N and M are integers).
-2. This will open up Qosain Package Updater similar to the one used to install the package; except that it may not offer an option to select the installtion location.
+2. This will open up Qosain Package Updater similar to the one used to install the package; except that it may not offer an option to select the installation location.
 
-### Offline updates ###
-No matter which way the update process is triggered, 
+### Option 2 -- Offline Updates ###
+Installing a newer version of a package
 
 ## 3. Making a new cloud based package ##
 ### a. Basic package creation ###
