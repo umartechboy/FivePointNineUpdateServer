@@ -1,9 +1,0 @@
-Application Title = Test Project
-Company = Five Point Nine
-Last Updated = 2020-Jan-10 11:57:06
-What's New = update 3
-Current Version = 4
-About = about the file
-App ID = D70911430AB15B6E1CAFA68FFED79C6F
-Update Size= 2.8 MB
-Final Size = 72.06 MB
