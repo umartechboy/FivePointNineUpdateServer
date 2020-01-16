@@ -87,7 +87,6 @@ copy 50e6524b7ee9c2c93f5210b63cb1ca54 SharpDX.Mathematics.dll
 copy 2056464074215066d3d06abbba1a0519 SharpDX.Mathematics.pdb
 copy d81cf09538c3459900a5c14a4b072b05 SharpDX.Mathematics.xml
 copy 2883c3a35927e62ebe1871c130e93f31 SharpDX.pdb
-copy 77518073a11d508ad94a12b1ae887e74 Update Manager.exe
 dshortcut f5503c54953e1ea2aa72b59b47a027f4 PhysLogger<$s$>Desktop PhysLogger.exe
 execute Installation x64 admin aa0a91227631a09cd075d315646fb7a9 ArduinoDrivers\dpinst-amd64.exe
 execute Installation x86 admin e6213cec602f332bf8e868b7b8bf2bb1 ArduinoDrivers\dpinst-x86.exe
