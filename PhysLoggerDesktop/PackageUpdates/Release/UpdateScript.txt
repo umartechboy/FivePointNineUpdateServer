@@ -1,0 +1,109 @@
+mkdir ArduinoDrivers
+mkdir CalibrationData
+mkdir firmware
+mkdir Instruments
+mkdir Redist
+mkdir SketchUploader
+copy 44f696f5826aed4fde1188843a3856ab ArduinoDrivers\AdafruitCircuitPlayground.cat
+copy 787490261482f4737a55dcb866e6b032 ArduinoDrivers\AdafruitCircuitPlayground.inf
+copy d3c332417138204e61852299ca28248b ArduinoDrivers\arduino-org.cat
+copy c9f31280797664fc93549400e8e02b43 ArduinoDrivers\arduino-org.inf
+copy 383a0e15bd96d11fdcff42282abf6d1f ArduinoDrivers\arduino.cat
+copy 9eb2ab0d6922e13d703f040900cecfa9 ArduinoDrivers\arduino.inf
+copy c21c9074895e6969965d3c36367dec4f ArduinoDrivers\arduino_gemma.cat
+copy cd039b5e9a7f7d81a9e6dbd4a2f68863 ArduinoDrivers\arduino_gemma.inf
+copy aa0a91227631a09cd075d315646fb7a9 ArduinoDrivers\dpinst-amd64.exe
+copy e6213cec602f332bf8e868b7b8bf2bb1 ArduinoDrivers\dpinst-x86.exe
+copy f345dbe5d8bc0d39b1a4f8559ce80480 ArduinoDrivers\genuino.cat
+copy d5444009651e976f699482272440d02f ArduinoDrivers\genuino.inf
+copy 91719ad95b6745b83158a78753da25a8 ArduinoDrivers\linino-boards_amd64.cat
+copy 325933fd780a1b9fc1649b1cfaf2af80 ArduinoDrivers\linino-boards_x86.cat
+copy 306d60104d9df963d66ebc53334c207d ArduinoDrivers\linino.inf
+copy 85f4914df50c645035bc049ce72af37f CalibrationData\PhysLab Thermocouple Module 1.1 K.plf
+copy 0b2f64491753340eab95ee8948f52778 CalibrationData\PhysLoad 1.0 1.0.1.plf
+copy 370e4cbf384063227068e80a3d571299 CalibrationData\Potentiometer Caliper 55.5mm.plf
+copy 849d43e511cd41e19c2cc4d9a67137f9 firmware\PhysLoggerV1.1.hex
+copy 16fd7e800e86cb2db71ffad9c88b52dc firmware\PhysLoggerV1.2.hex
+copy de151085702cb0bf897a59661d2d660c firmware\PhysLoggerV1.3.hex
+copy b90622584bbf6e22c0d559da7ff686db Instruments\PhysBar 1.0.plf
+copy 2139a9b7debb277292fe17218032343d Instruments\PhysDisp 1.0.plf
+copy 13f15312a38849cac75ab813c2f94d2b Instruments\PhysLab Thermocouple Module 1.0.plf
+copy 711a1c2ab76adf8cb7848e8faecb9e2f Instruments\PhysLoad 1.0.plf
+copy f089ba2bd9d969fc0126f863c8f05883 Instruments\PhysLoad 2.0.plf
+copy 5243be42fb985f91c69df0baaaa5f676 Instruments\PotentiometerCaliper.plf
+copy ee01fc4110c73a8e5efc7cabda0f5ff7 Redist\.Net Framework 4.5.2 Offline Installer.exe
+copy 04efb0bfc2e3cf1b49abe175a82f38be SketchUploader\ArduinoSketchUploader.dll
+copy 5d183f09006f4c3f58cf6f79d321f817 SketchUploader\ArduinoSketchUploader.dll.config
+copy 50221bd3442c5b7ff2d03902231e1773 SketchUploader\ArduinoSketchUploader.pdb
+copy 5a968502b84a268ca84018f1a9f6bb59 SketchUploader\ArduinoSketchUploader.vshost.exe
+copy 5d183f09006f4c3f58cf6f79d321f817 SketchUploader\ArduinoSketchUploader.vshost.exe.config
+copy a19a2658ba69030c6ac9d11fd7d7e3c1 SketchUploader\ArduinoSketchUploader.vshost.exe.manifest
+copy e6ea84b3304308a607f56855ade54f9c SketchUploader\ArduinoUploader.dll
+copy 47b3973dd8cea6d4224d0283adf10ced SketchUploader\ArduinoUploader.pdb
+copy ec0e2dd54144d6f6a317b7daa715d418 SketchUploader\CommandLine.dll
+copy c20a005e61b56955b266f5c4b0769c83 SketchUploader\CommandLine.xml
+copy b43f36ee4db391474c38119e9f55ea0e SketchUploader\IntelHexFormatReader.dll
+copy 238c8f4c39cafd66629019a3ab21bb8d SketchUploader\NLog.config
+copy f7eb59af6eef8634f38137e4382278ec SketchUploader\NLog.dll
+copy a11267f0ca4e40b1d147e56e36f6f9d9 SketchUploader\NLog.xml
+copy 2040ab6c8ca79a5881c3d2f2ec195b68 SketchUploader\RJCP.SerialPortStream.dll
+copy 2f7e067242dd6432848063f10eb50df6 SketchUploader\RJCP.SerialPortStream.pdb
+copy e023c3a5a319e535b09328fe1bd551c7 SketchUploader\RJCP.SerialPortStream.xml
+copy 04efb0bfc2e3cf1b49abe175a82f38be ArduinoSketchUploader.dll
+copy 50221bd3442c5b7ff2d03902231e1773 ArduinoSketchUploader.pdb
+copy e6ea84b3304308a607f56855ade54f9c ArduinoUploader.dll
+copy 47b3973dd8cea6d4224d0283adf10ced ArduinoUploader.pdb
+copy ec0e2dd54144d6f6a317b7daa715d418 CommandLine.dll
+copy c20a005e61b56955b266f5c4b0769c83 CommandLine.xml
+copy 21396fa9b1e6bd4e84b5c4ce4e155db4 FivePointNine.VCSExtentions.dll
+copy b752ec57b2b6bb5e4ad131a6c52290ea FivePointNine.VCSExtentions.pdb
+copy 797101a249d2e5d37fdcd7bb11d0da62 FivePointNineVCSLibrary[Conflict].dll
+copy 711111de0d1ea931a6598cf47f44f11b FivePointNineVCSLibrary[Conflict].pdb
+copy b43f36ee4db391474c38119e9f55ea0e IntelHexFormatReader.dll
+copy 35b5a280882230c498ed3b60ae132c41 LastSession.plprj
+copy fa28b607134c5307ed93ef678db5bc32 LastSession.plproj
+copy a044295e871c5f1fff7bf278e7a7c1fb LastSession[Conflict].plprj
+copy c243735fc91d039eba1f7d1b84e26037 Launcher.vshost.exe
+copy f6847087c2ab71b70d5240ff42148837 MathNet.Numerics.dll
+copy e0516a48e7a38a187b0f06c3950a2433 MathNet.Numerics.xml
+copy 15f00f22951f0fff9596955ee9c86cd6 NCalc.dll
+copy 238c8f4c39cafd66629019a3ab21bb8d NLog.config
+copy f5503c54953e1ea2aa72b59b47a027f4 PhysLogger.exe
+copy ef0181de18ef3951806c0ad63b897ba4 PhysLogger.exe.config
+copy 98972432e400badfb0040eb40e8780a0 PhysLogger.pdb
+copy 5a968502b84a268ca84018f1a9f6bb59 PhysLogger.vshost.exe
+copy ef0181de18ef3951806c0ad63b897ba4 PhysLogger.vshost.exe.config
+copy a19a2658ba69030c6ac9d11fd7d7e3c1 PhysLogger.vshost.exe.manifest
+copy 8a5b15285b93e441dae203625b73ca1b PhysLogger_LegacyWindows.exe
+copy 98b3d148cc2f35e48ed0f6257df6edf9 PhysLogger_LegacyWindows.pdb
+copy 2040ab6c8ca79a5881c3d2f2ec195b68 RJCP.SerialPortStream.dll
+copy 2f7e067242dd6432848063f10eb50df6 RJCP.SerialPortStream.pdb
+copy e023c3a5a319e535b09328fe1bd551c7 RJCP.SerialPortStream.xml
+copy 52f43683b23d23ee15e3a6423d1b5793 SharpDX.Direct3D9.dll
+copy c5429024ef37db3d20e09b8033ccae2a SharpDX.Direct3D9.pdb
+copy ee4f22d7a9252004c099bab7cbbc1b46 SharpDX.Direct3D9.xml
+copy c52a44933d17d576d4c97b4cb0545841 SharpDX.dll
+copy 50e6524b7ee9c2c93f5210b63cb1ca54 SharpDX.Mathematics.dll
+copy 2056464074215066d3d06abbba1a0519 SharpDX.Mathematics.pdb
+copy d81cf09538c3459900a5c14a4b072b05 SharpDX.Mathematics.xml
+copy 2883c3a35927e62ebe1871c130e93f31 SharpDX.pdb
+copy 77518073a11d508ad94a12b1ae887e74 Update Manager.exe
+dshortcut f5503c54953e1ea2aa72b59b47a027f4 PhysLogger<$s$>Desktop PhysLogger.exe
+execute Installation x64 admin aa0a91227631a09cd075d315646fb7a9 ArduinoDrivers\dpinst-amd64.exe
+execute Installation x86 admin e6213cec602f332bf8e868b7b8bf2bb1 ArduinoDrivers\dpinst-x86.exe
+execute Default Any user f5503c54953e1ea2aa72b59b47a027f4 PhysLogger.exe
+execute Open Any user URL https://www.physlab.org/facility/physlogger/
+Version = 1
+Whats New = This is the first release on Qosain Package Manager.<$lb$>* The release is stable and tested<$lb$>* In-built arduino drivers installation<$lb$>* in-built firmware upgrades<$lb$>* in-built software updates<$lb$>x No D3D yet
+Update Size = 91.6 MB
+Final Size = 91.6 MB
+Published on = 2020-Jan-16 06:47:02
+zip Hash = 4698114136e10aef9642dd594462d976
+Zip Size = 2.52 MB
+z01 size = 23 MB
+z01 Hash = 8036768dd524e47c0cd4dad481204ce9
+z02 size = 23 MB
+z02 Hash = bb19d6d0f7d19f232e5cc6fc839f7989
+z03 size = 23 MB
+z03 Hash = f970e9c35547352465249d3a001468d4
+Zip Parts = 4
