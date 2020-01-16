@@ -60,7 +60,7 @@ For automatic updates,
 2. use the "Update.exe" file which can be found in the package installation directory.  The rest of the process is similar to installing a package.
 
 ### Option 3 -- Manually applied offline updates  ###
-See [enter link description here](#option-3----using-the-developer-provided-offline-installer) which describes getting an offline installation package. The same process can be used for creating offline update packages.
+See [Using the developer provided offline installer](#option-3----using-the-developer-provided-offline-installer) which describes getting an offline installation package. The same process can be used for creating offline update packages.
 
 ## 3. Making a new package ##
 ### a. Basic package creation ###
