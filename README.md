@@ -4,8 +4,10 @@
 Qosain Package Manger is a data installation and update management service that provides tools for both developers and users to easily get the latest updates using a GitHub cloud as well as offline packages.
 
 # Downloads #
-[Qosain Package Explorer](https://github.com/umartechboy/FivePointNineUpdateServer/raw/master/PackageExplorer/QosainPackageExplorer.exe"Download Qosain Package Manager now")
+[Qosain Package Explorer](https://github.com/umartechboy/FivePointNineUpdateServer/raw/master/PackageExplorer/QosainPackageExplorer.exe " Download Qosain Package Manager now")
+
 **Note: Your browser and windows may give a warning against the file being downloaded. This is pretty usual when downloading executable files from GitHub and you need to force it to use the the file anyways.**
+
 # Features #
 1. A single package doing multiple tasks for content creators and users
 2. Create and distribute GitHub cloud based and offline installers
@@ -27,8 +29,11 @@ The same application is used to create, explore, install and update packages. Di
 
 ## 1. Installing a Package ##
 ### Option 1 -- Using Qosain Package Explorer ###
-1. Download the Qosain Package Manager from [this GitHub link](https://github.com/umartechboy/FivePointNineUpdateServer/raw/master/PackageExplorer/QosainPackageExplorer.exe"Download Qosain Package Manager now").  (**Note:** don't rename the file after downloading)
-**Note: Your browser and windows may give a warning against the file being downloaded. This is pretty usual when downloading executable files from GitHub and you need to force it to use the the file anyways.**
+1. Download the Qosain Package Manager from [this GitHub link](https://github.com/umartechboy/FivePointNineUpdateServer/raw/master/PackageExplorer/QosainPackageExplorer.exe " Download Qosain Package Manager now"). 
+
+(**Note 1:** don't rename the file after downloading)
+(**Note 2: Your browser and windows may give a warning against the file being downloaded. This is pretty usual when downloading executable files from GitHub and you need to force it to use the the file anyways.**)
+
 2. Run the program and use the search button to search for your desired package. For convenience, the search bar supports wildcards. This means that you can search for your package without entering the exact name. For example, To search for a package named Qosain PhysLogger Desktop, the search string **qos** * **phys** * **desk** or even **qosa** * **phy**  will make the results include our desired package.
 3. Press the "Install" button to open up the installation wizard. 
 4. To complete the installation, the wizard provides several installation options like changing the installation directory, letting other users use the same package installation etc.
@@ -38,7 +43,10 @@ You may also get a custom installer for your specific package from the developer
 
 ### Option 3 -- Using the developer provided offline installer ###
 1. If the target computer doesn't have an internet connection, you can request the developer to provide you with an offline installer.
-2. Alternatively, using some other internet powered machine, you can make an offline package on your own using Qosain Package Manager which can be downloaded from [this GitHub link](https://github.com/umartechboy/FivePointNineUpdateServer/raw/master/PackageExplorer/QosainPackageExplorer.exe"Download Qosain Package Manager now"). 
+2. Alternatively, using some other internet powered machine, you can make an offline package on your own using Qosain Package Manager which can be downloaded from [this GitHub link](https://github.com/umartechboy/FivePointNineUpdateServer/raw/master/PackageExplorer/QosainPackageExplorer.exe " Download Qosain Package Manager now"). 
+
+**Note: Your browser and windows may give a warning against the file being downloaded. This is pretty usual when downloading executable files from GitHub and you need to force it to use the the file anyways.**
+
 3. Just search for your package and instead of installing it, choose the "Re-distribute" option to download and make an offline installation package. 
 4. The offline package contains a classic "Setup.exe" file which can install your desired package without using the internet.
 
@@ -57,8 +65,10 @@ See [enter link description here](#option-3----using-the-developer-provided-offl
 ## 3. Making a new package ##
 ### a. Basic package creation ###
 **Please note that the update manger logically treats the first release just like an update.**
-1. Rename the Qosain Package Explorer download from [this GitHub link](https://github.com/umartechboy/FivePointNineUpdateServer/raw/master/PackageExplorer/QosainPackageExplorer.exe"Download Qosain Package Manager now") as "UpdateCreator.exe" (case-insensitive) and copy to the root location of the package.
+1. Rename the Qosain Package Explorer download from [this GitHub link](https://github.com/umartechboy/FivePointNineUpdateServer/raw/master/PackageExplorer/QosainPackageExplorer.exe " Download Qosain Package Manager now") as "UpdateCreator.exe" (case-insensitive) and copy to the root location of the package.
+
 **Note: Your browser and windows may give a warning against the file being downloaded. This is pretty usual when downloading executable files from GitHub and you need to force it to use the the file anyways.**
+
 2. Run the Exe.
 3. Press "Scan" to scan the directory for changes and updates.
 4. Optionally, you may add some pre-set post-build commands to the update script which will be executed at the time this update is installed.
