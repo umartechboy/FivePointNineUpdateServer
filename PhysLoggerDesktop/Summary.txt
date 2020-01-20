@@ -7,3 +7,4 @@ About = PhysLogger Desktop is the windows based interface and work suite for Qos
 App ID = 451AA22A9DBC88F8676D6E087B01F91F
 Update Size= 91.6 MB
 Final Size = 91.6 MB
+Default Exe = PhysLogger.exe
