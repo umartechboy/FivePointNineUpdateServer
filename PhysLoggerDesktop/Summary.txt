@@ -1,6 +1,6 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2020-Jan-20 07:38:38
+Last Updated = 2020-Jan-20 08:04:04
 Whats New = Fixed a glitch in SerialChannelControl that prohibited clean exit of the application sometimes.
 Current Version = 2
 About = PhysLogger Desktop is the windows based interface and work suite for Qosain Scientific data logger devices known as PhysLogger.
