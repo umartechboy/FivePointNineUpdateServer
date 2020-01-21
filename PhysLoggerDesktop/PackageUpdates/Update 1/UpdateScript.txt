@@ -3,8 +3,6 @@ copy ed8e407ed685a0768358385e6673fc8a FivePointNine.VCSExtentions.pdb
 copy 5c51cb6bf8641a9787482eeb9cbc8bbb PhysLogger.exe
 copy 1a4a4c89146f334b969332684c9e2348 PhysLogger.pdb
 dshortcut f5503c54953e1ea2aa72b59b47a027f4 PhysLogger<$s$>Desktop PhysLogger.exe
-execute Installation x64 admin aa0a91227631a09cd075d315646fb7a9 ArduinoDrivers\dpinst-amd64.exe
-execute Installation x86 admin e6213cec602f332bf8e868b7b8bf2bb1 ArduinoDrivers\dpinst-x86.exe
 execute Default Any user f5503c54953e1ea2aa72b59b47a027f4 PhysLogger.exe
 execute Open Any user URL https://www.physlab.org/facility/physlogger/
 Version = 2
