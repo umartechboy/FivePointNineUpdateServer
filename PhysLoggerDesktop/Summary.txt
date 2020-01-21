@@ -3,11 +3,7 @@ Company = Qosain Scientific
 Last Updated = 2020-Jan-21 05:32:05
 Whats New = This is the first release on Qosain Package Manager.<$lb$>* The release is stable and tested<$lb$>* In-built arduino drivers installation<$lb$>* in-built firmware upgrades<$lb$>* in-built software updates<$lb$>x No D3D yet
 Current Version = 1
-About = PhysLogger Desktop is the windows based interface and work suite for Qosain Scientific data logger devices known as PhysLogger.
-
-System Requirements:
-* Any version of Microsoft Windows supporting .Net Framework 4.5.2 or higher
-* .Net Framework 2.0 or higher already installed.
+About = PhysLogger Desktop is the windows based interface and work suite for Qosain Scientific data logger devices known as PhysLogger.<$lb$>*System Requirements:<$lb$>* Any version of Microsoft Windows supporting .Net Framework 4.5.2 or higher<$lb$>* .Net Framework 2.0 or higher already installed.
 App ID = 451AA22A9DBC88F8676D6E087B01F91F
 Update Size= 90.72 MB
 Final Size = 90.72 MB
