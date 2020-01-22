@@ -1,1 +1,10 @@
-
+Application Title = ED Desktop
+Company = Qosain Scientific
+Last Updated = 2020-Jan-22 05:18:57
+Whats New = This is the first release with no known glitches.
+Current Version = 1
+About = Qosain Electro Deposition machines require this application for the user interface.
+App ID = 1B7F20E58E148B6CE52413533ACCC630
+Update Size= 16.18 MB
+Final Size = 16.18 MB
+Default Exe = 16.18 MB
