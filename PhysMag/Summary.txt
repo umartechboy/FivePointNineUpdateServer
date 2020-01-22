@@ -7,4 +7,4 @@ About = This is the user interface and control application that goes with Qosain
 App ID = 67C9CA1B7997E9D5758AD7DC377A3353
 Update Size= 2 MB
 Final Size = 21.13 MB
-Default Exe = 21.13 MB
+Default Exe = Qosain PhysMag.exe
