@@ -1,2 +1,3 @@
 https://github.com/umartechboy/FivePointNineUpdateServer/tree/master/PhysLoggerDesktop
 https://github.com/umartechboy/FivePointNineUpdateServer/tree/master/PhysMag
+https://github.com/umartechboy/FivePointNineUpdateServer/tree/master/ED Desktop
