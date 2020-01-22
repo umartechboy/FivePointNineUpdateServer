@@ -1,0 +1,10 @@
+Application Title = PhysMag
+Company = Qosain Scientific
+Last Updated = 2020-Jan-22 05:13:13
+Whats New = This is the first release.<$lb$>* Uses D3D for drawing<$lb$>* Recording now supports pause, stop and play control
+Current Version = 1
+About = This is the user interface and control application that goes with Qosain Scientific's Magnetic pendulum apparatus, called, PhysMag
+App ID = 67C9CA1B7997E9D5758AD7DC377A3353
+Update Size= 19.13 MB
+Final Size = 19.13 MB
+Default Exe = 19.13 MB
