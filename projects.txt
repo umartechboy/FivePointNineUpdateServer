@@ -1,1 +1,2 @@
 https://github.com/umartechboy/FivePointNineUpdateServer/tree/master/PhysLoggerDesktop
+https://github.com/umartechboy/FivePointNineUpdateServer/tree/master/PhysMag
