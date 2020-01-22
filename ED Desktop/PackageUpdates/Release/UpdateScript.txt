@@ -1,0 +1,47 @@
+mkdir ArduinoDrivers
+copy 44f696f5826aed4fde1188843a3856ab ArduinoDrivers\AdafruitCircuitPlayground.cat
+copy 787490261482f4737a55dcb866e6b032 ArduinoDrivers\AdafruitCircuitPlayground.inf
+copy d3c332417138204e61852299ca28248b ArduinoDrivers\arduino-org.cat
+copy c9f31280797664fc93549400e8e02b43 ArduinoDrivers\arduino-org.inf
+copy 383a0e15bd96d11fdcff42282abf6d1f ArduinoDrivers\arduino.cat
+copy 9eb2ab0d6922e13d703f040900cecfa9 ArduinoDrivers\arduino.inf
+copy c21c9074895e6969965d3c36367dec4f ArduinoDrivers\arduino_gemma.cat
+copy cd039b5e9a7f7d81a9e6dbd4a2f68863 ArduinoDrivers\arduino_gemma.inf
+copy aa0a91227631a09cd075d315646fb7a9 ArduinoDrivers\dpinst-amd64.exe
+copy e6213cec602f332bf8e868b7b8bf2bb1 ArduinoDrivers\dpinst-x86.exe
+copy f345dbe5d8bc0d39b1a4f8559ce80480 ArduinoDrivers\genuino.cat
+copy d5444009651e976f699482272440d02f ArduinoDrivers\genuino.inf
+copy 91719ad95b6745b83158a78753da25a8 ArduinoDrivers\linino-boards_amd64.cat
+copy 325933fd780a1b9fc1649b1cfaf2af80 ArduinoDrivers\linino-boards_x86.cat
+copy 306d60104d9df963d66ebc53334c207d ArduinoDrivers\linino.inf
+copy 0e36289c26b2d40b6c2b7bdfaa581840 FivePointNine.VCSExtentions.dll
+copy 28ec2c0690f188690110a98eb544aa4e FivePointNine.VCSExtentions.pdb
+copy 256eb843a8dae034cd159da2fd200d1f MathNet.Numerics.dll
+copy a5f204f73b386f0f4b8ab99d81ba723e MathNet.Numerics.xml
+copy d0f2bea636142e0b56320f62e93d8158 Qosain ED Desktop.exe
+copy ef0181de18ef3951806c0ad63b897ba4 Qosain ED Desktop.exe.config
+copy 87c89629bfd3905baa7c20c9ceecd1ae Qosain ED Desktop.pdb
+copy 5a968502b84a268ca84018f1a9f6bb59 Qosain ED Desktop.vshost.exe
+copy ef0181de18ef3951806c0ad63b897ba4 Qosain ED Desktop.vshost.exe.config
+copy a19a2658ba69030c6ac9d11fd7d7e3c1 Qosain ED Desktop.vshost.exe.manifest
+copy 52f43683b23d23ee15e3a6423d1b5793 SharpDX.Direct3D9.dll
+copy c5429024ef37db3d20e09b8033ccae2a SharpDX.Direct3D9.pdb
+copy ee4f22d7a9252004c099bab7cbbc1b46 SharpDX.Direct3D9.xml
+copy c52a44933d17d576d4c97b4cb0545841 SharpDX.dll
+copy 50e6524b7ee9c2c93f5210b63cb1ca54 SharpDX.Mathematics.dll
+copy 2056464074215066d3d06abbba1a0519 SharpDX.Mathematics.pdb
+copy d81cf09538c3459900a5c14a4b072b05 SharpDX.Mathematics.xml
+copy 2883c3a35927e62ebe1871c130e93f31 SharpDX.pdb
+copy 955ddb844ce2bf3d83990d0cfde4cd6a SlimDX.dll
+dshortcut d0f2bea636142e0b56320f62e93d8158 ED<$s$>Desktop Qosain ED Desktop.exe
+execute Installation x64 admin aa0a91227631a09cd075d315646fb7a9 ArduinoDrivers\dpinst-amd64.exe
+execute Installation x86 admin e6213cec602f332bf8e868b7b8bf2bb1 ArduinoDrivers\dpinst-x86.exe
+execute Default Any user d0f2bea636142e0b56320f62e93d8158 Qosain ED Desktop.exe
+Version = 1
+Whats New = This is the first release with no known glitches.
+Update Size = 16.18 MB
+Final Size = 16.18 MB
+Published on = 2020-Jan-22 05:18:56
+zip Hash = 402d9749aef1d89611f5f30c2fac4f98
+Zip Size = 3.51 MB
+Zip Parts = 1
