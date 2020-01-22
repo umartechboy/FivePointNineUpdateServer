@@ -1,0 +1,19 @@
+copy 04efb0bfc2e3cf1b49abe175a82f38be ArduinoSketchUploader.dll
+copy 50221bd3442c5b7ff2d03902231e1773 ArduinoSketchUploader.pdb
+copy e6ea84b3304308a607f56855ade54f9c ArduinoUploader.dll
+copy 47b3973dd8cea6d4224d0283adf10ced ArduinoUploader.pdb
+copy d09c7ef8da2ce1f42c2c91a40c94cbd2 FivePointNine.VCSExtentions.dll
+copy ed8e407ed685a0768358385e6673fc8a FivePointNine.VCSExtentions.pdb
+copy 238c8f4c39cafd66629019a3ab21bb8d NLog.config
+copy 8f61c803b1f42e8d63f1cc9a9c4d7b43 PhysLogger.exe
+copy 35806214e4da95786cec9ac4c1ed16b8 PhysLogger.pdb
+copy 21f6872f3d802c138c73dc5abf0edbf0 Qosain PhysMag.exe
+copy 236d63f05b5c13e321a1d7fc355d1a42 Qosain PhysMag.pdb
+Version = 2
+Whats New = Built with the latest VCSExtensions which removes a glitch that prevents clean exit of PhysMag most of the times.<$lb$><$lb$>Note: If PhysMag is already installed, the computer must be restarted before applying this update.
+Update Size = 2 MB
+Final Size = 21.13 MB
+Published on = 2020-Jan-22 07:26:26
+zip Hash = fcfa899ad62342b01542b4544a9735e6
+Zip Size = 0.73 MB
+Zip Parts = 1
