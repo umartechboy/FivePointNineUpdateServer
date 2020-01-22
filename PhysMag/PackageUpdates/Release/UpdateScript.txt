@@ -1,0 +1,62 @@
+mkdir ArduinoDrivers
+copy 44f696f5826aed4fde1188843a3856ab ArduinoDrivers\AdafruitCircuitPlayground.cat
+copy 787490261482f4737a55dcb866e6b032 ArduinoDrivers\AdafruitCircuitPlayground.inf
+copy d3c332417138204e61852299ca28248b ArduinoDrivers\arduino-org.cat
+copy c9f31280797664fc93549400e8e02b43 ArduinoDrivers\arduino-org.inf
+copy 383a0e15bd96d11fdcff42282abf6d1f ArduinoDrivers\arduino.cat
+copy 9eb2ab0d6922e13d703f040900cecfa9 ArduinoDrivers\arduino.inf
+copy c21c9074895e6969965d3c36367dec4f ArduinoDrivers\arduino_gemma.cat
+copy cd039b5e9a7f7d81a9e6dbd4a2f68863 ArduinoDrivers\arduino_gemma.inf
+copy aa0a91227631a09cd075d315646fb7a9 ArduinoDrivers\dpinst-amd64.exe
+copy e6213cec602f332bf8e868b7b8bf2bb1 ArduinoDrivers\dpinst-x86.exe
+copy f345dbe5d8bc0d39b1a4f8559ce80480 ArduinoDrivers\genuino.cat
+copy d5444009651e976f699482272440d02f ArduinoDrivers\genuino.inf
+copy 91719ad95b6745b83158a78753da25a8 ArduinoDrivers\linino-boards_amd64.cat
+copy 325933fd780a1b9fc1649b1cfaf2af80 ArduinoDrivers\linino-boards_x86.cat
+copy 306d60104d9df963d66ebc53334c207d ArduinoDrivers\linino.inf
+copy ee59be1919036488ab91e99a7f3d3aef ArduinoSketchUploader.dll
+copy 4937676d779816b48aaa86aae95fd6b9 ArduinoSketchUploader.pdb
+copy 05f86ae1cd33f85acccf2ccdac970da4 ArduinoUploader.dll
+copy 84967eefe731343c45743697735686e9 ArduinoUploader.pdb
+copy ec0e2dd54144d6f6a317b7daa715d418 CommandLine.dll
+copy c20a005e61b56955b266f5c4b0769c83 CommandLine.xml
+copy c7664d1db43c41aefb6a335f6a857fa2 FivePointNine.VCSExtentions.dll
+copy 2afd8d29091e3c767da95f1b83d2b40d FivePointNine.VCSExtentions.pdb
+copy b43f36ee4db391474c38119e9f55ea0e IntelHexFormatReader.dll
+copy 256eb843a8dae034cd159da2fd200d1f MathNet.Numerics.dll
+copy a5f204f73b386f0f4b8ab99d81ba723e MathNet.Numerics.xml
+copy 15f00f22951f0fff9596955ee9c86cd6 NCalc.dll
+copy 27382409ccd120acfb3a8cfd052b7e9e PhysLogger.exe
+copy 86fc155e83f689a3b1ff71e7b7679179 PhysLogger.pdb
+copy 1a540daaf741072945f2de756f33e56e Qosain PhysMag.exe
+copy ef0181de18ef3951806c0ad63b897ba4 Qosain PhysMag.exe.config
+copy c2ce5b7044b2082f70be2851c2e0b9f7 Qosain PhysMag.pdb
+copy 5a968502b84a268ca84018f1a9f6bb59 Qosain PhysMag.vshost.exe
+copy ef0181de18ef3951806c0ad63b897ba4 Qosain PhysMag.vshost.exe.config
+copy a19a2658ba69030c6ac9d11fd7d7e3c1 Qosain PhysMag.vshost.exe.manifest
+copy 2040ab6c8ca79a5881c3d2f2ec195b68 RJCP.SerialPortStream.dll
+copy 2f7e067242dd6432848063f10eb50df6 RJCP.SerialPortStream.pdb
+copy e023c3a5a319e535b09328fe1bd551c7 RJCP.SerialPortStream.xml
+copy 52f43683b23d23ee15e3a6423d1b5793 SharpDX.Direct3D9.dll
+copy c5429024ef37db3d20e09b8033ccae2a SharpDX.Direct3D9.pdb
+copy ee4f22d7a9252004c099bab7cbbc1b46 SharpDX.Direct3D9.xml
+copy c52a44933d17d576d4c97b4cb0545841 SharpDX.dll
+copy 50e6524b7ee9c2c93f5210b63cb1ca54 SharpDX.Mathematics.dll
+copy 2056464074215066d3d06abbba1a0519 SharpDX.Mathematics.pdb
+copy d81cf09538c3459900a5c14a4b072b05 SharpDX.Mathematics.xml
+copy 2883c3a35927e62ebe1871c130e93f31 SharpDX.pdb
+copy 955ddb844ce2bf3d83990d0cfde4cd6a SlimDX.dll
+copy 80f3ea8ecef5bde7b767802ad9988502 Splash.png
+dshortcut 1a540daaf741072945f2de756f33e56e PhysMag Qosain PhysMag.exe
+execute Installation x64 admin aa0a91227631a09cd075d315646fb7a9 ArduinoDrivers\dpinst-amd64.exe
+execute Installation x86 admin e6213cec602f332bf8e868b7b8bf2bb1 ArduinoDrivers\dpinst-x86.exe
+execute Default Any user 1a540daaf741072945f2de756f33e56e Qosain PhysMag.exe
+execute Open Any user URL https://www.physlab.org/experiment/physmag-nonlinear-dynamics-with-a-magnetic-pendulum/
+Version = 1
+Whats New = This is the first release.<$lb$>* Uses D3D for drawing<$lb$>* Recording now supports pause, stop and play control
+Update Size = 19.13 MB
+Final Size = 19.13 MB
+Published on = 2020-Jan-22 05:13:13
+zip Hash = 01222d9a79a3f789b31ece3abfac6d55
+Zip Size = 4.43 MB
+Zip Parts = 1
