@@ -1,10 +1,11 @@
 Application Title = ED Desktop
 Company = Qosain Scientific
-Last Updated = 2020-Aug-13 10:24:08
+Last Updated = 2020-Aug-24 02:32:56
 Whats New = This update works only with Mechanical V2. Don't update on Mecahnical V1<$lb$>* Changed maximum raster to 25mm/s<$lb$>* Changed default raster stage size to user configurable value saved in settings.cfg. Default is: Max X = 125mm, Max Y = 125mm
 Current Version = 2
 About = Qosain Electro Deposition machines require this application for the user interface.
 App ID = 1B7F20E58E148B6CE52413533ACCC630
 Update Size= 1.61 MB
 Final Size = 17.8 MB
-Default Exe = 17.8 MB
+Default Exe = Qosain ED Desktop.exe
+Zip Parts = 1
