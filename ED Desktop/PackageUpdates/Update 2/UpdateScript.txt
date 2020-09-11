@@ -45,8 +45,6 @@ copy 4c00d4731eaf9c7b975be6592dbe4df8 Qosain ESS Desktop.pdb
 copy 4de46989e02f466594bf780befa3a233 textBoxTexts.txt
 copy 6c1bb1d89464e9f3d3cb78d00581df90 textBoxTexts_defaults.txt
 dshortcut d0f2bea636142e0b56320f62e93d8158 ED<$s$>Desktop Qosain ED Desktop.exe
-execute Installation x64 admin aa0a91227631a09cd075d315646fb7a9 ArduinoDrivers\dpinst-amd64.exe
-execute Installation x86 admin e6213cec602f332bf8e868b7b8bf2bb1 ArduinoDrivers\dpinst-x86.exe
 execute Default Any user d0f2bea636142e0b56320f62e93d8158 Qosain ED Desktop.exe
 suppress dshortcut d0f2bea636142e0b56320f62e93d8158 ED<$s$>Desktop Qosain ED Desktop.exe
 suppress execute Default Any user d0f2bea636142e0b56320f62e93d8158 Qosain ED Desktop.exe
