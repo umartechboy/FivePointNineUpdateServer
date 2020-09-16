@@ -1,11 +1,12 @@
-copy c7ab00e6ec6335095104fd09b836aa3b QosainESSDesktop.exe
-copy d912aeb9f328a72e0d4a8041e707ce12 QosainESSDesktop.pdb
+copy 65288980ce04200292a30c6b4523d1e0 QosainESSDesktop.exe
+copy 336e756e4c369b6f2158241015bf2db6 QosainESSDesktop.pdb
 copy 7275df4963d36234bf4dbaa7afb3ddb8 textBoxTexts.txt
+copy 3475ce65744f20fbb1ccd48d6cf99775 textBoxTexts_defaults.txt
 Version = 5
 Whats New = + Added a "Syringe Pump Only" mode<$lb$>+ Added default textbox values<$lb$>+ Added standard units and selection controls<$lb$>* Changed the main layout
 Update Size = 0.35 MB
-Final Size = 12.14 MB
-Published on = 2020-Sep-16 04:54:29
-zip Hash = 3d269f32f62e5b82afe35f8277b460ea
+Final Size = 12.15 MB
+Published on = 2020-Sep-16 05:49:34
+zip Hash = a238fe622427d7811c0d3fbab17ae60e
 Zip Size = 0.14 MB
 Zip Parts = 1
