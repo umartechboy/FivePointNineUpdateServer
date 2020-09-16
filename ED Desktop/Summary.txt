@@ -1,11 +1,11 @@
 Application Title = Qosain ESS Desktop
 Company = Qosain Scientific
-Last Updated = 2020-Sep-16 01:58:12
-Whats New = + Add a "Syringe Pump Only" mode<$lb$>+ Added default textbox values
+Last Updated = 2020-Sep-16 04:54:29
+Whats New = + Added a "Syringe Pump Only" mode<$lb$>+ Added default textbox values<$lb$>+ Added standard units and selection controls<$lb$>* Changed the main layout
 Current Version = 5
 About = Qosain Electrospinning and Electrospraying machines require this application for the user interface.
 App ID = 1B7F20E58E148B6CE52413533ACCC630
-Update Size= 0.3 MB
-Final Size = 12.09 MB
+Update Size= 0.35 MB
+Final Size = 12.14 MB
 Default Exe = QosainESSDesktop.exe
 Zip Parts = 1
