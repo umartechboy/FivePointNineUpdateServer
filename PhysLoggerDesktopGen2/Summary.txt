@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop Gen. 2
 Company = Qosain Scientific
-Last Updated = 2021-Jan-11 09:14:50
-Whats New = Here is an incomplete list of the implemented features:<$lb$>Application:<$lb$>. Full support for DirectX 9 and above supported computers<$lb$>. Animations<$lb$>. Dark theme partially implemented<$lb$>. Save and resume sessions supported<$lb$>. Save and export basic LivePlots data<$lb$>. Multipage widget area<$lb$>. Complete editing support for all the quantities<$lb$><$lb$>Quantity creation wizards:<$lb$>. Graphic Channel selector<$lb$>. Measure Voltage<$lb$>. Measure Rotation using slotted disc<$lb$>. Measure Temperature using PhysTherm<$lb$>. Control Rotation using Qosain SMC<$lb$>. Control constant Voltage<$lb$>. Signal generators<$lb$><$lb$>Templates:<$lb$>. Empty<$lb$>. Basic live plots<$lb$>. EM Induction<$lb$><$lb$>Hardware features<$lb$>. UI Extensions fully supported with all the existing widgets<$lb$>. Save and  resume session working<$lb$>. Save with hardware features working<$lb$><$lb$>Developers tools<$lb$>. Firmware update<$lb$>. Input/output channel calibration<$lb$>. Input/output channel testing<$lb$>
-Current Version = 1
+Last Updated = 2021-Jan-20 09:17:16
+Whats New = + Added PhysLoad<$lb$>+ Added DirectX web installer
+Current Version = 2
 About = The first release of 2nd Generation PhysLogger desktop application.
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
-Update Size= 40.64 MB
-Final Size = 40.64 MB
+Update Size= 2.66 MB
+Final Size = 43.3 MB
 Default Exe = PhysLogger2.exe
 Zip Parts = 1
