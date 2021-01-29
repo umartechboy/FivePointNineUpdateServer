@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop Gen. 2
 Company = Qosain Scientific
-Last Updated = 2021-Jan-20 09:17:16
-Whats New = + Added PhysLoad<$lb$>+ Added DirectX web installer
-Current Version = 2
+Last Updated = 2021-Jan-29 04:37:56
+Whats New = + Added more quantities<$lb$>    > Binary Comparator<$lb$>    > Binary Multiplier<$lb$>    > Range<$lb$>    > Absolute<$lb$><$lb$>+ Implemented Save Data<$lb$>    > Save individual data pairs from all the plots across the workspace<$lb$>    > Checkmarks for combined data export<$lb$><$lb$>+ Added PhysInstruments<$lb$>    > PhysTherm<$lb$>    > R Probe<$lb$>* Improved visibility on message boxes<$lb$>* Removed some bugs from MiniUI<$lb$>-  Removed velocity from encoder wizard
+Current Version = 3
 About = The first release of 2nd Generation PhysLogger desktop application.
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
-Update Size= 2.66 MB
-Final Size = 43.3 MB
+Update Size= 2.85 MB
+Final Size = 43.78 MB
 Default Exe = PhysLogger2.exe
 Zip Parts = 1

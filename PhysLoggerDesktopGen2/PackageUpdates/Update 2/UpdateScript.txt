@@ -1,0 +1,28 @@
+copy 48d6e65454a7dde164aaf146aa1eed92 Hardware\PhysLoggerG2.bin
+copy 90670a7a963dbc547e0bb877a6e03234 visuals\default\clear session.png
+copy aa68a5730414726a9334178a16f2b36a visuals\default\InstrumentMenuIcon_PhysTherm.png
+copy 5b75e365c9ad811afbaee18bc128e0bb visuals\default\InstrumentMenuIcon_RProbe.png
+copy fd9aff3fae5d807f73d9b47a4e345035 visuals\default\q_icon_Absolute.png
+copy 6904a35bce74df034675b0c48e78692f visuals\default\q_icon_BinaryComparator.png
+copy 0e6424af52f27c90ff31dc9010faf37d visuals\default\q_icon_BinaryDivider.png
+copy 30996791d467fe9161cf9b7430b515a7 visuals\default\q_icon_BinaryMultiplier.png
+copy 3232591548a234c5106295f71566b5d6 visuals\default\q_icon_Range.png
+copy 82c7b2af7f3b6ca8440602e21d14b066 visuals\default\q_icon_Resistance.png
+copy 15a69ea965d83d8f179ccb481f4455c6 visuals\default\q_icon_temperature.png
+copy d7de40e5eff6469dbeefea3f1077da1d visuals\default\save session message.png
+copy 82c7b2af7f3b6ca8440602e21d14b066 visuals\default\WizardListThumbnail_Resistance.png
+copy 14c5af17adda1bafb653f3034e1a0585 visuals\default\wizardmenuicon_pidcontroller.png
+copy 5b75e365c9ad811afbaee18bc128e0bb visuals\default\WizardMenuIcon_Resistance.png
+copy ccd2f6883ded7c6623a699485021512a visuals\default\wizardmenuicon_userinterface.png
+copy dec0826cb6dcc0bfb3e6f631b0894923 lastsession.plf
+copy 7b3a06eda409352f56e328e58e4c2fe6 liveplot_1.jpg
+copy 6bc04531d934f37801e637851fe7d7c1 PhysLogger2.exe
+copy 65430fec36c01fa224e917665930b7a7 PhysLogger2.pdb
+Version = 3
+Whats New = + Added more quantities<$lb$>    > Binary Comparator<$lb$>    > Binary Multiplier<$lb$>    > Range<$lb$>    > Absolute<$lb$><$lb$>+ Implemented Save Data<$lb$>    > Save individual data pairs from all the plots across the workspace<$lb$>    > Checkmarks for combined data export<$lb$><$lb$>+ Added PhysInstruments<$lb$>    > PhysTherm<$lb$>    > R Probe<$lb$>* Improved visibility on message boxes<$lb$>* Removed some bugs from MiniUI<$lb$>-  Removed velocity from encoder wizard
+Update Size = 2.85 MB
+Final Size = 43.78 MB
+Published on = 2021-Jan-29 04:37:56
+zip Hash = f10cf17b7e61bb95c87e1288e3a4db83
+Zip Size = 1.1 MB
+Zip Parts = 1
