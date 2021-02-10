@@ -1,10 +1,9 @@
 Application Title = PhysMag
 Company = Qosain Scientific
-Last Updated = 2020-Jan-22 07:26:26
-Whats New = Built with the latest VCSExtensions which removes a glitch that prevents clean exit of PhysMag most of the times.<$lb$><$lb$>Note: If PhysMag is already installed, the computer must be restarted before applying this update.
-Current Version = 2
+Last Updated = 2021-Feb-10 03:37:15
+Whats New = Setup specific angle sensor gain adjustment
+Current Version = 3
 About = This is the user interface and control application that goes with Qosain Scientific's Magnetic pendulum apparatus, called, PhysMag
 App ID = 67C9CA1B7997E9D5758AD7DC377A3353
-Update Size= 2 MB
-Final Size = 21.13 MB
-Default Exe = Qosain PhysMag.exe
+Update Size= 0.43 MB
+Final Size = 19.67 MB

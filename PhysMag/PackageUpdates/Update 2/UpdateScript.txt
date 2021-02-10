@@ -1,0 +1,27 @@
+rmfile ec0e2dd54144d6f6a317b7daa715d418 CommandLine.dll
+rmfile c20a005e61b56955b266f5c4b0769c83 CommandLine.xml
+rmfile b43f36ee4db391474c38119e9f55ea0e IntelHexFormatReader.dll
+rmfile 2040ab6c8ca79a5881c3d2f2ec195b68 RJCP.SerialPortStream.dll
+rmfile 2f7e067242dd6432848063f10eb50df6 RJCP.SerialPortStream.pdb
+rmfile e023c3a5a319e535b09328fe1bd551c7 RJCP.SerialPortStream.xml
+rmfile 04efb0bfc2e3cf1b49abe175a82f38be ArduinoSketchUploader.dll
+rmfile 50221bd3442c5b7ff2d03902231e1773 ArduinoSketchUploader.pdb
+rmfile e6ea84b3304308a607f56855ade54f9c ArduinoUploader.dll
+rmfile 47b3973dd8cea6d4224d0283adf10ced ArduinoUploader.pdb
+rmfile 238c8f4c39cafd66629019a3ab21bb8d NLog.config
+copy c4ca4238a0b923820dcc509a6f75849b angleCalib.plf
+copy 9c601901fc603f10cd668dbb8c62b61b FivePointNine.VCSExtentions.dll
+copy 31878bc646e8722e6e78dcd96f7555c3 FivePointNine.VCSExtentions.pdb
+copy 14f6762e5a8d8bc9b2168eb8821e5096 PhysLogger.exe
+copy ef0181de18ef3951806c0ad63b897ba4 PhysLogger.exe.config
+copy 0a12fcbbee7fc5c0c3ca30aa4e1e1ffb PhysLogger.pdb
+copy d00d632b76eee0e4d7975b006fb4733a Qosain PhysMag.exe
+copy 3e866def08f17fae2eddaf3e81efd531 Qosain PhysMag.pdb
+Version = 3
+Whats New = Setup specific angle sensor gain adjustment
+Update Size = 0.43 MB
+Final Size = 19.67 MB
+Published on = 2021-Feb-10 03:37:14
+zip Hash = d615c9679ef002e74dc8958bcf260205
+Zip Size = 0.79 MB
+Zip Parts = 1
