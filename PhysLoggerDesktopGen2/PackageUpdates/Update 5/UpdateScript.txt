@@ -1,0 +1,30 @@
+copy da88e515a5cc2a5575202334aeced3ed Hardware\PhysLoggerG2.bin
+copy e5c394499a9157963cc81246919c884f Help\Tutorials\canvastutorial.plf
+copy e36cd8feb2c6acf398ea64ffbe519953 Help\Tutorials\startuptutorial.plf
+copy 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe
+copy 8090dd2bb7bceb56caddb3dc4d45b89a visuals\default\close icon.png
+copy 313992e37cd57d04277e141086423edc visuals\default\colors.plf
+copy 44968179bc000ad8edb85966fff61aa4 visuals\default\settings icon.png
+copy 7eccf8d3008481b1d14947712ecff3cc visuals\default\template_brochure_physcloud.jpg
+copy 6b5dce158d36b919ca4fc705ef5b3bb0 visuals\strings.plf
+copy 81051bcc2cf1bedf378224b0a93e2877 .gitignore
+copy 7925491286f6f3fe44b4fb4e2b23579f ArduinoSketchUploader.dll
+copy d2f2dfd687c3a27264f1e2659121a956 ArduinoSketchUploader.pdb
+copy 62ecd7f535cef73b05ecb0ea06b631e2 ArduinoUploader.dll
+copy 0472e61c84368774e753ea6c63e74f69 ArduinoUploader.pdb
+copy 069e75be7365af58396a12d5edad9575 CrashReport.plf
+copy 97f555b93bcc11adcd6e0a134e1a0a49 InputA INL-DNL.txt
+copy 733db9706cb294ea343efee3b72863ae OutputA INL-DNL.txt
+copy 6f9515a5265c4e53599af3ad13d12837 PhysLogger2.exe
+copy ca14538c51c687b99b068b84397645d7 PhysLogger2.pdb
+copy 1e8488875f282813e0bda450c41e3cbc restarter.bat
+copy f95f6e7b7a1596b4a8626eec249c2ecb Typical Output INL-DNL 20mv.txt
+execute Installation x64 admin 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe
+Version = 6
+Whats New = + Added user tutorials<$lb$>    + Main interface<$lb$>    + About the canvas<$lb$>    + Getting Help<$lb$>+ Released Urdu language interface<$lb$>* A lot of bug fixes<$lb$>+ Added a global crash handler<$lb$>+ System preferences<$lb$>+ PhysUI extensions can now resume a session
+Update Size = 14.97 MB
+Final Size = 60.97 MB
+Published on = 2021-Apr-29 01:01:13
+zip Hash = 272c83372342d665cfcb3355b784ebc5
+Zip Size = 11.74 MB
+Zip Parts = 1

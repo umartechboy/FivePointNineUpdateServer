@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2021-Apr-21 08:20:23
-Whats New = WARNING! PhysLogger firmware has got some updates which are not backward compatible. You must upgrade the firmware before using this version of application.<$lb$> * Major change in the main layout<$lb$>* Major Bug fixes<$lb$>* Improved data saving wizard.<$lb$>+ Added a linear interpolator quantity<$lb$>* Improved PhysTherm output using a table lookup.<$lb$>+ Added interactive LivePlot range and performance markers<$lb$>* PID Controller gains, square signal paramters and sine signal parameters are now dynamic.<$lb$>+ Added more visuals<$lb$>+ Calibration now supports using DM3068<$lb$>+ Added PhysVolt wizard and configuration<$lb$>* Bug fixes in function generator wizard
-Current Version = 5
+Last Updated = 2021-Apr-29 01:01:14
+Whats New = + Added user tutorials<$lb$>    + Main interface<$lb$>    + About the canvas<$lb$>    + Getting Help<$lb$>+ Released Urdu language interface<$lb$>* A lot of bug fixes<$lb$>+ Added a global crash handler<$lb$>+ System preferences<$lb$>+ PhysUI extensions can now resume a session
+Current Version = 6
 About = The first release of the desktop application for PhysLogger.
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
-Update Size= 6.64 MB
-Final Size = 52.07 MB
+Update Size= 14.97 MB
+Final Size = 60.97 MB
 Default Exe = PhysLogger2.exe
 Zip Parts = 1
