@@ -778,7 +778,7 @@ copy c9b3b9aab295883ee439072010bb314e WpfMath.Example.exe
 copy c8cd50e8472b71736e6543f5176a0c12 WpfMath.Example.exe.config
 copy 255f629755d209424b464b6fe2b1e5a5 WpfMath.Example.pdb
 copy 812233ff56da44ebf53137b10ee34741 WpfMath.pdb
-dshortcut 9e3fddb713bffd2ec24814f4d52bdb05 PhysLogger<$s$>Gen.<$s$>2 PhysLogger2.exe
+dshortcut 9e3fddb713bffd2ec24814f4d52bdb05 PhysLogger<$s$>Desktop PhysLogger2.exe
 execute Installation Any admin 7acd865cf6180d0d099b74d5bab70feb Hardware\CDM21228_Setup.exe
 execute Default Any user 9e3fddb713bffd2ec24814f4d52bdb05 PhysLogger2.exe
 Version = 1
