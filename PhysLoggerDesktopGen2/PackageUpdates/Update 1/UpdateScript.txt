@@ -5,7 +5,7 @@ copy bcbb7c0cd9696068988953990ec5bd11 redist\dxwebsetup.exe
 copy 9ef487ccbb5444d97a6b76c107741b8b visuals\default\q_icon_PhysLoadQuantity.png
 copy bcfc03cf192d6a876892c51be772bafb PhysLogger2.exe
 copy b5d44f894f750b402bc8f770cfacc8a2 PhysLogger2.pdb
-execute Installation Any admin bcbb7c0cd9696068988953990ec5bd11 redist\dxwebsetup.exe Microsoft<$s$>DirectX Install<$s$>the<$s$>latest<$s$>version<$s$>of<$s$>Microsoft<$s$>DirectX<$s$>from<$s$>the<$s$>internet.
+execute Installation Any admin bcbb7c0cd9696068988953990ec5bd11 redist\dxwebsetup.exe Microsoft<$s$>DirectX Install<$s$>the<$s$>latest<$s$>version<$s$>of<$s$>Microsoft<$s$>DirectX<$s$>from<$s$>the<$s$>internet. true
 Version = 2
 Whats New = + Added PhysLoad<$lb$>+ Added DirectX web installer
 Update Size = 2.66 MB
