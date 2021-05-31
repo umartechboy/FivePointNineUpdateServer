@@ -19,7 +19,7 @@ copy 6f9515a5265c4e53599af3ad13d12837 PhysLogger2.exe
 copy ca14538c51c687b99b068b84397645d7 PhysLogger2.pdb
 copy 1e8488875f282813e0bda450c41e3cbc restarter.bat
 copy f95f6e7b7a1596b4a8626eec249c2ecb Typical Output INL-DNL 20mv.txt
-execute Installation x64 admin 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe
+execute Installation x64 admin 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe Pak<$s$>Urdu<$s$>Fonts<$s$>Installer For<$s$>the<$s$>best<$s$>viewing<$s$>experience<$s$>when<$s$>using<$s$>urud<$s$>language,<$s$>it<$s$>is<$s$>recommended<$s$>that<$s$>you<$s$>install<$s$>the<$s$>required<$s$>fonts.
 Version = 6
 Whats New = + Added user tutorials<$lb$>    + Main interface<$lb$>    + About the canvas<$lb$>    + Getting Help<$lb$>+ Released Urdu language interface<$lb$>* A lot of bug fixes<$lb$>+ Added a global crash handler<$lb$>+ System preferences<$lb$>+ PhysUI extensions can now resume a session
 Update Size = 14.97 MB

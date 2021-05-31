@@ -779,7 +779,7 @@ copy c8cd50e8472b71736e6543f5176a0c12 WpfMath.Example.exe.config
 copy 255f629755d209424b464b6fe2b1e5a5 WpfMath.Example.pdb
 copy 812233ff56da44ebf53137b10ee34741 WpfMath.pdb
 dshortcut 9e3fddb713bffd2ec24814f4d52bdb05 PhysLogger<$s$>Desktop PhysLogger2.exe
-execute Installation Any admin 7acd865cf6180d0d099b74d5bab70feb Hardware\CDM21228_Setup.exe
+execute Installation Any admin 7acd865cf6180d0d099b74d5bab70feb Hardware\CDM21228_Setup.exe USB<$s$>Drivers Install<$s$>the<$s$>required<$s$>drivers<$s$>for<$s$>PhysLogger<$s$>connection.
 execute Default Any user 9e3fddb713bffd2ec24814f4d52bdb05 PhysLogger2.exe
 Version = 1
 Whats New = Here is an incomplete list of the implemented features:<$lb$>Application:<$lb$>. Full support for DirectX 9 and above supported computers<$lb$>. Animations<$lb$>. Dark theme partially implemented<$lb$>. Save and resume sessions supported<$lb$>. Save and export basic LivePlots data<$lb$>. Multipage widget area<$lb$>. Complete editing support for all the quantities<$lb$><$lb$>Quantity creation wizards:<$lb$>. Graphic Channel selector<$lb$>. Measure Voltage<$lb$>. Measure Rotation using slotted disc<$lb$>. Measure Temperature using PhysTherm<$lb$>. Control Rotation using Qosain SMC<$lb$>. Control constant Voltage<$lb$>. Signal generators<$lb$><$lb$>Templates:<$lb$>. Empty<$lb$>. Basic live plots<$lb$>. EM Induction<$lb$><$lb$>Hardware features<$lb$>. UI Extensions fully supported with all the existing widgets<$lb$>. Save and  resume session working<$lb$>. Save with hardware features working<$lb$><$lb$>Developers tools<$lb$>. Firmware update<$lb$>. Input/output channel calibration<$lb$>. Input/output channel testing<$lb$>
