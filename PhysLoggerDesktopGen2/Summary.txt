@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2021-Apr-29 01:01:14
-Whats New = + Added user tutorials<$lb$>    + Main interface<$lb$>    + About the canvas<$lb$>    + Getting Help<$lb$>+ Released Urdu language interface<$lb$>* A lot of bug fixes<$lb$>+ Added a global crash handler<$lb$>+ System preferences<$lb$>+ PhysUI extensions can now resume a session
-Current Version = 6
-About = The first release of the desktop application for PhysLogger.
+Last Updated = 2021-May-31 08:43:13
+Whats New = Please note: that this build requires the latest firmware<$lb$>+ Added live tutorials<$lb$> + Main working tutorial<$lb$> + Getting Help<$lb$>+ Added Presense quantity to configure a PhotoGate<$lb$>+ Added Syringe Pump<$lb$>+ Added SyringePump<$lb$>+ Console has a Summary command now
+Current Version = 7
+About = The firs stable release of PhysLogger Desktop.<$lb$>
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
-Update Size= 14.97 MB
-Final Size = 60.97 MB
+Update Size= 11.74 MB
+Final Size = 69.27 MB
 Default Exe = PhysLogger2.exe
 Zip Parts = 1
