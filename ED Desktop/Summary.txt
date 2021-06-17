@@ -1,7 +1,7 @@
 Application Title = Qosain ESS Desktop
 Company = Qosain Scientific
-Last Updated = 2021-Jun-17 12:17:02
-Whats New = + Added a material and time estimation tool before the coating starts
+Last Updated = 2021-Jun-17 01:37:14
+Whats New = + Added a material and time estimation tool before the coating starts<$lb$>+ Better time estimate during working
 Current Version = 7
 About = Qosain Electrospinning and Electrospraying machines require this application for the user interface.
 App ID = 1B7F20E58E148B6CE52413533ACCC630
