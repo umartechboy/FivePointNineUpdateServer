@@ -1,0 +1,45 @@
+mkdir quantities
+mkdir quantities\q0
+copy 49fc0a8d616157d853be8c778e1febb3 Hardware\PhysLoad.hex
+copy 6db8d6e5b3ed387b22106db8758f0e3f Hardware\PhysLoggerG2.bin
+copy 33b28579f5e982a8e70746ec73b8a396 Hardware\PhysWatt.bin
+copy 25395713dd72c6058acd27f4eacf6a49 quantities\q0\MeasureMenuIcon_PhysBar.png
+copy d53e53a25f1c77be392873b25a80065d quantities\q0\qdef.plf
+copy 2dcf1244e60d5a7ad71a70d544223517 quantities\q0\q_icon_PhysBar.png
+copy 80564bde516b1df9e72a5fe06556107c visuals\default\InstrumentMenuIcon_RProbe.png
+copy 05de9bfd1ef7bb6aa1703de51f0c9083 visuals\default\LayoutRectangleSetup_CascadedHorizontal.png
+copy ffd8598c659ca9de0dade9eca6750402 visuals\default\LayoutRectangleSetup_CascadedVertical.png
+copy 3b067fe41f6fb7f9e54c90425d778366 visuals\default\LayoutRectangleSetup_Overlapping.png
+copy 18d4f828c9f19b26a7a082a8b3902925 visuals\default\MenuIcon_TriangularWaveGenerator.png
+copy 908c9741b5b0a6304ca569095712b5d1 visuals\default\MenuIcon_TriangularWaveGenerator_Detail.png
+copy 0f0569f66a2919f1bb919f65dae6d674 visuals\default\q_icon_Absolute.png
+copy 83e31b2f52f8b3383c1131078c75b9c8 visuals\default\q_icon_BinaryComparator.png
+copy 572fb6099f158222aa83e07a11175463 visuals\default\q_icon_BinaryDivider.png
+copy c9f308ba8746d0e7d4a590b83384295f visuals\default\q_icon_BinaryMultiplier.png
+copy 12f3baa685a782be7243fe2b8a394d9a visuals\default\q_icon_Integrate.png
+copy 31708b5aceb59b94d3d19dcb8a65fd47 visuals\default\q_icon_linearinterpolator.png
+copy 19c0c840b7e590c69efb2c4b9d735b60 visuals\default\q_icon_Range.png
+copy 7b50aa3b1dd5253dd1de0284a902572b visuals\default\q_icon_TriangularWaveGenerator.png
+copy acd3013c9a45e3a50081ec636e867615 visuals\default\SawtoothGenerator_Editor.png
+copy 3eb66ade3a0ee56ce41361a699c45243 visuals\default\SineGenerator_Editor.png
+copy 7743bef75b394f63c2fe02108566c494 visuals\default\SquarePulseGenerator_Editor.png
+copy 4f0cc191e7a113919b5b75b48570b074 visuals\default\TriangularWaveGenerator_Editor.png
+copy 02edf7b3f804789c9433f5d2d09bd001 visuals\default\WizardMenuIcon_Force.png
+copy 80564bde516b1df9e72a5fe06556107c visuals\default\WizardMenuIcon_Resistance.png
+copy e75064a86e56bddcbef9c9f59152fbb1 CrashReport.plf
+copy f6847087c2ab71b70d5240ff42148837 MathNet.Numerics.dll
+copy e0516a48e7a38a187b0f06c3950a2433 MathNet.Numerics.xml
+copy 1cd04afd16d8164f7b9a2966f939a63f PhysLogger2.application
+copy b599396dc308c0cd7f7758b64b8bc20c PhysLogger2.exe
+copy 43d15f3fc59244ac98b671cdb70f65e6 PhysLogger2.exe.manifest
+copy 1dbffe25994e042e35a00514b32686c8 PhysLogger2.pdb
+copy 06fc75d185dc1608c9dd3f895cc03511 PhysLogger_DevelopersTools.exe
+copy a2742b9162a9686d9b55e9a753d73336 PhysLogger_DevelopersTools.pdb
+Version = 8
+Whats New = Please note that this build requires the firmware ver 10+<$lb$>+ Added PhysBar<$lb$>+ Added Syringe Pump<$lb$>* Grammar corrections<$lb$>+ Virtual PhysLogger can now emulate devices at run time<$lb$>* Better visuals<$lb$>* Improved PhysGate Performance<$lb$>+ Better screenshots<$lb$>* Flash now supports PhysWatt
+Update Size = 9.53 MB
+Final Size = 69.97 MB
+Published on = 2021-Jul-09 03:36:51
+zip Hash = 7358955f090d7a61ab05f59f32a2f062
+Zip Size = 2.31 MB
+Zip Parts = 1
