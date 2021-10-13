@@ -1,0 +1,190 @@
+mkdir Hardware\maple
+mkdir Hardware\maple\maple-dfu
+mkdir Hardware\maple\maple-dfu\amd64
+mkdir Hardware\maple\maple-dfu\license
+mkdir Hardware\maple\maple-dfu\license\libusb0
+mkdir Hardware\maple\maple-dfu\x86
+mkdir Hardware\maple\maple-serial
+mkdir Hardware\maple\maple-serial\amd64
+mkdir Hardware\maple\maple-serial\license
+mkdir Hardware\maple\maple-serial\license\libusb0
+mkdir Hardware\maple\maple-serial\x86
+mkdir Hardware\maple\win_xp_legacy
+mkdir Hardware\maple\win_xp_legacy\maple-dfu
+mkdir Hardware\maple\win_xp_legacy\maple-dfu\license
+mkdir Hardware\maple\win_xp_legacy\maple-dfu\license\libusb0
+mkdir Hardware\maple\win_xp_legacy\maple-dfu\x86
+mkdir Hardware\maple\win_xp_legacy\maple-serial
+mkdir Hardware\maple\win_xp_legacy\maple-serial\amd64
+mkdir Hardware\maple\win_xp_legacy\maple-serial\license
+mkdir Hardware\maple\win_xp_legacy\maple-serial\license\libusb0
+mkdir quantities\ArduinoReader
+mkdir quantities\PhysBar
+mkdir quantities\PhysDisp
+mkdir quantities\PhysHygro_Humidity
+mkdir quantities\PhysHygro_Temp
+mkdir quantities\PhysLoad
+copy a16f041c87529221c86e16124c7e9add Hardware\maple\maple-dfu\amd64\install-filter.exe
+copy 1d8215f7f8cd02a553499b534ccfb4d5 Hardware\maple\maple-dfu\amd64\libusb0.dll
+copy 16e18ced459b1824234890386ee66cd5 Hardware\maple\maple-dfu\amd64\libusb0.sys
+copy 1a534450750eca1f3d951def8d9965bf Hardware\maple\maple-dfu\amd64\libusb0_x86.dll
+copy 7abe7f583d5d52de4a9727f94419cc4b Hardware\maple\maple-dfu\amd64\libusbK.dll
+copy a814ff2972f55909aaffd943ebb0e866 Hardware\maple\maple-dfu\amd64\libusbK.sys
+copy 22e9219bc86bb8d3fb6209acdbf76739 Hardware\maple\maple-dfu\amd64\libusbK_x86.dll
+copy d10864c1730172780c2d4be633b9220a Hardware\maple\maple-dfu\amd64\WdfCoInstaller01011.dll
+copy 246900ce6474718730ecd4f873234cf5 Hardware\maple\maple-dfu\amd64\winusbcoinstaller2.dll
+copy 3f886ccce73c834d0ba9a07b89a5adad Hardware\maple\maple-dfu\license\libusb0\installer_license.txt
+copy 1a534450750eca1f3d951def8d9965bf Hardware\maple\maple-dfu\x86\install-filter.exe
+copy 1a534450750eca1f3d951def8d9965bf Hardware\maple\maple-dfu\x86\libusb0.dll
+copy c8c9800179af00c90629514e30873d80 Hardware\maple\maple-dfu\x86\libusb0.sys
+copy 535779909a40b42f4f3e48598f5778a5 Hardware\maple\maple-dfu\x86\libusb0_x86.dll
+copy 22e9219bc86bb8d3fb6209acdbf76739 Hardware\maple\maple-dfu\x86\libusbK.dll
+copy 1f17dfe26285cf9971e55ddff915877b Hardware\maple\maple-dfu\x86\libusbK.sys
+copy 3d2a2d921135801835073451f002480f Hardware\maple\maple-dfu\x86\WdfCoInstaller01011.dll
+copy 8e7b9f81e8823fee2d82f7de3a44300b Hardware\maple\maple-dfu\x86\winusbcoinstaller2.dll
+copy a35b386cb06d67b600cefedd5d830cc2 Hardware\maple\maple-dfu\installer_x64.exe
+copy 7c7ceeee518e418b62f4f56566905ca3 Hardware\maple\maple-dfu\installer_x86.exe
+copy 7a195440d3e85f63eb9c458c67a47360 Hardware\maple\maple-dfu\usb_device.cat
+copy 4375d6fc68a6f2dbf843b12e7f7496a2 Hardware\maple\maple-dfu\usb_device.inf
+copy a16f041c87529221c86e16124c7e9add Hardware\maple\maple-serial\amd64\install-filter.exe
+copy 1d8215f7f8cd02a553499b534ccfb4d5 Hardware\maple\maple-serial\amd64\libusb0.dll
+copy 16e18ced459b1824234890386ee66cd5 Hardware\maple\maple-serial\amd64\libusb0.sys
+copy 1a534450750eca1f3d951def8d9965bf Hardware\maple\maple-serial\amd64\libusb0_x86.dll
+copy 7abe7f583d5d52de4a9727f94419cc4b Hardware\maple\maple-serial\amd64\libusbK.dll
+copy a814ff2972f55909aaffd943ebb0e866 Hardware\maple\maple-serial\amd64\libusbK.sys
+copy 22e9219bc86bb8d3fb6209acdbf76739 Hardware\maple\maple-serial\amd64\libusbK_x86.dll
+copy d10864c1730172780c2d4be633b9220a Hardware\maple\maple-serial\amd64\WdfCoInstaller01011.dll
+copy 246900ce6474718730ecd4f873234cf5 Hardware\maple\maple-serial\amd64\winusbcoinstaller2.dll
+copy 3f886ccce73c834d0ba9a07b89a5adad Hardware\maple\maple-serial\license\libusb0\installer_license.txt
+copy 1a534450750eca1f3d951def8d9965bf Hardware\maple\maple-serial\x86\install-filter.exe
+copy 1a534450750eca1f3d951def8d9965bf Hardware\maple\maple-serial\x86\libusb0.dll
+copy c8c9800179af00c90629514e30873d80 Hardware\maple\maple-serial\x86\libusb0.sys
+copy 535779909a40b42f4f3e48598f5778a5 Hardware\maple\maple-serial\x86\libusb0_x86.dll
+copy 22e9219bc86bb8d3fb6209acdbf76739 Hardware\maple\maple-serial\x86\libusbK.dll
+copy 1f17dfe26285cf9971e55ddff915877b Hardware\maple\maple-serial\x86\libusbK.sys
+copy 3d2a2d921135801835073451f002480f Hardware\maple\maple-serial\x86\WdfCoInstaller01011.dll
+copy 8e7b9f81e8823fee2d82f7de3a44300b Hardware\maple\maple-serial\x86\winusbcoinstaller2.dll
+copy a35b386cb06d67b600cefedd5d830cc2 Hardware\maple\maple-serial\installer_x64.exe
+copy 7c7ceeee518e418b62f4f56566905ca3 Hardware\maple\maple-serial\installer_x86.exe
+copy 17f6fe03bf1e6545d4ede629f77fce3e Hardware\maple\maple-serial\usb_device.cat
+copy b256a917d6f5cfc060240ac25ddba1bc Hardware\maple\maple-serial\usb_device.inf
+copy adc8fae7d75ace5be043e32e21cd2d6c Hardware\maple\win_xp_legacy\maple-dfu\license\libusb0\installer_license.txt
+copy 1a534450750eca1f3d951def8d9965bf Hardware\maple\win_xp_legacy\maple-dfu\x86\install-filter.exe
+copy 1a534450750eca1f3d951def8d9965bf Hardware\maple\win_xp_legacy\maple-dfu\x86\libusb0.dll
+copy 05c3f2336d66159aa4ad592003361d37 Hardware\maple\win_xp_legacy\maple-dfu\x86\libusb0.sys
+copy 535779909a40b42f4f3e48598f5778a5 Hardware\maple\win_xp_legacy\maple-dfu\x86\libusb0_x86.dll
+copy 22e9219bc86bb8d3fb6209acdbf76739 Hardware\maple\win_xp_legacy\maple-dfu\x86\libusbK.dll
+copy 1f17dfe26285cf9971e55ddff915877b Hardware\maple\win_xp_legacy\maple-dfu\x86\libusbK.sys
+copy 4530bd9a5bd37c978370987808d16e6c Hardware\maple\win_xp_legacy\maple-dfu\x86\WdfCoInstaller01011.dll
+copy 8e7b9f81e8823fee2d82f7de3a44300b Hardware\maple\win_xp_legacy\maple-dfu\x86\winusbcoinstaller2.dll
+copy e6ff930c3fb6de61f664581c1a85f60c Hardware\maple\win_xp_legacy\maple-dfu\installer_x64.exe
+copy 7c7ceeee518e418b62f4f56566905ca3 Hardware\maple\win_xp_legacy\maple-dfu\installer_x86.exe
+copy 762192be9b0d7b43bf8a99bb1cf25168 Hardware\maple\win_xp_legacy\maple-dfu\usb_device.cat
+copy 8b51427ef6b961482d8b968d69772614 Hardware\maple\win_xp_legacy\maple-dfu\usb_device.inf
+copy 78f9a804146e0122f871bc8fda17b5d3 Hardware\maple\win_xp_legacy\maple-serial\amd64\install-filter.exe
+copy 1d8215f7f8cd02a553499b534ccfb4d5 Hardware\maple\win_xp_legacy\maple-serial\amd64\libusb0.dll
+copy 16e18ced459b1824234890386ee66cd5 Hardware\maple\win_xp_legacy\maple-serial\amd64\libusb0.sys
+copy 1a534450750eca1f3d951def8d9965bf Hardware\maple\win_xp_legacy\maple-serial\amd64\libusb0_x86.dll
+copy c0b948e7cc8204ce1062712af7f0fe82 Hardware\maple\win_xp_legacy\maple-serial\amd64\libusbK.dll
+copy a814ff2972f55909aaffd943ebb0e866 Hardware\maple\win_xp_legacy\maple-serial\amd64\libusbK.sys
+copy 22e9219bc86bb8d3fb6209acdbf76739 Hardware\maple\win_xp_legacy\maple-serial\amd64\libusbK_x86.dll
+copy d10864c1730172780c2d4be633b9220a Hardware\maple\win_xp_legacy\maple-serial\amd64\WdfCoInstaller01011.dll
+copy 59615f2d12f011c1414e0ed54a07fe20 Hardware\maple\win_xp_legacy\maple-serial\amd64\winusbcoinstaller2.dll
+copy adc8fae7d75ace5be043e32e21cd2d6c Hardware\maple\win_xp_legacy\maple-serial\license\libusb0\installer_license.txt
+copy a35b386cb06d67b600cefedd5d830cc2 Hardware\maple\win_xp_legacy\maple-serial\installer_x64.exe
+copy ed320d2ed022802acd15ea5224af6cfe Hardware\maple\win_xp_legacy\maple-serial\installer_x86.exe
+copy 24515b402ee6039e326915c6bbcff91d Hardware\maple\win_xp_legacy\maple-serial\usb_device.cat
+copy f211ea650fedd191e18925b4e86208b8 Hardware\maple\win_xp_legacy\maple-serial\usb_device.inf
+copy 631ec61b72ccc64b11e6730ed7ed4033 Hardware\maple\install_drivers.bat
+copy b14737624e024ae0acf5c0ab0c89255e Hardware\maple\install_drivers_Serial.bat
+copy 6145c5c67cb362a397e9c344ab6a42b8 Hardware\maple\install_STM_COM_drivers.bat
+copy c25f5aef93561d115c56c186aebe9abb Hardware\maple\wdi-simple.exe
+copy 1438286de605cea1d2c457bd730446e4 Hardware\stm32tools\dfu-util.exe
+copy be057727cc7638a0f1fde4bad669ed34 Hardware\naze32_boot20.bin
+copy 6568e62dad50f8d08555b87a11248839 Hardware\PhysBar.hex
+copy 8d163f765146975519a88744c04c8320 Hardware\PhysDisp.hex
+copy 61d8697143b2c3ad82d2f746433ac5da Hardware\PhysHygro.hex
+copy 5a74225350307a7b6c0eb43576ca360f Hardware\PhysLoad.hex
+copy 6887bfc33946c8805716168476d73f79 Hardware\PhysLoggerG2.bin
+copy 32f8f5dde40f460dba4d3ffb421b428c Hardware\PhysLoggerG2FT.bin
+copy cb6a1f194ca738f69fb6c90f3c1bc50e Hardware\PhysWatt.bin
+copy 10fc255e14d682a9b02e52d6a5d26d38 quantities\ArduinoReader\d_Icon_ArduinoReader.png
+copy d4c4ace2b0325904aaa0aff29226a9ac quantities\ArduinoReader\qdef.plf
+copy 1342b87470f7108a2118d52ef41fe2c9 quantities\ArduinoReader\q_icon_ArduinoReader.png
+copy 37135ba7aa32ecc960081b46e286c41d quantities\PhysBar\d_icon_PhysBar.png
+copy 00ac999512134a7b598c9f46b162fd1b quantities\PhysBar\qdef.plf
+copy dc7fb7e386906e2afd050b8e26726eb8 quantities\PhysBar\q_icon_PhysBar.png
+copy dc7fb7e386906e2afd050b8e26726eb8 quantities\PhysBar\WizardListThumbnail_PhysBar.png
+copy 01bd39e1850276351b26e94f3df75518 quantities\PhysBar\WizardMenuIcon_PhysBar.png
+copy e190ae210f95266f726c34dd4fd3efaf quantities\PhysDisp\d_icon_PhysDisp.png
+copy e8cfec4a34b383a4ba68736b3765ade1 quantities\PhysDisp\qdef.plf
+copy e810c18495c1e0ea1a1981a524304893 quantities\PhysDisp\q_icon_PhysDisp.png
+copy e810c18495c1e0ea1a1981a524304893 quantities\PhysDisp\WizardListThumbnail_PhysDisp.png
+copy 5cc79c503f4e2aa2127c38099f8c4acc quantities\PhysDisp\WizardMenuIcon_PhysDisp.png
+copy 0bbc81ff31bcaa26155b2b98f5db099f quantities\PhysHygro_Humidity\d_icon_PhysHygro.png
+copy 9fc4940a0f570a6738603274a1b4c5f7 quantities\PhysHygro_Humidity\qdef.plf
+copy dc7fb7e386906e2afd050b8e26726eb8 quantities\PhysHygro_Humidity\q_icon_PhysHygro_Humidity.png
+copy 01bd39e1850276351b26e94f3df75518 quantities\PhysHygro_Humidity\WizardMenuIcon_PhysHygro_Humidity.png
+copy 0bbc81ff31bcaa26155b2b98f5db099f quantities\PhysHygro_Temp\d_icon_PhysHygro.png
+copy ffd120af5e78e3e0ae8963d4de44dfdb quantities\PhysHygro_Temp\qdef.plf
+copy 2e77e1bffec17d4f6fcb0840b3e3a1cb quantities\PhysHygro_Temp\q_icon_PhysHygro_Temp.png
+copy 01bd39e1850276351b26e94f3df75518 quantities\PhysHygro_Temp\WizardMenuIcon_PhysHygro_Temp.png
+copy 9219c02ae95373332da17380f71f4a26 quantities\PhysLoad\d_icon_PhysLoad.png
+copy 14f3e17a3439c597b51b98b54d567721 quantities\PhysLoad\qdef.plf
+copy 5b79447418f2e54c47718fd45f8e1998 quantities\PhysLoad\q_icon_PhysLoad.png
+copy 5b79447418f2e54c47718fd45f8e1998 quantities\PhysLoad\WizardListThumbnail_PhysLoad.png
+copy 37f3ee40132d4b0e3e9d73ad8c96a87e quantities\PhysLoad\WizardMenuIcon_PhysLoad.png
+copy 1b8945d2e3cd06037c8a797bbfc5186c quantities\q0\qdef.plf
+copy c6cb66a3928a0d62d0c46df629ab4bde visuals\default\ClearSession.png
+copy a6177dcb06db7b7e0f8c2eba48e7efba visuals\default\ClearSession_active.png
+copy e678f29063411164f1510729d3d8306d visuals\default\cloudconfig.png
+copy 1d39a0ab6c42f558c7c593ad41cbcb59 visuals\default\colors.plf
+copy b2ce99ee10108a6b8536c1402f0cab74 visuals\default\d_Icon_PhysLogger.png
+copy 949392155bd7c713f0494bd4cd40683d visuals\default\d_Icon_PhysLoggerSoftware.png
+copy 1f247426bc8d8eaeee39fa55139dc5d2 visuals\default\d_Icon_PhysWattManager.png
+copy 3a346d291333c6c64e8553dc2a098528 visuals\default\extension menu option icon.png
+copy 5ccb13a2aed9460baad42d30f417d913 visuals\default\Q Page Icon Back.png
+copy 4acc9f87d51b2cd5dad591de6fd9274e visuals\default\Q Page Icon.png
+copy 86da6bf343191d658234d01927f5aa06 visuals\default\q_icon_Current.png
+copy d0aa24929cffca9748c79817cfe826dd visuals\default\Resume Session.png
+copy 5ba2127d429685014bde8628fa66ff70 visuals\default\save session message.png
+copy 9ad08273e377f9e98ccafbe577f48088 visuals\default\ScanBus.png
+copy d9c7088186ff9128632ebee493122092 visuals\default\start new session.png
+copy a8beaa90e506517968eaa2807e860346 visuals\default\Template_Brochure_Heat Transfer.jpg
+copy 0e66320ce52e2e5c4b323fa013322beb visuals\default\Template_Icon_Heat Transfer.png
+copy adede794bfdcd8cdfad1e48ec8415222 visuals\default\wizard option icon.png
+copy 86da6bf343191d658234d01927f5aa06 visuals\default\WizardListThumbnail_Current.png
+copy a9d1ab0c7f8c85cda4973ea9602cf5b8 visuals\DefaultSplash.png
+copy 983d5fdfa558c48b4fa64469967875c1 visuals\strings.plf
+copy ce1ea1909b5860c35847393c4c1d6d25 ArduinoSketchUploader.dll
+copy 414a40a9eb143ee7d2785eeda76b76be ArduinoSketchUploader.pdb
+copy bf450c83dc873ac54d058e75790e6efb ArduinoUploader.dll
+copy 1674db79b858a6ab744164b5e446418e ArduinoUploader.pdb
+copy 1a06e2938a0a099a7b272898c4a3f407 CrashReport.plf
+copy 58b3b0768051a95f59e401412fc95f1d OutputA INL-DNL.txt
+copy 5685936422ef1258bf75429d1ba13422 PerfCopy.dll
+copy b179d4d9b581caaae2422140a416cf4e PerfCopy.pdb
+copy 559dc0dd12e3a647b814c232da36ef0b PerfCopy.xml
+copy e4e319899a398d2663d5462ecc4570b9 PhysLogger2.application
+copy b4e74309fef3e15945fdddf986e7b1ee PhysLogger2.exe
+copy 2df182050bdef76492e78e59cd296beb PhysLogger2.exe.manifest
+copy 052d4cc3496fba7b4cd4205e08b5d629 PhysLogger2.pdb
+copy 66202c74eebb68fcc3f47bf5c39c5ba0 PhysLogger_DevelopersTools.exe
+copy 780cccfc665fc6f26c689ca15773bb4f PhysLogger_DevelopersTools.pdb
+copy 2abb65cba3dbc557a23521f1defca2bf rand.bmp
+copy a1df0edb9ef514864aa38444f1e0d655 rand50.bmp
+copy d144a10b998ab3e95cb77387d1e29859 RingByteBuffer.dll
+copy ad8c121dff54f36f55fb3f961c3348f6 RingByteBuffer.pdb
+copy 8cd1e08e0580372597da0a5b3a13f135 RingByteBuffer.xml
+copy 8fb9d4b672519b581e1d136c099a1a9c WatchdogThread.exe
+copy 9dbad5517b46f41dbb0d8780b20ab87e WatchdogThread.exe.config
+copy 2877360a9763fbaa9fd1bcc7aa9f076d WatchdogThread.pdb
+execute Installation Any admin 631ec61b72ccc64b11e6730ed7ed4033 Hardware\maple\install_drivers.bat PhysLogger<$s$>USB<$s$>Drivers These<$s$>are<$s$>required<$s$>to<$s$>communicate<$s$>with<$s$>and<$s$>update<$s$>PhysLogger True
+Version = 9
+Whats New = Please note that this build requires firmware ver 13+<$lb$>*This is a major update*<$lb$>* Totally revamped the UI<$lb$>* Lots of stability related improvements<$lb$>+ PhysInstruments are hot pluggable<$lb$>+ Added a full page quantitites holder<$lb$>+ A lot of new icons<$lb$>+ Added splash screens<$lb$>+ In app update option<$lb$>* Improved console<$lb$>+ Wizard can be called anytime during the session now
+Update Size = 32.28 MB
+Final Size = 92.94 MB
+Published on = 2021-Oct-13 10:54:24
+zip Hash = d20915ff39d88af15da6e641cef0ff0d
+Zip Size = 21.86 MB
+Zip Parts = 1
