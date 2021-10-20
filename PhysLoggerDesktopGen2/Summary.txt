@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2021-Oct-13 10:54:27
-Whats New = Please note that this build requires firmware ver 13+<$lb$>*This is a major update*<$lb$>* Totally revamped the UI<$lb$>* Lots of stability related improvements<$lb$>+ PhysInstruments are hot pluggable<$lb$>+ Added a full page quantitites holder<$lb$>+ A lot of new icons<$lb$>+ Added splash screens<$lb$>+ In app update option<$lb$>* Improved console<$lb$>+ Wizard can be called anytime during the session now
-Current Version = 9
-About = The firs stable release of PhysLogger Desktop.<$lb$>
+Last Updated = 2021-Oct-20 07:50:04
+Whats New = Minor bug fixes
+Current Version = 10
+About = The first stable release of PhysLogger Desktop.<$lb$>
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
-Update Size= 32.28 MB
-Final Size = 92.94 MB
+Update Size= 4.95 MB
+Final Size = 93.32 MB
 Default Exe = PhysLogger2.exe
 Zip Parts = 1

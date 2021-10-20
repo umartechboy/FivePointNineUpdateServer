@@ -1,0 +1,14 @@
+copy 5f10df0ab4d3d37e18f4c4c6b6e13c10 PhysLogger2.application
+copy a4ca03a244b7ddb40b4a5c9c9e3427b0 PhysLogger2.exe
+copy 216fc69960036097c9cfcadb634c6fd7 PhysLogger2.exe.manifest
+copy 37d647591bf1ab1e2a96e03d2c4616da PhysLogger2.pdb
+copy c0597bb573fa3aafd2e366329beeb43a WatchdogThread.exe
+copy d0d699bd4ab04ca4b97b9e8316159f90 WatchdogThread.pdb
+Version = 10
+Whats New = Minor bug fixes
+Update Size = 4.95 MB
+Final Size = 93.32 MB
+Published on = 2021-Oct-20 07:50:04
+zip Hash = 437920cc857fdc9a87304c5677304cc0
+Zip Size = 1.73 MB
+Zip Parts = 1
