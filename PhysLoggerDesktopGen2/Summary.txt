@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2021-Oct-20 07:50:04
+Last Updated = 2021-Oct-20 07:54:59
 Whats New = Minor bug fixes
 Current Version = 10
 About = The first stable release of PhysLogger Desktop.<$lb$>
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
-Update Size= 4.95 MB
-Final Size = 93.32 MB
+Update Size= 4.96 MB
+Final Size = 93.33 MB
 Default Exe = PhysLogger2.exe
 Zip Parts = 1
