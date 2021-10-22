@@ -1,14 +1,14 @@
-copy 5f10df0ab4d3d37e18f4c4c6b6e13c10 PhysLogger2.application
-copy 9cba8bce3cb127fd1451ff9b9e41be4b PhysLogger2.exe
-copy 216fc69960036097c9cfcadb634c6fd7 PhysLogger2.exe.manifest
-copy 37d647591bf1ab1e2a96e03d2c4616da PhysLogger2.pdb
+copy f35fffcd48db746f242a35035d1914a5 PhysLogger2.application
+copy 0c133a203994064c764187fe29c3a68c PhysLogger2.exe
+copy 814b37e99a33142d1a6b67ed4081cf57 PhysLogger2.exe.manifest
+copy 19fd5f7efd7fbe846077a38395be8407 PhysLogger2.pdb
 copy 371d95e01b397cabf2a5a054cde02a0f WatchdogThread.exe
 copy d0d699bd4ab04ca4b97b9e8316159f90 WatchdogThread.pdb
 Version = 10
-Whats New = Minor bug fixes
+Whats New = Minor bug fixes<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash
 Update Size = 4.96 MB
 Final Size = 93.33 MB
-Published on = 2021-Oct-20 07:54:59
-zip Hash = a14e98f386158b3e43afc2e1c2187f92
+Published on = 2021-Oct-22 01:26:35
+zip Hash = fc87e883edb1292c9d5dea73f2ed6313
 Zip Size = 1.73 MB
 Zip Parts = 1
