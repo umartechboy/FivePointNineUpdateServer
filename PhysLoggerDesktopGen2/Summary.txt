@@ -1,6 +1,6 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2021-Oct-22 03:40:19
+Last Updated = 2021-Oct-22 07:39:33
 Whats New = Minor bug fixes<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server
 Current Version = 10
 About = The first stable release of PhysLogger Desktop.<$lb$>
