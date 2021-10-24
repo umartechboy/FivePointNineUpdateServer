@@ -1,17 +1,17 @@
-copy 7c14426e4a6fed967011b90cab71a597 PhysLogger2.application
-copy f681f8b07e7875e51a887367bbec3070 PhysLogger2.exe
-copy 4958f3b6bf87075416ec94e6d58997bf PhysLogger2.exe.manifest
-copy eef9c291c44b3127d01003a0244905f0 PhysLogger2.pdb
+copy 8f472e10f4508f3465dc548de40bed1a PhysLogger2.application
+copy c080709deda2d7d7e978645978c162e2 PhysLogger2.exe
+copy b4d56ddc15dde8dbfce74b5baf167713 PhysLogger2.exe.manifest
+copy 90af3b4a07472bf23388ce1bba9ae12d PhysLogger2.pdb
 copy 19a81ced7c7f695fbbef5cdde4b75325 PhysLogger_DevelopersTools.exe
 copy e6032fabe1e9b361191d029c1cb0da1f PhysLogger_DevelopersTools.pdb
 copy 748c713922ba8a3e599b5123c372d574 WatchdogThread.exe
 copy e656d04373e29a2718afbb546e8b2ff1 WatchdogThread.exe.config
 copy 8efe09b97e8f096e8d5c069059a015be WatchdogThread.pdb
 Version = 10
-Whats New = Minor bug fixes<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server
+Whats New = Minor bug fixes<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check
 Update Size = 5.39 MB
 Final Size = 93.76 MB
-Published on = 2021-Oct-22 08:34:48
-zip Hash = bb859294ba9c6b51a2d9cea381a91fa2
+Published on = 2021-Oct-24 11:29:59
+zip Hash = 43ab46ec91e77c84b56121788912fe3a
 Zip Size = 1.84 MB
 Zip Parts = 1
