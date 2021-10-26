@@ -1,17 +1,17 @@
-copy c3faa3dbc021f4ca6db20cde6b92742f PhysLogger2.application
-copy a27df76111d225558e3c6af06531439f PhysLogger2.exe
-copy 8f1090f52b4514bf2e6eba9d6e7b7c4b PhysLogger2.exe.manifest
-copy 8ae3554d46e9047ac9d13787bb3814bc PhysLogger2.pdb
+copy a86bfa3ca97cfa1b4a492c627af4c5dc PhysLogger2.application
+copy 01cb8bf83390a8668c178daa4b6e4fcf PhysLogger2.exe
+copy 43cd6b610841d1bddc4898834774968c PhysLogger2.exe.manifest
+copy fc5632d675d5d0c37317f9b0728521cc PhysLogger2.pdb
 copy 19a81ced7c7f695fbbef5cdde4b75325 PhysLogger_DevelopersTools.exe
 copy e6032fabe1e9b361191d029c1cb0da1f PhysLogger_DevelopersTools.pdb
 copy 748c713922ba8a3e599b5123c372d574 WatchdogThread.exe
 copy e656d04373e29a2718afbb546e8b2ff1 WatchdogThread.exe.config
 copy 8efe09b97e8f096e8d5c069059a015be WatchdogThread.pdb
 Version = 10
-Whats New = Minor bug fixes<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
+Whats New = Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
 Update Size = 5.39 MB
 Final Size = 93.76 MB
-Published on = 2021-Oct-25 11:14:03
-zip Hash = 39ec9e05d9c740631d995285597c99aa
+Published on = 2021-Oct-26 03:32:54
+zip Hash = 05d5c7ca950d909dbebe44c05e0ff49c
 Zip Size = 1.84 MB
 Zip Parts = 1
