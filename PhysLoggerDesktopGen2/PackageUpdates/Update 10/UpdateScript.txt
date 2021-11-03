@@ -14,19 +14,18 @@ copy 208fc0318f0e58676dded6317f9f0a1d sounds\default\mouse hover 1.wav
 copy ddf3dfabeff812c56a9ce40cdce565d6 sounds\default\mouse hover 2.wav
 copy bf7c7aa91b3ae0cdc035f39e4364db8c sounds\default\mouse hover 3.wav
 copy 7d0c83d5fd546656c77e32799a34512d sounds\default\mouse hover 4.wav
-copy 8ba6e0f3d9c5eb07fdd9a933cb5d47df visuals\DefaultSplash.png
 copy c392fb8d5ec6f854f906e30055ebe1c9 OggDecoder.dll
 copy cebfe157098995082112604ca8730110 OggDecoder.dll.config
 copy 5f970399239041158cbc57fd8bb67c10 OggDecoder.pdb
-copy 0f79999cbda746e89ee6c55d49202525 PhysLogger2.application
-copy 56f47c34095d79287db345c66220ba0d PhysLogger2.exe
-copy c003a733ae0476151459989a46faae80 PhysLogger2.exe.manifest
-copy b5098dd8719095e888d5417498f77f09 PhysLogger2.pdb
+copy f8daf7a704d6f748b46b2c1b43760a33 PhysLogger2.application
+copy ca4db2d3d3151e7eb43de688b9bd03eb PhysLogger2.exe
+copy 8d2482b35bfaaf3c2b4311e354b1a7d0 PhysLogger2.exe.manifest
+copy 02a178761252638fff00098c5ec57a49 PhysLogger2.pdb
 Version = 11
-Whats New = Minor bug fixes<$lb$>+ Added ound effects<$lb$>+ Added support for languages other than English and Urdu<$lb$>* Fixed a bug in user buttons
-Update Size = 5.61 MB
-Final Size = 94.69 MB
-Published on = 2021-Nov-03 07:11:03
-zip Hash = bc8a3e06f0d5a5ee9ce622e5b6a7fa7e
-Zip Size = 2.29 MB
+Whats New = Minor bug fixes<$lb$>+ Added sound effects<$lb$>* Removed a bug from Heat and Cool template
+Update Size = 5.27 MB
+Final Size = 94.36 MB
+Published on = 2021-Nov-03 07:30:09
+zip Hash = d8b8f672c1014d6fce0bfe066cb292ba
+Zip Size = 1.96 MB
 Zip Parts = 1
