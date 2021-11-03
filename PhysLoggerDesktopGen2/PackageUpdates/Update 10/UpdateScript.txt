@@ -1,0 +1,32 @@
+rmfile 983d5fdfa558c48b4fa64469967875c1 visuals\strings.plf
+mkdir languages
+mkdir sounds
+mkdir sounds\default
+copy f43b13bda0234e459c51bc44b6a59eb2 languages\default.plf
+copy 194303b62991a78e255b8148b6c5de4d languages\SupportedLanguages.plf
+copy be955337a53e86c3babfb8592ce140ea languages\پنجابی.plf
+copy a24b2d6a4bdaf77fa2ce27401ab0bc67 sounds\default\message box error.wav
+copy 206d9e5e670a954f280a81e6bb11882a sounds\default\message box inform.wav
+copy b4efc62f8f19f895fcab6098702518b7 sounds\default\message box normal.wav
+copy 372dbcf12e89cf5919e7a156eff2cf71 sounds\default\message box question.wav
+copy bc9d40ac0bc63716f75f59fddea166f3 sounds\default\mouse click 1.wav
+copy 208fc0318f0e58676dded6317f9f0a1d sounds\default\mouse hover 1.wav
+copy ddf3dfabeff812c56a9ce40cdce565d6 sounds\default\mouse hover 2.wav
+copy bf7c7aa91b3ae0cdc035f39e4364db8c sounds\default\mouse hover 3.wav
+copy 7d0c83d5fd546656c77e32799a34512d sounds\default\mouse hover 4.wav
+copy 8ba6e0f3d9c5eb07fdd9a933cb5d47df visuals\DefaultSplash.png
+copy c392fb8d5ec6f854f906e30055ebe1c9 OggDecoder.dll
+copy cebfe157098995082112604ca8730110 OggDecoder.dll.config
+copy 5f970399239041158cbc57fd8bb67c10 OggDecoder.pdb
+copy 0f79999cbda746e89ee6c55d49202525 PhysLogger2.application
+copy 56f47c34095d79287db345c66220ba0d PhysLogger2.exe
+copy c003a733ae0476151459989a46faae80 PhysLogger2.exe.manifest
+copy b5098dd8719095e888d5417498f77f09 PhysLogger2.pdb
+Version = 11
+Whats New = Minor bug fixes<$lb$>+ Added ound effects<$lb$>+ Added support for languages other than English and Urdu<$lb$>* Fixed a bug in user buttons
+Update Size = 5.61 MB
+Final Size = 94.69 MB
+Published on = 2021-Nov-03 07:11:03
+zip Hash = bc8a3e06f0d5a5ee9ce622e5b6a7fa7e
+Zip Size = 2.29 MB
+Zip Parts = 1

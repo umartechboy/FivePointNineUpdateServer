@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2021-Oct-26 03:32:55
-Whats New = Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
-Current Version = 10
+Last Updated = 2021-Nov-03 07:11:03
+Whats New = Minor bug fixes<$lb$>+ Added ound effects<$lb$>+ Added support for languages other than English and Urdu<$lb$>* Fixed a bug in user buttons
+Current Version = 11
 About = The first stable release of PhysLogger Desktop.<$lb$>
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
-Update Size= 5.39 MB
-Final Size = 93.76 MB
+Update Size= 5.61 MB
+Final Size = 94.69 MB
 Default Exe = PhysLogger2.exe
 Zip Parts = 1
