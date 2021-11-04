@@ -1,17 +1,36 @@
-copy a86bfa3ca97cfa1b4a492c627af4c5dc PhysLogger2.application
-copy 01cb8bf83390a8668c178daa4b6e4fcf PhysLogger2.exe
-copy 43cd6b610841d1bddc4898834774968c PhysLogger2.exe.manifest
-copy fc5632d675d5d0c37317f9b0728521cc PhysLogger2.pdb
+rmfile 983d5fdfa558c48b4fa64469967875c1 visuals\strings.plf
+mkdir languages
+mkdir sounds
+mkdir sounds\default
+copy f43b13bda0234e459c51bc44b6a59eb2 languages\default.plf
+copy be955337a53e86c3babfb8592ce140ea languages\Punjabi.plf
+copy fa422c698fb5abaaa325da756f9a5fa2 languages\SupportedLanguages.plf
+copy a24b2d6a4bdaf77fa2ce27401ab0bc67 sounds\default\message box error.wav
+copy 206d9e5e670a954f280a81e6bb11882a sounds\default\message box inform.wav
+copy b4efc62f8f19f895fcab6098702518b7 sounds\default\message box normal.wav
+copy 372dbcf12e89cf5919e7a156eff2cf71 sounds\default\message box question.wav
+copy bc9d40ac0bc63716f75f59fddea166f3 sounds\default\mouse click 1.wav
+copy 208fc0318f0e58676dded6317f9f0a1d sounds\default\mouse hover 1.wav
+copy ddf3dfabeff812c56a9ce40cdce565d6 sounds\default\mouse hover 2.wav
+copy bf7c7aa91b3ae0cdc035f39e4364db8c sounds\default\mouse hover 3.wav
+copy 7d0c83d5fd546656c77e32799a34512d sounds\default\mouse hover 4.wav
+copy c392fb8d5ec6f854f906e30055ebe1c9 OggDecoder.dll
+copy cebfe157098995082112604ca8730110 OggDecoder.dll.config
+copy 5f970399239041158cbc57fd8bb67c10 OggDecoder.pdb
+copy 03d857367b0ef4da8e1c6d553ce95271 PhysLogger2.application
+copy 25a1b98cb8866cc4f676ea5c12d4078e PhysLogger2.exe
+copy 0db04bb250ced827cc41e7b37938214b PhysLogger2.exe.manifest
+copy f87bb7637f2a479a714b25c5487d8c54 PhysLogger2.pdb
 copy 19a81ced7c7f695fbbef5cdde4b75325 PhysLogger_DevelopersTools.exe
 copy e6032fabe1e9b361191d029c1cb0da1f PhysLogger_DevelopersTools.pdb
 copy 748c713922ba8a3e599b5123c372d574 WatchdogThread.exe
 copy e656d04373e29a2718afbb546e8b2ff1 WatchdogThread.exe.config
 copy 8efe09b97e8f096e8d5c069059a015be WatchdogThread.pdb
 Version = 10
-Whats New = Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
-Update Size = 5.39 MB
-Final Size = 93.76 MB
-Published on = 2021-Oct-26 03:32:54
-zip Hash = 05d5c7ca950d909dbebe44c05e0ff49c
-Zip Size = 1.84 MB
+Whats New = Minor bug fixes<$lb$>+ Added sound effects<$lb$>* Removed a bug from Heat and Cool template<$lb$>* Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
+Update Size = 5.91 MB
+Final Size = 94.28 MB
+Published on = 2021-Nov-04 11:09:13
+zip Hash = a1a0a38935f5e904c688fff3f597bf6e
+Zip Size = 2.18 MB
 Zip Parts = 1
