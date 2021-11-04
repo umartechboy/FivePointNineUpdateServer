@@ -14,9 +14,13 @@ copy 208fc0318f0e58676dded6317f9f0a1d sounds\default\mouse hover 1.wav
 copy ddf3dfabeff812c56a9ce40cdce565d6 sounds\default\mouse hover 2.wav
 copy bf7c7aa91b3ae0cdc035f39e4364db8c sounds\default\mouse hover 3.wav
 copy 7d0c83d5fd546656c77e32799a34512d sounds\default\mouse hover 4.wav
+copy 2e68aeb46e26a29ffe74cf97b94cbaf0 NAudio.dll
+copy 96bef96a17e495a0bd50e61b4de70ac7 NAudio.xml
 copy c392fb8d5ec6f854f906e30055ebe1c9 OggDecoder.dll
 copy cebfe157098995082112604ca8730110 OggDecoder.dll.config
 copy 5f970399239041158cbc57fd8bb67c10 OggDecoder.pdb
+copy 49e97490eab0a905f0c987d0a4763d00 OpenTK.dll
+copy 8a3c94fdac913528eea19186ec0b439c OpenTK.xml
 copy 03d857367b0ef4da8e1c6d553ce95271 PhysLogger2.application
 copy 25a1b98cb8866cc4f676ea5c12d4078e PhysLogger2.exe
 copy 0db04bb250ced827cc41e7b37938214b PhysLogger2.exe.manifest
@@ -28,9 +32,9 @@ copy e656d04373e29a2718afbb546e8b2ff1 WatchdogThread.exe.config
 copy 8efe09b97e8f096e8d5c069059a015be WatchdogThread.pdb
 Version = 10
 Whats New = Minor bug fixes<$lb$>+ Added sound effects<$lb$>* Removed a bug from Heat and Cool template<$lb$>* Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
-Update Size = 5.91 MB
-Final Size = 94.28 MB
-Published on = 2021-Nov-04 11:09:13
-zip Hash = a1a0a38935f5e904c688fff3f597bf6e
-Zip Size = 2.18 MB
+Update Size = 33 MB
+Final Size = 121.37 MB
+Published on = 2021-Nov-04 11:31:50
+zip Hash = b124c6878a63182350f3a39f9e44349e
+Zip Size = 4.69 MB
 Zip Parts = 1
