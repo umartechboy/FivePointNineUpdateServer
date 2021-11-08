@@ -2,8 +2,8 @@ rmfile 983d5fdfa558c48b4fa64469967875c1 visuals\strings.plf
 mkdir languages
 mkdir sounds
 mkdir sounds\default
-copy 945ea1d7d8a629fea044cb51faca4fb3 Hardware\PhysLoggerG2.bin
-copy 25186373a404133ab17d1b56c0165bd2 Hardware\PhysLoggerG2FT.bin
+copy c002ab5cf6e0e7f1a74378d87ec87916 Hardware\PhysLoggerG2.bin
+copy 0439d9b88bd6f029751dc8e8b1598b2c Hardware\PhysLoggerG2FT.bin
 copy f43b13bda0234e459c51bc44b6a59eb2 languages\default.plf
 copy be955337a53e86c3babfb8592ce140ea languages\Punjabi.plf
 copy fa422c698fb5abaaa325da756f9a5fa2 languages\SupportedLanguages.plf
@@ -19,15 +19,15 @@ copy 7d0c83d5fd546656c77e32799a34512d sounds\default\mouse hover 4.wav
 copy d41d8cd98f00b204e9800998ecf8427e .gitignore
 copy 2e68aeb46e26a29ffe74cf97b94cbaf0 NAudio.dll
 copy 96bef96a17e495a0bd50e61b4de70ac7 NAudio.xml
-copy c392fb8d5ec6f854f906e30055ebe1c9 OggDecoder.dll
+copy 7d792dd8528f5ec9f7b3094b9daadc96 OggDecoder.dll
 copy cebfe157098995082112604ca8730110 OggDecoder.dll.config
-copy 5f970399239041158cbc57fd8bb67c10 OggDecoder.pdb
+copy fa1386f44607a762ced0b12f42eed278 OggDecoder.pdb
 copy 49e97490eab0a905f0c987d0a4763d00 OpenTK.dll
 copy 8a3c94fdac913528eea19186ec0b439c OpenTK.xml
-copy 4e977192be3a75eac7e425e7d1501520 PhysLogger2.application
-copy 8b744fff80132fd1fec7fa096a60d8dd PhysLogger2.exe
-copy a3a3f154f0789fa5a8c41bc65332070f PhysLogger2.exe.manifest
-copy 78ff5ee0566ccf506eeb026204ee4f74 PhysLogger2.pdb
+copy 3f2d4d38328756c8e8280aca4ac5e507 PhysLogger2.application
+copy e8f81cab993c156f7e8137fad3675c4b PhysLogger2.exe
+copy 6d3bf28fb931c0225a8e5b136613f7be PhysLogger2.exe.manifest
+copy f60fcb29d6b74f4da6a4dca29153219d PhysLogger2.pdb
 copy 19a81ced7c7f695fbbef5cdde4b75325 PhysLogger_DevelopersTools.exe
 copy e6032fabe1e9b361191d029c1cb0da1f PhysLogger_DevelopersTools.pdb
 copy 748c713922ba8a3e599b5123c372d574 WatchdogThread.exe
@@ -37,7 +37,7 @@ Version = 10
 Whats New = Minor bug fixes<$lb$>+ Added sound effects<$lb$>* Removed a bug from Heat and Cool template<$lb$>* Fixed a bug in Presense wizard<$lb$>* Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
 Update Size = 33.15 MB
 Final Size = 121.52 MB
-Published on = 2021-Nov-08 11:34:41
-zip Hash = 549765ec2c7edccd40c9d129cfefc355
+Published on = 2021-Nov-08 01:57:06
+zip Hash = 3e8fc2ec9dc30da94953d44317e567e9
 Zip Size = 4.8 MB
 Zip Parts = 1
