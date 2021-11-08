@@ -1,7 +1,7 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2021-Nov-04 11:31:51
-Whats New = Minor bug fixes<$lb$>+ Added sound effects<$lb$>* Removed a bug from Heat and Cool template<$lb$>* Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
+Last Updated = 2021-Nov-08 10:24:05
+Whats New = Minor bug fixes<$lb$>+ Added sound effects<$lb$>* Removed a bug from Heat and Cool template<$lb$>* Fixed a bug in Presense wizard<$lb$>* Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
 Current Version = 10
 About = The first stable release of PhysLogger Desktop.<$lb$>
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
