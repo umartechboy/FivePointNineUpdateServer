@@ -1,4 +1,3 @@
 https://github.com/umartechboy/FivePointNineUpdateServer/tree/master/PhysLoggerDesktopGen2
 https://github.com/umartechboy/FivePointNineUpdateServer/tree/master/PhysMag
 https://github.com/umartechboy/FivePointNineUpdateServer/tree/master/ED%20Desktop
-https://github.com/umartechboy/FivePointNineUpdateServer/tree/master/PhysLoggerDesktop
