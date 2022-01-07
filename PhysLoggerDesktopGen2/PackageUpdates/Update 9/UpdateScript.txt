@@ -2,8 +2,16 @@ rmfile 983d5fdfa558c48b4fa64469967875c1 visuals\strings.plf
 mkdir languages
 mkdir sounds
 mkdir sounds\default
-copy c002ab5cf6e0e7f1a74378d87ec87916 Hardware\PhysLoggerG2.bin
-copy 0439d9b88bd6f029751dc8e8b1598b2c Hardware\PhysLoggerG2FT.bin
+mkdir visuals\default\cloud_live
+copy 317b1a80021e7505bd58ca941f7fb354 Hardware\avrdude\avrdude.conf
+copy 9112faed1f9a55642c28b43ece1555cc Hardware\maple\install_drivers.bat
+copy 01fd7c646a07ae9bab805fdefceabb34 Hardware\maple\install_drivers_Serial.bat
+copy f4e32ad9bf342dec70641da16fd38e0e Hardware\maple\install_STM_COM_drivers.bat
+copy e99dc3de55b8c84c4a4daf4e242c040d Hardware\PhysBar.hex
+copy 2bb8b61f674d93324205a8c7e12ab326 Hardware\PhysDisp.hex
+copy 0c1c7101b218d7e8b1fa008d1b42d789 Hardware\PhysHygro.hex
+copy dbd90639b0d67072ecb4689bbe0d3718 Hardware\PhysLoggerG2.bin
+copy dbd90639b0d67072ecb4689bbe0d3718 Hardware\PhysLoggerG2FT.bin
 copy f43b13bda0234e459c51bc44b6a59eb2 languages\default.plf
 copy be955337a53e86c3babfb8592ce140ea languages\Punjabi.plf
 copy fa422c698fb5abaaa325da756f9a5fa2 languages\SupportedLanguages.plf
@@ -16,28 +24,88 @@ copy 208fc0318f0e58676dded6317f9f0a1d sounds\default\mouse hover 1.wav
 copy ddf3dfabeff812c56a9ce40cdce565d6 sounds\default\mouse hover 2.wav
 copy bf7c7aa91b3ae0cdc035f39e4364db8c sounds\default\mouse hover 3.wav
 copy 7d0c83d5fd546656c77e32799a34512d sounds\default\mouse hover 4.wav
+copy eca7dc59b3c725c48d76d0ac64739c94 visuals\default\cloud_live\1.png
+copy f90ed69b547e2b6377841f1597e4c08e visuals\default\cloud_live\2.png
+copy cf99567e0033026aec843a17178ee64d visuals\default\cloud_live\animation_options.txt
+copy f304d99e8331e06f5a929b1b0918bd41 visuals\default\AddManualEntryButton.png
+copy eca7dc59b3c725c48d76d0ac64739c94 visuals\default\cloud_log.png
+copy f90ed69b547e2b6377841f1597e4c08e visuals\default\cloud_log_active.png
+copy 9fa1ab68a9e8ad8756518e67324e3f18 visuals\default\community icon.png
+copy 83f096763378f9f327dc73c542c99dfa visuals\default\d_icon_StepperMotorManagementQuantity.png
+copy 13891c1c60f17f9a0e7d774d9d3b2ebd visuals\default\Edit_24x24.png
+copy 7d2262212e8fc82e640d0426cb1afcf6 visuals\default\EraseTableEntry.png
+copy 0a26fbc6efecba56a47bd751bf2f47dc visuals\default\local icon.png
+copy c3f2a934f152da515d899af08453415c visuals\default\MakeTemplate_Community.png
+copy dc02a2e1d02bf6af4b262a656fe82075 visuals\default\MakeTemplate_Local.png
+copy d12a9aac7dcd1f79ec187df5797346fe visuals\default\MenuIcon_ManualDataTable.png
+copy 50dd20bda3f138c22586a6a201a59399 visuals\default\MenuIcon_ManualTextEntryWidget.png
+copy feef12056743a2cb7df825fdd935c4c6 visuals\default\MenuIcon_PhysCloud.png
+copy 30ea71cb92c66b53c8c0518555fab9a0 visuals\default\MenuIcon_XYJoyPad.png
+copy 2829fd445c66055f5c9e77feb8d4914f visuals\default\q_icon_exponent.png
+copy 135fb5fc786036a8ea5c7a9af6109b62 visuals\default\q_icon_LinearStageX.png
+copy 07d35087802949d86080f198f005ffad visuals\default\q_icon_LinearStageY.png
+copy 1fee979ff1933e6f46186dbd99a06d25 visuals\default\q_icon_ManualQuantityValue.png
+copy e20c289a7da2b0cc1c4f5b2c02903302 visuals\default\q_icon_Rotation_Displacement.png
+copy e80b885c855a7f5c6617efb6035edcb2 visuals\default\q_icon_Rotation_Speed.png
+copy e20c289a7da2b0cc1c4f5b2c02903302 visuals\default\q_icon_StepperMotorDisplacementQuantity.png
+copy e80b885c855a7f5c6617efb6035edcb2 visuals\default\q_icon_StepperMotorSpeedQuantity.png
+copy ea6a25cb92c93b13ae62a7fa30561f3e visuals\default\SetupTimedEntry.png
+copy 7074f3a13cd9d545513fca0ac5042ce5 visuals\default\TakeManualEntry.png
+copy 4835f20357b448579227d7388d25ace5 visuals\default\Template_Icon_1.png
+copy 48cbe205c34f06f2976c485a81e93705 visuals\default\Template_Icon_10.png
+copy 8443d52611823f71ea41efd7d9c414cc visuals\default\Template_Icon_11.png
+copy 9486567773ed7c267b8cffb99308fb21 visuals\default\Template_Icon_12.png
+copy 9f57c9dc508cbc73b1f74815a566ffe6 visuals\default\Template_Icon_2.png
+copy 730ac1836f1a479cd0ce9c37d7287b72 visuals\default\Template_Icon_3.png
+copy aff6042a5af5d776d31eb15061f23e35 visuals\default\Template_Icon_4.png
+copy 1d13c39b3587859c26f136d656891a3e visuals\default\Template_Icon_5.png
+copy b1373434a3231f4ca46e6133e614f2ec visuals\default\Template_Icon_6.png
+copy 825c9d6211f7deb5d9fc2df01c8b9279 visuals\default\Template_Icon_7.png
+copy a57bf777ef65448ebd7e179bd5083f5a visuals\default\Template_Icon_8.png
+copy 187963ff9d900e344a1d27d2bdc83e66 visuals\default\Template_Icon_9.png
+copy 5448f978c138db07c190fd6e39972d45 visuals\default\Template_Icon_Browse.png
+copy 394d390158d69282dcf8abcecafa6278 visuals\default\WifiActive.png
+copy 78d11f82c92140e2c3426ab8d33bc975 visuals\default\WifiInactive.png
+copy 46678d1653c2a6851155bd0b169195e5 visuals\default\wizardlistthumbnail_Rotation_Displacement.png
+copy 5a1273ede8a7883a03d8221eed61c81b visuals\default\wizardlistthumbnail_Rotation_Speed.png
+copy 971d76465a49cb72e834dd28247545a1 visuals\default\WizardMenuIcon_ConstantValue.png
+copy af62b7cc66e8cd483574e4ac98458fcf visuals\default\WizardMenuIcon_FunctionValue.png
+copy 2d292ffea3f89bd825e3e995ad51066b visuals\default\WizardMenuIcon_Rotation_Displacement.png
+copy 6b567e4d1bc25ef8f18ea61d41188937 visuals\default\WizardMenuIcon_Rotation_Speed.png
+copy da2644823a5864aee664f5724024f401 visuals\default\XYJoyPadSettings.png
+copy 8ba6e0f3d9c5eb07fdd9a933cb5d47df visuals\DefaultSplash.png
 copy d41d8cd98f00b204e9800998ecf8427e .gitignore
+copy dada0ba9aba34fe4df757768218a33c1 ArduinoSketchUploader.dll
+copy f514cb04b1f355cdc32131ffb077a45f ArduinoSketchUploader.dll.config
+copy 1c94762fce06599495b55a0a6314d989 ArduinoSketchUploader.pdb
+copy d1b2b582577e7db2b7f19513abcb0c8b ArduinoUploader.dll
+copy 72669830d906d20dafa4efe360f22e3e ArduinoUploader.pdb
+copy cd9520c35ee6651b5de5bcc4ccfe2126 CrashReport.plf
+copy 84a2431cbfd521cb16c36d1bc9f96039 DXVideoPlayer.exe
+copy e2d0148b3dbee1d26b071bc0d09b412e DXVideoPlayer.pdb
 copy 2e68aeb46e26a29ffe74cf97b94cbaf0 NAudio.dll
 copy 96bef96a17e495a0bd50e61b4de70ac7 NAudio.xml
-copy 7d792dd8528f5ec9f7b3094b9daadc96 OggDecoder.dll
+copy 4e3aaa48a3fe2d48ecee52015e1e9873 OggDecoder.dll
 copy cebfe157098995082112604ca8730110 OggDecoder.dll.config
-copy fa1386f44607a762ced0b12f42eed278 OggDecoder.pdb
+copy 90bb5d0833074a20d24fa059fa632b67 OggDecoder.pdb
 copy 49e97490eab0a905f0c987d0a4763d00 OpenTK.dll
 copy 8a3c94fdac913528eea19186ec0b439c OpenTK.xml
-copy 3f2d4d38328756c8e8280aca4ac5e507 PhysLogger2.application
-copy e8f81cab993c156f7e8137fad3675c4b PhysLogger2.exe
-copy 6d3bf28fb931c0225a8e5b136613f7be PhysLogger2.exe.manifest
-copy f60fcb29d6b74f4da6a4dca29153219d PhysLogger2.pdb
-copy 19a81ced7c7f695fbbef5cdde4b75325 PhysLogger_DevelopersTools.exe
-copy e6032fabe1e9b361191d029c1cb0da1f PhysLogger_DevelopersTools.pdb
+copy 84036162f658f7d0df58f74a12c3fb9c PackageManagerDLL.dll
+copy 45fbeb8735992bf170edd500db8d5ae9 PackageManagerDLL.pdb
+copy 15a010d31c73cd9c2aef1797833f6794 PhysLogger2.application
+copy 5a0ceba30799ad1f41bbd706768a4144 PhysLogger2.exe
+copy 2b550507b98a9dbdc2f64b97eb236e7f PhysLogger2.exe.manifest
+copy b11db8ff73458fd68dc42e014f89026e PhysLogger2.pdb
+copy cc3360bd8ed2c9dc78b328257d56a069 PhysLogger_DevelopersTools.exe
+copy a875e9a50ee59aff2efc37d580b111da PhysLogger_DevelopersTools.pdb
 copy 748c713922ba8a3e599b5123c372d574 WatchdogThread.exe
 copy e656d04373e29a2718afbb546e8b2ff1 WatchdogThread.exe.config
 copy 8efe09b97e8f096e8d5c069059a015be WatchdogThread.pdb
 Version = 10
-Whats New = Minor bug fixes<$lb$>+ Added sound effects<$lb$>* Removed a bug from Heat and Cool template<$lb$>* Fixed a bug in Presense wizard<$lb$>* Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
-Update Size = 33.15 MB
-Final Size = 121.52 MB
-Published on = 2021-Nov-08 01:57:06
-zip Hash = 3e8fc2ec9dc30da94953d44317e567e9
-Zip Size = 4.8 MB
+Whats New = Major Update:<$lb$>+ Added Linear Stage Controller Widget<$lb$>+ Added manual data tables widget<$lb$>* Improved the PhysCloud Widget<$lb$>+ Added user and community templates<$lb$>* Fixed a bug in crash reporting<$lb$>+ Added user controlled quantities<$lb$>+ Added open/save option for workspaces<$lb$>- Removed some glitches in function generator wizard<$lb$>+ Added partial support for PhysLogger Virtual<$lb$>- Minor bug fixes<$lb$>+ Added sound effects<$lb$>* Removed a bug from Heat and Cool template<$lb$>* Fixed a bug in Presense wizard<$lb$>* Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
+Update Size = 37.33 MB
+Final Size = 125.71 MB
+Published on = 2022-Jan-07 08:26:00
+zip Hash = e5a69b1efe4ce2c883fc3b30a2070f4c
+Zip Size = 6.69 MB
 Zip Parts = 1
