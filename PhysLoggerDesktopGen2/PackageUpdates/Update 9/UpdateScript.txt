@@ -48,6 +48,7 @@ copy 1fee979ff1933e6f46186dbd99a06d25 visuals\default\q_icon_ManualQuantityValue
 copy e20c289a7da2b0cc1c4f5b2c02903302 visuals\default\q_icon_Rotation_Displacement.png
 copy e80b885c855a7f5c6617efb6035edcb2 visuals\default\q_icon_Rotation_Speed.png
 copy e20c289a7da2b0cc1c4f5b2c02903302 visuals\default\q_icon_StepperMotorDisplacementQuantity.png
+copy 659f792763d89691bc59163038b95804 visuals\default\q_icon_StepperMotorManagementQuantity.png
 copy e80b885c855a7f5c6617efb6035edcb2 visuals\default\q_icon_StepperMotorSpeedQuantity.png
 copy ea6a25cb92c93b13ae62a7fa30561f3e visuals\default\SetupTimedEntry.png
 copy 7074f3a13cd9d545513fca0ac5042ce5 visuals\default\TakeManualEntry.png
@@ -92,20 +93,20 @@ copy 49e97490eab0a905f0c987d0a4763d00 OpenTK.dll
 copy 8a3c94fdac913528eea19186ec0b439c OpenTK.xml
 copy 84036162f658f7d0df58f74a12c3fb9c PackageManagerDLL.dll
 copy 45fbeb8735992bf170edd500db8d5ae9 PackageManagerDLL.pdb
-copy 15a010d31c73cd9c2aef1797833f6794 PhysLogger2.application
-copy 5a0ceba30799ad1f41bbd706768a4144 PhysLogger2.exe
-copy 2b550507b98a9dbdc2f64b97eb236e7f PhysLogger2.exe.manifest
-copy b11db8ff73458fd68dc42e014f89026e PhysLogger2.pdb
+copy 10f5f90b866cee48132b0da86e59d9c3 PhysLogger2.application
+copy 4f7757e1f75349d7872213aa3d07d0c5 PhysLogger2.exe
+copy bd7875598e1557ea4cd66214af74bcc3 PhysLogger2.exe.manifest
+copy cbb3106def12fbc92e190d15be895bf0 PhysLogger2.pdb
 copy cc3360bd8ed2c9dc78b328257d56a069 PhysLogger_DevelopersTools.exe
 copy a875e9a50ee59aff2efc37d580b111da PhysLogger_DevelopersTools.pdb
-copy 748c713922ba8a3e599b5123c372d574 WatchdogThread.exe
+copy 85cda242d93edabeff30e4772196961b WatchdogThread.exe
 copy e656d04373e29a2718afbb546e8b2ff1 WatchdogThread.exe.config
 copy 8efe09b97e8f096e8d5c069059a015be WatchdogThread.pdb
 Version = 10
 Whats New = Major Update:<$lb$>+ Added Linear Stage Controller Widget<$lb$>+ Added manual data tables widget<$lb$>* Improved the PhysCloud Widget<$lb$>+ Added user and community templates<$lb$>* Fixed a bug in crash reporting<$lb$>+ Added user controlled quantities<$lb$>+ Added open/save option for workspaces<$lb$>- Removed some glitches in function generator wizard<$lb$>+ Added partial support for PhysLogger Virtual<$lb$>- Minor bug fixes<$lb$>+ Added sound effects<$lb$>* Removed a bug from Heat and Cool template<$lb$>* Fixed a bug in Presense wizard<$lb$>* Minor bug fixes<$lb$>* Fixed a bug in save data on resumed sessions<$lb$>* Fixed clear plots that caused incomplete clear operation<$lb$>* Fixed .Net framework 4.7.2 required bug on app crash<$lb$>* Syns splash screens from the community server<$lb$>* Fixed a crash at startup update check<$lb$>- Removed a bug from the error reporting routine
-Update Size = 37.34 MB
-Final Size = 125.71 MB
-Published on = 2022-Jan-11 04:46:18
-zip Hash = feeb6f5c2841b2d271d54f002250f1b3
-Zip Size = 6.69 MB
+Update Size = 37.36 MB
+Final Size = 125.73 MB
+Published on = 2022-Jan-20 03:03:31
+zip Hash = ce83951eb98907ca745cb52a1b86ee61
+Zip Size = 6.7 MB
 Zip Parts = 1
