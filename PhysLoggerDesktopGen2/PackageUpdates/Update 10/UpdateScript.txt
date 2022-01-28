@@ -8,17 +8,17 @@ copy a8b72848b927a92e92970c362b0a4dfd visuals\default\workspace open icon.png
 copy 5487a6a029ada3e99b74f0422ddda19a visuals\default\workspace options icon.png
 copy 106e33c45baa6f5791a14703b34d648f visuals\default\workspace save icon.png
 copy fa44d26e9776717e0b592ddfc9f26bd1 visuals\default\workspace to template icon.png
-copy e4ec4fb8fbcba3048cbd46de88bb52a0 PhysLogger2.application
-copy a6301865d689e59bd90ce745f42837d4 PhysLogger2.exe
-copy 7eda8a85c830c2509acd2daa84128ea6 PhysLogger2.exe.manifest
-copy e82de4bffeaff22d45fa4ff17c7a29f8 PhysLogger2.pdb
+copy 24cbe6b1a3a5b05bd9e9c4de2c498dc8 PhysLogger2.application
+copy 9727c9b63844d271b0cb1bc1233b37c2 PhysLogger2.exe
+copy 4ec51cf32a8b744b8f55e10a3bef5670 PhysLogger2.exe.manifest
+copy beecaf3e46413c0830eb065b57895a12 PhysLogger2.pdb
 copy 067ddfaf5e6d31160ddba7b2fc91ce49 PhysLogger_DevelopersTools.exe
 copy ec0fde715099eccc256cf257ca84ebaa PhysLogger_DevelopersTools.pdb
 Version = 11
 Whats New = Important Update:<$lb$>+ Save/open/resume tempates improved<$lb$>+ Quantity title in data saver<$lb$>+ Screen shot crash fix<$lb$>* Nasir's exploit fix<$lb$>+ Notifications on screenshots and data files.<$lb$>+ Live Value and Remove all option added in manual data entry table<$lb$>* Better crash handling<$lb$>+ Template icon browse for image option
 Update Size = 5.95 MB
 Final Size = 125.56 MB
-Published on = 2022-Jan-28 08:53:18
-zip Hash = 86817bc702a13a4974be6fbc82e73be2
+Published on = 2022-Jan-28 08:58:29
+zip Hash = 6c548d3acb9dd32519024f476254ccf0
 Zip Size = 1.99 MB
 Zip Parts = 1
