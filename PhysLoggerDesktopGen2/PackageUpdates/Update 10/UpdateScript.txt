@@ -8,17 +8,18 @@ copy a8b72848b927a92e92970c362b0a4dfd visuals\default\workspace open icon.png
 copy 5487a6a029ada3e99b74f0422ddda19a visuals\default\workspace options icon.png
 copy 106e33c45baa6f5791a14703b34d648f visuals\default\workspace save icon.png
 copy fa44d26e9776717e0b592ddfc9f26bd1 visuals\default\workspace to template icon.png
-copy 24cbe6b1a3a5b05bd9e9c4de2c498dc8 PhysLogger2.application
-copy 9727c9b63844d271b0cb1bc1233b37c2 PhysLogger2.exe
-copy 4ec51cf32a8b744b8f55e10a3bef5670 PhysLogger2.exe.manifest
-copy beecaf3e46413c0830eb065b57895a12 PhysLogger2.pdb
+copy 6ddf38148f80b7bec7a6cebf022bbeef PhysLogger2.application
+copy ede6632ff6fd848f199e891207b5cebf PhysLogger2.exe
+copy a38997c32105f287780319115acf8a0a PhysLogger2.exe.manifest
+copy e5c203db1821e9d9c71337607824ab09 PhysLogger2.pdb
 copy 067ddfaf5e6d31160ddba7b2fc91ce49 PhysLogger_DevelopersTools.exe
 copy ec0fde715099eccc256cf257ca84ebaa PhysLogger_DevelopersTools.pdb
+copy 748c713922ba8a3e599b5123c372d574 WatchdogThread.exe
 Version = 11
 Whats New = Important Update:<$lb$>+ Save/open/resume tempates improved<$lb$>+ Quantity title in data saver<$lb$>+ Screen shot crash fix<$lb$>* Nasir's exploit fix<$lb$>+ Notifications on screenshots and data files.<$lb$>+ Live Value and Remove all option added in manual data entry table<$lb$>* Better crash handling<$lb$>+ Template icon browse for image option
-Update Size = 5.95 MB
-Final Size = 125.56 MB
-Published on = 2022-Jan-28 08:58:29
-zip Hash = 6c548d3acb9dd32519024f476254ccf0
-Zip Size = 1.99 MB
+Update Size = 6.15 MB
+Final Size = 125.75 MB
+Published on = 2022-Jan-30 02:13:11
+zip Hash = 9541ad6a14616da2f82a253182029402
+Zip Size = 2.11 MB
 Zip Parts = 1
