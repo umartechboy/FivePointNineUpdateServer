@@ -1,0 +1,15 @@
+copy d6c53557a46054a0c7d046d09ae66ce4 visuals\default\colors.plf
+copy 2707ee0671cbd965c65c10a02f4e7f6e PhysLogger2.application
+copy a44221771c21fd09fe3cddf90cc80de2 PhysLogger2.exe
+copy dfc5d68d08b6cf0be98f822110093ba1 PhysLogger2.exe.manifest
+copy f18fc44b6bd933133c902093aa08fd6c PhysLogger2.pdb
+copy 067ddfaf5e6d31160ddba7b2fc91ce49 PhysLogger_DevelopersTools.exe
+copy ec0fde715099eccc256cf257ca84ebaa PhysLogger_DevelopersTools.pdb
+Version = 12
+Whats New = Minor bug fixes
+Update Size = 5.92 MB
+Final Size = 119.82 MB
+Published on = 2022-Feb-06 11:33:16
+zip Hash = 75567e93fcd6bd65ff04d7fcfc4cff94
+Zip Size = 1.92 MB
+Zip Parts = 1
