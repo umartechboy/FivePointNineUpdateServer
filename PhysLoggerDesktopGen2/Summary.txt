@@ -1,6 +1,6 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2022-Feb-07 12:10:58
+Last Updated = 2022-Feb-07 12:35:04
 Whats New = Minor bug fixes
 Current Version = 12
 About = The first stable release of PhysLogger Desktop.<$lb$>

@@ -1,17 +1,17 @@
 copy d6c53557a46054a0c7d046d09ae66ce4 visuals\default\colors.plf
 copy 2707ee0671cbd965c65c10a02f4e7f6e PhysLogger2.application
-copy a44221771c21fd09fe3cddf90cc80de2 PhysLogger2.exe
+copy f16ac03a7c0762b3e73615eb3a2e85cf PhysLogger2.exe
 copy dfc5d68d08b6cf0be98f822110093ba1 PhysLogger2.exe.manifest
 copy f18fc44b6bd933133c902093aa08fd6c PhysLogger2.pdb
 copy 067ddfaf5e6d31160ddba7b2fc91ce49 PhysLogger_DevelopersTools.exe
 copy ec0fde715099eccc256cf257ca84ebaa PhysLogger_DevelopersTools.pdb
-copy 85cda242d93edabeff30e4772196961b WatchdogThread.exe
+copy 748c713922ba8a3e599b5123c372d574 WatchdogThread.exe
 copy 8efe09b97e8f096e8d5c069059a015be WatchdogThread.pdb
 Version = 12
 Whats New = Minor bug fixes
 Update Size = 6.13 MB
 Final Size = 119.82 MB
-Published on = 2022-Feb-07 12:10:57
-zip Hash = 62527ca9a64e12959f3ad5ed5f48979d
+Published on = 2022-Feb-07 12:35:03
+zip Hash = 6bf84e5a270916063d77e2bcf78c6906
 Zip Size = 2.04 MB
 Zip Parts = 1
