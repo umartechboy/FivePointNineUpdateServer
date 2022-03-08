@@ -1,0 +1,20 @@
+mkdir quantities\PhysCompass
+copy 04fbac3715e2c6bee91f1bc9e83d911b quantities\PhysCompass\d_icon_PhysCompass.png
+copy 3a7e9114b46c38d0f4066b9a9ceefae9 quantities\PhysCompass\qdef.plf
+copy cd08bcfe620dcfec0ef6febce0fe9ded quantities\PhysCompass\q_icon_PhysCompass.png
+copy cd08bcfe620dcfec0ef6febce0fe9ded quantities\PhysCompass\WizardListThumbnail_PhysCompass.png
+copy 8042513e9f0d12dc14e988199776dadb quantities\PhysCompass\WizardMenuIcon_PhysCompass.png
+copy 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe
+copy 6dc14c1b9b0a7c6a4e27700df0a639d5 PhysLogger2.application
+copy 26804df77a8ef0549c7fb6adcbaceea7 PhysLogger2.exe
+copy ca709e5d54d633dfb35c09ba2da447f1 PhysLogger2.exe.manifest
+copy f4fc4aac26b00930f322ca4130cb6992 PhysLogger2.pdb
+execute Installation Any admin 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe OpenAL Needed<$s$>for<$s$>in-app<$s$>sound<$s$>effects False
+Version = 13
+Whats New = Directory write permission fix<$lb$>Save data formatting fixed<$lb$>Save data name fixed<$lb$>More crash diagnostics data<$lb$>Minor bug fixes<$lb$>Packed V18 Firmware<$lb$>Backwards compatible, better handling of malfunctioning PhysInstruments (Firmware dependant)<$lb$>Added OpenAl installer
+Update Size = 6.4 MB
+Final Size = 120.72 MB
+Published on = 2022-Mar-08 04:49:51
+zip Hash = 8ef9b3dcdea36c6b3a63cbc75e209151
+Zip Size = 2.49 MB
+Zip Parts = 1
