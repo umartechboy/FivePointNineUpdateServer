@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2022-Mar-11 06:46:18
-Whats New = - Manual Data Table crash on clear fix<$lb$>* Better visual performance with more accurate positioning<$lb$>* SMC editor screen overflow fix<$lb$>+ quick widget sources added in dependency editor.<$lb$>* Save data icons mess up fix
+Last Updated = 2022-Mar-11 07:11:51
+Whats New = - Manual Data Table crash on clear fix<$lb$>* Better visual performance with more accurate positioning<$lb$>* SMC editor screen overflow fix<$lb$>+ quick widget sources added in dependency editor.<$lb$>* Save data icons mess up fix<$lb$>* Auto update check wrong version fix
 Current Version = 14
 About = The first stable release of PhysLogger Desktop.<$lb$>
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
-Update Size= 5.55 MB
-Final Size = 120.75 MB
+Update Size= 7.41 MB
+Final Size = 120.76 MB
 Default Exe = PhysLogger2.exe
 Zip Parts = 1
