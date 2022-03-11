@@ -1,0 +1,12 @@
+copy fa1660d099623a6c38dc407cf91988f2 PhysLogger2.application
+copy 0b0f23afd773e65f5549a45f463f4156 PhysLogger2.exe
+copy 090da8cb928b383f30f0c8693c89309b PhysLogger2.exe.manifest
+copy 8704073de63ea5dcb64bf245888ff03e PhysLogger2.pdb
+Version = 14
+Whats New = - Manual Data Table crash on clear fix<$lb$>* Better visual performance with more accurate positioning<$lb$>* SMC editor screen overflow fix<$lb$>+ quick widget sources added in dependency editor.<$lb$>* Save data icons mess up fix
+Update Size = 5.55 MB
+Final Size = 120.75 MB
+Published on = 2022-Mar-11 06:46:18
+zip Hash = d633f46ebb8f05a03fe69feb911acdac
+Zip Size = 1.83 MB
+Zip Parts = 1
