@@ -1,0 +1,12 @@
+copy 7a18352f490f2aa5c181e4335eab0f03 PhysLogger2.application
+copy b30bb6c719983735a2e50232cecf1a28 PhysLogger2.exe
+copy 147bc1ce10c252b284f67d70e8b28140 PhysLogger2.exe.manifest
+copy b3f3fdce1e94139a87116668da026164 PhysLogger2.pdb
+Version = 15
+Whats New = - Manual Data Table crash (2) on clear fix<$lb$>+ Added tool tips for the canvas items
+Update Size = 5.57 MB
+Final Size = 120.78 MB
+Published on = 2022-Mar-17 05:39:53
+zip Hash = f6f2430d96ddbd07a23879823a493a75
+Zip Size = 1.84 MB
+Zip Parts = 1
