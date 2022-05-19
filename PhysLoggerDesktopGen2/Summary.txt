@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop
 Company = Qosain Scientific
-Last Updated = 2022-Mar-17 05:39:54
-Whats New = - Manual Data Table crash (2) on clear fix<$lb$>+ Added tool tips for the canvas items
-Current Version = 15
+Last Updated = 2022-May-19 04:36:07
+Whats New = + Added manual fix for "Wrong dg version" glitch. Use "eep test" in console
+Current Version = 16
 About = The first stable release of PhysLogger Desktop.<$lb$>
 App ID = 69B76D45803D69ED746D9CA7ED43AF53
-Update Size= 5.57 MB
-Final Size = 120.78 MB
+Update Size= 5.58 MB
+Final Size = 120.79 MB
 Default Exe = PhysLogger2.exe
 Zip Parts = 1

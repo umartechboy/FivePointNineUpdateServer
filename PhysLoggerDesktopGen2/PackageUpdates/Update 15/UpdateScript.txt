@@ -1,0 +1,12 @@
+copy cbacce808946c7af14a6d1ab42b84f9f PhysLogger2.application
+copy fad19184ff9c8bfd2d3adb93e5b3daac PhysLogger2.exe
+copy bd22cd05fc4bc280e58b406e4667ddc0 PhysLogger2.exe.manifest
+copy aee7d82dab0f82f1f6742b6c83c49c13 PhysLogger2.pdb
+Version = 16
+Whats New = + Added manual fix for "Wrong dg version" glitch. Use "eep test" in console
+Update Size = 5.58 MB
+Final Size = 120.79 MB
+Published on = 2022-May-19 04:36:06
+zip Hash = 77564451652ce3ada05dfaeccd0a94ac
+Zip Size = 1.85 MB
+Zip Parts = 1
