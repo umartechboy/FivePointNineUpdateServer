@@ -1,12 +1,16 @@
-copy cbacce808946c7af14a6d1ab42b84f9f PhysLogger2.application
-copy fad19184ff9c8bfd2d3adb93e5b3daac PhysLogger2.exe
-copy bd22cd05fc4bc280e58b406e4667ddc0 PhysLogger2.exe.manifest
-copy aee7d82dab0f82f1f6742b6c83c49c13 PhysLogger2.pdb
+copy 31f3b8390ab638ccefeacfd71df014f5 PhysLogger2.application
+copy e2647115c347b1c2ac5dc235ff12bc07 PhysLogger2.exe
+copy 3c5da4b6bdf785d19951018126c59ace PhysLogger2.exe.manifest
+copy 55fb15c9538f8de5ab1250bcab311a68 PhysLogger2.pdb
+copy d8c961a720e69a8037cba2d5cfa34f01 PhysLogger_DevelopersTools.exe
+copy 14e6b1af1039cd0ca76cfd0c6accc108 PhysLogger_DevelopersTools.pdb
+copy 45a3a231c7c1e3220c3cff5e8ebb87ea WatchdogThread.exe
+copy 7258be5e756d720907625c6d653ec6eb WatchdogThread.pdb
 Version = 16
-Whats New = + Added manual fix for "Wrong dg version" glitch. Use "eep test" in console
-Update Size = 5.58 MB
-Final Size = 120.79 MB
-Published on = 2022-May-19 04:36:06
-zip Hash = 77564451652ce3ada05dfaeccd0a94ac
-Zip Size = 1.85 MB
+Whats New = + Added manual fix for "Wrong dg version" glitch. Use "eep test" in console<$lb$>* Corrected the Line: 377 Notimplemented glitch on JoyPad
+Update Size = 6.2 MB
+Final Size = 120.78 MB
+Published on = 2022-Oct-17 03:57:07
+zip Hash = da380f0c0bc9b90909604ceb5b8adc3b
+Zip Size = 2.07 MB
 Zip Parts = 1
