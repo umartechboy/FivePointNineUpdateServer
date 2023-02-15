@@ -1,2 +1,2 @@
 Link = https://raw.githubusercontent.com/umartechboy/FivePointNineUpdateServer/master/PackageManager/Package%20Manager.exe
-Latest Version = 14
+Latest Version = 15
