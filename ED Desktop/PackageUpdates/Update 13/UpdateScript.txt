@@ -1,17 +1,17 @@
 rmfile 1eb1762ca95e2f6e6ab924dc17bcb558 Icon.png
 copy 8613f584c34081213b8cd94da3b6a309 programMode.txt
-copy 0a0fbf96f410c6085e9599aeca8016f9 QosainESSDesktop.exe
-copy 2bd206cb8709fc6723ea2d4a9a527eb2 QosainESSDesktop.pdb
+copy 19d4d5f7d590d5fff35707b19db44a43 QosainESSDesktop.exe
+copy 762c58570d342542afb3edd0828fef13 QosainESSDesktop.pdb
 copy abdb4fc78d0b153747b9aa5e9fffccc7 RJCP.SerialPortStream.dll
 copy 2996ea1d1de6824270e1c11bbafb0746 RJCP.SerialPortStream.pdb
 copy 10c95181e42622759f005871f8734cb3 RJCP.SerialPortStream.xml
-copy 44ef8d9fff44b8714e472a58c0e6bde9 textBoxTexts.txt
+copy 708c5daba996166a14542da1c2345c7e textBoxTexts.txt
 copy db913baa2f4c99c0fb20faad78489681 textBoxTexts_defaults.txt
 Version = 14
-Whats New = CAUTION: Do not update on ESS versions prior to HBY30<$lb$>* Continuous temperature update<$lb$>+ Support for ESS HBY30.<$lb$>* Better connectivity<$lb$>* Lots of bugs fixed<$lb$>+ Added Modes for HBY30 and HRY30<$lb$>+ Temperature control<$lb$>+ "None" mode
-Update Size = 1.94 MB
-Final Size = 16.16 MB
-Published on = 2023-Feb-24 12:21:33
-zip Hash = a6b558bf00be8e4ac15231a19efedd11
-Zip Size = 0.46 MB
+Whats New = CAUTION: Do not update on ESS versions prior to HBY30<$lb$>+ Addedheater and cylinder range checks<$lb$>* Continuous temperature update<$lb$>+ Support for ESS HBY30.<$lb$>* Better connectivity<$lb$>* Lots of bugs fixed<$lb$>+ Added Modes for HBY30 and HRY30<$lb$>+ Temperature control<$lb$>+ "None" mode
+Update Size = 1.95 MB
+Final Size = 16.17 MB
+Published on = 2023-Feb-25 12:56:41
+zip Hash = fec8b6b3377fc2956e89d4461089d4c0
+Zip Size = 0.47 MB
 Zip Parts = 1
