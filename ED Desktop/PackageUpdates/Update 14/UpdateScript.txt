@@ -1,0 +1,14 @@
+rmfile 1eb1762ca95e2f6e6ab924dc17bcb558 Icon.png
+copy bdb435f4ddca46e70b43673a334acec2 programMode.txt
+copy e973bfac71a0a79320d883f70e6b34f7 QosainESSDesktop.exe
+copy d0b9ddcef348999e0cac436406842ec6 QosainESSDesktop.pdb
+copy f435eab28647ed2e41fdc741ad645910 textBoxTexts.txt
+copy db913baa2f4c99c0fb20faad78489681 textBoxTexts_defaults.txt
+Version = 15
+Whats New = CAUTION: Do not update on ESS versions prior to HBY30<$lb$>+ Addedheater and cylinder range checks<$lb$>* Continuous temperature update<$lb$>+ Support for ESS HBY30.<$lb$>* Better connectivity<$lb$>* Lots of bugs fixed<$lb$>+ Added Modes for HBY30 and HRY30<$lb$>+ Temperature control<$lb$>+ "None" mode
+Update Size = 0.45 MB
+Final Size = 16.17 MB
+Published on = 2023-May-12 05:44:38
+zip Hash = a9421af8e1db97457f048001e099e5cc
+Zip Size = 0.17 MB
+Zip Parts = 1

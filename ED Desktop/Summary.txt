@@ -1,11 +1,11 @@
 Application Title = Qosain ESS Desktop
 Company = Qosain Scientific
-Last Updated = 2023-Feb-25 12:56:42
+Last Updated = 2023-May-12 05:44:38
 Whats New = CAUTION: Do not update on ESS versions prior to HBY30<$lb$>+ Addedheater and cylinder range checks<$lb$>* Continuous temperature update<$lb$>+ Support for ESS HBY30.<$lb$>* Better connectivity<$lb$>* Lots of bugs fixed<$lb$>+ Added Modes for HBY30 and HRY30<$lb$>+ Temperature control<$lb$>+ "None" mode
-Current Version = 14
+Current Version = 15
 About = Qosain Electrospinning and Electrospraying machines require this application for the user interface.
 App ID = 1B7F20E58E148B6CE52413533ACCC630
-Update Size= 1.95 MB
+Update Size= 0.45 MB
 Final Size = 16.17 MB
 Default Exe = QosainESSDesktop.exe
 Zip Parts = 1
