@@ -4,7 +4,6 @@
 Qosain Package Manger is a data installation and update management service that provides tools for both developers and users to easily get the latest updates using a GitHub cloud as well as offline packages.
 
 # Downloads #
-~~[Download and install Qosain Package Manager (Windows Installer)](https://raw.githubusercontent.com/umartechboy/FivePointNineUpdateServer/master/PackageManager/setup.exe " Download Qosain Package Manager now")~~
 
 [Download and run Qosain Package Manager (Windows Binary)](https://raw.githubusercontent.com/umartechboy/FivePointNineUpdateServer/master/PackageManager/Package%20Manager.exe " Download Qosain Package Manager now")
 
