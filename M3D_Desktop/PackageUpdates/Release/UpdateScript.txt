@@ -1,0 +1,240 @@
+mkdir languages
+mkdir redist
+mkdir runtimes
+mkdir runtimes\osx
+mkdir runtimes\osx\native
+mkdir runtimes\win
+mkdir runtimes\win\lib
+mkdir runtimes\win\lib\net6.0
+mkdir runtimes\win-arm64
+mkdir runtimes\win-arm64\native
+mkdir runtimes\win-x64
+mkdir runtimes\win-x64\native
+mkdir runtimes\win-x86
+mkdir runtimes\win-x86\native
+mkdir sounds
+mkdir sounds\default
+mkdir visuals
+mkdir visuals\dark
+mkdir visuals\default
+mkdir visuals\default\spinner big
+mkdir visuals\default\spinner small
+copy 111698a1f70964b723e6482521cdaedd languages\default.plf
+copy a623a46091b8f20d167e4181fc3451ce languages\Punjabi.plf
+copy fa422c698fb5abaaa325da756f9a5fa2 languages\SupportedLanguages.plf
+copy a1cd6a64e8f8ad5d4b6c07dc4113c7ec redist\nircmd.exe
+copy a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe
+copy b30b00ca7fada02592b0b1e25aba3873 runtimes\osx\native\libHarfBuzzSharp.dylib
+copy b3cafd4e70ecf056dd6ff74996a3bf1c runtimes\osx\native\libSkiaSharp.dylib
+copy 86e139d290234bb43917cd5ca8c1944c runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+copy 02991bc8ebfd556c5eb06276b849d273 runtimes\win\lib\net6.0\System.Drawing.Common.dll
+copy cd4bc0795ce5d04efc0a7644d8ff6159 runtimes\win\lib\net6.0\System.Management.dll
+copy b3c1f4574d9d5bafbd6c71360f327fe0 runtimes\win-arm64\native\libHarfBuzzSharp.dll
+copy 28e6df7eb187790ccb110ae1beee6c7c runtimes\win-arm64\native\libSkiaSharp.dll
+copy eaa6c0d42c8967d86a39808806c49869 runtimes\win-x64\native\libHarfBuzzSharp.dll
+copy 70d45a6d44b56f1be6a3146f5f3b32f2 runtimes\win-x64\native\libSkiaSharp.dll
+copy 34e122f4d80aa0ebea519b1ed077a98d runtimes\win-x86\native\libHarfBuzzSharp.dll
+copy 19bf278d367828df1322034e3d394b2a runtimes\win-x86\native\libSkiaSharp.dll
+copy a16ed09d0a38b604a3f2d4d30048eec5 sounds\default\message box error.wav
+copy 3ea789aa56d3ffa6eb4cd32b0efeb3c8 sounds\default\message box inform.wav
+copy 338f7f31bfbdd3b91e66aac094598ded sounds\default\message box normal.wav
+copy 77919142c96417667b28e4e76c05001d sounds\default\message box question.wav
+copy ce92f806d545fbd912e4176aca5fb058 sounds\default\mouse click 1.wav
+copy 0a182e0ab01f974a4607f3d266e690a3 sounds\default\mouse hover 1.wav
+copy a45eb0260ab402b5db07d131a4b57471 sounds\default\mouse hover 2.wav
+copy 149b57431ce0dec4f830b58d759bc252 sounds\default\mouse hover 3.wav
+copy e2ccaaeca3f522b8ef2b839e7430342a sounds\default\mouse hover 4.wav
+copy 75c89c0887131c0f1c707dd32e0cd273 visuals\dark\colors.plf
+copy ba4793fdd780930ecd34350f865be312 visuals\default\spinner big\animation_options.txt
+copy 4b5dfe890390d3ef96499dde00907b98 visuals\default\spinner big\Spinner-1s-200px-00.jpg
+copy fe121286301102392260c444f612aace visuals\default\spinner big\Spinner-1s-200px-01.jpg
+copy f25dbca4820fc690dda9b4fc30ed9891 visuals\default\spinner big\Spinner-1s-200px-02.jpg
+copy 9e2f24faaacb99181e3bda5435363840 visuals\default\spinner big\Spinner-1s-200px-03.jpg
+copy e5f576a19974bb3846ffc4981e9ea01e visuals\default\spinner big\Spinner-1s-200px-04.jpg
+copy 1ade759888b53ae2c72730bbdb0826c9 visuals\default\spinner big\Spinner-1s-200px-05.jpg
+copy e2eafb325ea7a3e3280a5b591c38e56b visuals\default\spinner big\Spinner-1s-200px-06.jpg
+copy 221b5d054fcb80b2e6971c608b914ba1 visuals\default\spinner big\Spinner-1s-200px-07.jpg
+copy 05cf978e0c231328adaf7792242a735b visuals\default\spinner big\Spinner-1s-200px-08.jpg
+copy f10b45c33a1ed628e08d0c2e6b58e275 visuals\default\spinner big\Spinner-1s-200px-09.jpg
+copy bb28bc8b5ed1d7d16a3477fd11919fa0 visuals\default\spinner big\Spinner-1s-200px-10.jpg
+copy 209e0835c10113fec8c6cc54920dadd2 visuals\default\spinner big\Spinner-1s-200px-11.jpg
+copy 4a71742bdde9d18b7344136d08736532 visuals\default\spinner big\Spinner-1s-200px-12.jpg
+copy 15d11ede79bff56911d8d0dac6bbe754 visuals\default\spinner big\Spinner-1s-200px-13.jpg
+copy 3a52f5f611a8e86cca063a6a72a5916b visuals\default\spinner big\Spinner-1s-200px-14.jpg
+copy 2862b6abdfd0d484310ce463dc9c523a visuals\default\spinner big\Spinner-1s-200px-15.jpg
+copy 5aa04970954f413423f9ff9feb7375af visuals\default\spinner big\Spinner-1s-200px-16.jpg
+copy 56cb8412c634020ac4e4dce8dd84b82a visuals\default\spinner big\Spinner-1s-200px-17.jpg
+copy 48a57d258ab1900c34976e58409386c8 visuals\default\spinner big\Spinner-1s-200px-18.jpg
+copy 9112b8a0a1bc53e16d0770d1bf20ec1d visuals\default\spinner big\Spinner-1s-200px-19.jpg
+copy 450eab439f27a7bf360c6c0c8e43a73e visuals\default\spinner big\Spinner-1s-200px-20.jpg
+copy d1dff74ca867fd0c16cb6a882b6515ee visuals\default\spinner big\Spinner-1s-200px-21.jpg
+copy aec15615b7141a70a6b5fe406fdf0a1c visuals\default\spinner big\Spinner-1s-200px-22.jpg
+copy 37b0a5a9cc3281627af46a22d82ff788 visuals\default\spinner big\Spinner-1s-200px-23.jpg
+copy e5f0281ca53f6fd67a618ae7885bad8d visuals\default\spinner big\Spinner-1s-200px-24.jpg
+copy d852b704a8bc4924ebddc8fa84783c97 visuals\default\spinner big\Spinner-1s-200px-25.jpg
+copy b48c314dd06fa9f3d4cb10b80a91ab65 visuals\default\spinner big\Spinner-1s-200px-26.jpg
+copy 83ee31d858c124d57eb765c8dda9c879 visuals\default\spinner big\Spinner-1s-200px-27.jpg
+copy 70da65c7e22abb453c7779ae246074fe visuals\default\spinner big\Spinner-1s-200px-28.jpg
+copy 4dd46f2e54a571d4ac78e5d9ceb1e174 visuals\default\spinner big\Spinner-1s-200px-29.jpg
+copy 4b5dfe890390d3ef96499dde00907b98 visuals\default\spinner big\Spinner-1s-200px-30.jpg
+copy ba4793fdd780930ecd34350f865be312 visuals\default\spinner small\animation_options.txt
+copy e74f8645d276a4f0b2b3cbe8a4ad9191 visuals\default\spinner small\Spinner-1s-200px-01.jpg
+copy 94e603919769c594f2edcfbca173988d visuals\default\spinner small\Spinner-1s-200px-02.jpg
+copy bfa268020ab7db305d2794a84d2b403b visuals\default\spinner small\Spinner-1s-200px-03.jpg
+copy 48530dc55ce1ec8fa8ac27452cd0d3da visuals\default\spinner small\Spinner-1s-200px-04.jpg
+copy 07b10e4032a58093ae4bfbdcbcc317d0 visuals\default\spinner small\Spinner-1s-200px-05.jpg
+copy 1aae5758e7e71486ecc75f3cb68f5dab visuals\default\spinner small\Spinner-1s-200px-06.jpg
+copy 126ac4141a702ea231e48129f5c7ad6a visuals\default\spinner small\Spinner-1s-200px-07.jpg
+copy f2708cf4d63f0de3803b837d80f85b27 visuals\default\spinner small\Spinner-1s-200px-08.jpg
+copy 629961bafbe98f3d6a789ed425f40203 visuals\default\spinner small\Spinner-1s-200px-09.jpg
+copy c92a5248756abbf3c95c9ba89190c73a visuals\default\spinner small\Spinner-1s-200px-10.jpg
+copy 11ab0407e9f898ad15af22a28d626300 visuals\default\spinner small\Spinner-1s-200px-11.jpg
+copy daaeb6cccdeb050acc495c0a6e707f4b visuals\default\spinner small\Spinner-1s-200px-12.jpg
+copy 82ee8274e11ea2962f820f490ad8f973 visuals\default\spinner small\Spinner-1s-200px-13.jpg
+copy 413f65f5424faa3a2ff1f991594e61b1 visuals\default\spinner small\Spinner-1s-200px-14.jpg
+copy a8a1a682a2ee00e76b33668262fa5366 visuals\default\spinner small\Spinner-1s-200px-15.jpg
+copy c4ed594d707b067b1fd5fffe0c900ed1 visuals\default\spinner small\Spinner-1s-200px-16.jpg
+copy fbe4c0cf719cb831707be1e97ac63491 visuals\default\spinner small\Spinner-1s-200px-17.jpg
+copy d5e2415df1cc810ced275edaccc6338b visuals\default\spinner small\Spinner-1s-200px-18.jpg
+copy 9116ff7490dd482437b11baba7e02a18 visuals\default\spinner small\Spinner-1s-200px-19.jpg
+copy 0795dc5a9c73d04663ade99849498f47 visuals\default\spinner small\Spinner-1s-200px-20.jpg
+copy 41f204c94c7a47cced1765c01ceded6d visuals\default\spinner small\Spinner-1s-200px-21.jpg
+copy b70c808040b0a3ad8fbf1362c98611e2 visuals\default\spinner small\Spinner-1s-200px-22.jpg
+copy 35943c1c29fc32deb4f14fbab0518add visuals\default\spinner small\Spinner-1s-200px-23.jpg
+copy 087a47a2f8c141b70f10cea31d2755b2 visuals\default\spinner small\Spinner-1s-200px-24.jpg
+copy 89bb93e6c8f424086b98af95c942f68c visuals\default\spinner small\Spinner-1s-200px-25.jpg
+copy 6044e5be59097678fe6561e97737d268 visuals\default\spinner small\Spinner-1s-200px-26.jpg
+copy 168b86bfde0827505b298a2e112b23f8 visuals\default\spinner small\Spinner-1s-200px-27.jpg
+copy e2c20e897d910e9f2cfbf159c2d78097 visuals\default\spinner small\Spinner-1s-200px-28.jpg
+copy faaa235407485d737f9ad045a4176230 visuals\default\spinner small\Spinner-1s-200px-29.jpg
+copy 09a875922a1d9b550fc34a8de0578bdb visuals\default\spinner small\Spinner-1s-200px-30.jpg
+copy 0bcb49599b3478c330e0128052203c94 visuals\default\AddBelow - Copy.png
+copy 0bcb49599b3478c330e0128052203c94 visuals\default\AddBelow.png
+copy f304d99e8331e06f5a929b1b0918bd41 visuals\default\AddManualEntryButton.png
+copy 89de38898a9f1f0e4ce0aee849e81818 visuals\default\bottomlimit.png
+copy 8090dd2bb7bceb56caddb3dc4d45b89a visuals\default\close icon.png
+copy e678f29063411164f1510729d3d8306d visuals\default\cloudconfig.png
+copy da432e2b4a52b6e67883f6cfb9a2cfbc visuals\default\colors.plf
+copy 9fa1ab68a9e8ad8756518e67324e3f18 visuals\default\community icon.png
+copy dc72faee8ba12c71d67a463ea3337f1f visuals\default\ContextMenuStripChecked.png
+copy b4f8f1a913c196418b33126da2bae401 visuals\default\ContextMenuStripUnchecked.png
+copy 5ffe9a24e4876f27290d52a65091f506 visuals\default\delete.png
+copy c8f1de08772b5cdf31822d3e1a58f85f visuals\default\di_selected.png
+copy 21d2d2bf0625164e6952faa66a65d4b2 visuals\default\DownLimitWarning_Light.png
+copy cf7c42023b8d913efe69da9b1fe5c376 visuals\default\edge_icon_both.png
+copy cf7c42023b8d913efe69da9b1fe5c376 visuals\default\edge_icon_falling.png
+copy cf7c42023b8d913efe69da9b1fe5c376 visuals\default\edge_icon_rising.png
+copy 13891c1c60f17f9a0e7d774d9d3b2ebd visuals\default\Edit_24x24.png
+copy 9bd0eb048559b5b4e89ed7c2b2d740b2 visuals\default\EnablerD7500Alive.png
+copy 30cb703bf0394298f6e932e6c838c287 visuals\default\EnablerD7500Dead.png
+copy ddc0676603e5950d9a6c84ddc5e59a39 visuals\default\EnablerD7500Warning.png
+copy 7d2262212e8fc82e640d0426cb1afcf6 visuals\default\EraseTableEntry.png
+copy 20a256f7c71ac1d410dc7777f9687dd8 visuals\default\Explore.png
+copy cde72e20d6119f927e3b46c6b049f9e2 visuals\default\horizontalAveraging.png
+copy 7ece03cb53d2cc77ac33dfa2de6c4cd9 visuals\default\horizontal_slider_preview.png
+copy 39a6c2a14d19a4a959f8bbff68f4e975 visuals\default\leftlimit.png
+copy f52dcf448cfd3315741287ccda3b720f visuals\default\LeftLimitWarning_Light.png
+copy 0a26fbc6efecba56a47bd751bf2f47dc visuals\default\local icon.png
+copy 7ce911cd17c909fd93cd3140c2f82b33 visuals\default\MainMenuIcon_ChangeFilament.png
+copy 30dd5f67a43cf8f0145eb6ed998cec1a visuals\default\MainMenuIcon_Connect.png
+copy fbd0ab4fbe65af9f1732bbfa5001d53f visuals\default\MainMenuIcon_Console.png
+copy e7b16f05763b0c63e9979a3afca8e71c visuals\default\MainMenuIcon_Controls.png
+copy 4cbba50a96ee80e56247d8c6b8002b0a visuals\default\MainMenuIcon_Installations.png
+copy 7500d30e87a6abda470f618922e8bdbf visuals\default\MainMenuIcon_LevelBed.png
+copy 2cc0b0ac1a172cb59844356e5a3c035d visuals\default\MainMenuIcon_Links.png
+copy 07bac42911eb26fb9d3349ddf15c114d visuals\default\MainMenuIcon_ResumePrint.png
+copy 5b0d96394337894b1a56979c05da3b8f visuals\default\MainMenuIcon__3DPen.png
+copy 81fa4c71d90f546d6220525584b11d0b visuals\default\ManageSession.png
+copy a80917b70e8863074d5f404eaa6a85a5 visuals\default\merge_plots.png
+copy b0949148a48c1897f770d381447a79f8 visuals\default\minimize icon.png
+copy 54ad332e59c5bb60282b8dc900b6542a visuals\default\notification error.png
+copy 08d1a5aaf445e3f568621f77cd4b58e0 visuals\default\notification ok.png
+copy d9d9e67341f6c8deab14cb23688a12ac visuals\default\notification warning.png
+copy 63c4769cd823be420fcc34253ad435c5 visuals\default\NozzleJustTouching.png
+copy 99180e88f6e831a5f2657fa2781fec21 visuals\default\NozzleTooHigh.png
+copy 90086e754e60d84ada105501ffb1d3a1 visuals\default\NozzleTooLow.png
+copy b54e69cb5384f4a1226c5065e49dcef3 visuals\default\NullAxisHomeIcon.png
+copy 33ac055ad9a97a8ec2360d2ed10dda82 visuals\default\PrinterWithSpool.png
+copy 762fe3d2612a84386be0114fba8f40d1 visuals\default\rightlimit.png
+copy a48ab1c455f602c56f488f67db3d42c4 visuals\default\RightLimitWarning_Light.png
+copy 62ac831049bc283a3dc136f3dd7224fc visuals\default\SaveIcon.png
+copy 02cd827f4fafc2b01245f93ee0608877 visuals\default\SaveSession.png
+copy 9ad08273e377f9e98ccafbe577f48088 visuals\default\ScanBus.png
+copy 29957dabff8dcea164c38a35e4a56acf visuals\default\screenshot.png
+copy 44968179bc000ad8edb85966fff61aa4 visuals\default\settings icon.png
+copy ea6a25cb92c93b13ae62a7fa30561f3e visuals\default\SetupTimedEntry.png
+copy edefd501590787833a38b540c39185ac visuals\default\simple_gauge.png
+copy a708b3539f7699a458cb979e164d9dc6 visuals\default\simple_gauge_needlering.png
+copy f9dbf987ec4b520f45cb7eea3fc6534b visuals\default\split_plots.png
+copy 217edefad33cbc6ad8603e7d076cd89e visuals\default\toplimit.png
+copy f4901e46e2e620a875d512ac38ed92f4 visuals\default\UpLimitWarning_Light.png
+copy b592d2be997adc55f54542b6ce87772b visuals\default\warning_60.png
+copy 394d390158d69282dcf8abcecafa6278 visuals\default\WifiActive.png
+copy 78d11f82c92140e2c3426ab8d33bc975 visuals\default\WifiInactive.png
+copy b7330351abebba57a9fd28652a2341f6 visuals\default\XAxisHomeIcon.png
+copy da2644823a5864aee664f5724024f401 visuals\default\XYJoyPadSettings.png
+copy 5d2d222e41186b567cf6862ab2f45db3 visuals\default\XYZAxisHomeIcon.png
+copy 11da44534e436b1fdf046fc15ddddc68 visuals\default\YAxisHomeIcon.png
+copy 3047dd800bce462ad7ecfe3ad9174719 visuals\default\ZAxisHomeIcon.png
+copy 8ba6e0f3d9c5eb07fdd9a933cb5d47df visuals\DefaultSplash.png
+copy 50460d5afaff080fb2a5b7727a6c1769 ArduinoSketchUploader_DNC.dll
+copy 4eab0aa65f76c648956f1f76a247d0c7 ArduinoSketchUploader_DNC.pdb
+copy e183466a0727d879f697fba213c92781 ArduinoUploader_DNC.dll
+copy 606debb3f50abb1054ff0c0a7e939255 ArduinoUploader_DNC.pdb
+copy 3654f4e4c0858a9388c383b1225b8384 CommandLine.dll
+copy b2843d5b3c673f7ce0fba6a0585262df CSharpMath.dll
+copy 5941d97e036cbca355b896416b7967b8 CSharpMath.Editor.dll
+copy 9893d4d7e0ca24eba8bdbbe5bdd9e139 CSharpMath.Rendering.dll
+copy 68ee3fc2c7749677f80f89282d97735e CSharpMath.SkiaSharp.dll
+copy 07e7309385ecf524978a5c90ad8ad672 FolderDialog.Bll.dll
+copy 75561dc2e2ce17f2957d5cde35e052dc FolderDialog.Bll.pdb
+copy 732d3c46d42abd44fd5555fe9c3ae29f glfw.dll
+copy 18cb5a6cd5ba015b1844467c74fa605f GLFW.NET.dll
+copy 512430493616907278cfe670d12e165b HarfBuzzSharp.dll
+copy b8135a11f2062daef9019ce1eb1efa8e IntelHexFormatReader.dll
+copy 7ec66ca9ee51b24b02e772eac7656129 JetBrains.Annotations.dll
+copy a72063584e86fac3bec288ae7610b218 M3DDesktop.deps.json
+copy 33ce28b1141319bf349ecc883b3b1bcf M3DDesktop.dll
+copy fbadf5fb3746f159900181860648e770 M3DDesktop.exe
+copy a6a138366243acc7f3b758b6710a0856 M3DDesktop.pdb
+copy accb867d1022208b6244a1504ad61c6e M3DDesktop.runtimeconfig.json
+copy c707848e9804131a6d445751b4717cc1 MathNet.Numerics.dll
+copy 00ab0f02b1114c57c758f5ad595224f1 Microsoft.DotNet.PlatformAbstractions.dll
+copy b0b997723e8a50f98f8ee30975338117 Microsoft.Extensions.DependencyModel.dll
+copy b061bd1c73fcaee092af498a85680fa3 Microsoft.Extensions.Logging.Abstractions.dll
+copy 79d6c2a9de95fd50eda86bdcdea58698 Microsoft.Win32.SystemEvents.dll
+copy 5685936422ef1258bf75429d1ba13422 PerfCopy.dll
+copy dd3c3da9ab1ce0867151c1f734db2116 PhysLogger2_DNC.deps.json
+copy 9b9fdafaee75551cf63e0459f4634f8f PhysLogger2_DNC.dll
+copy 13f76f55d49af4b782c16412a18210cc PhysLogger2_DNC.exe
+copy 0137dd194875d3d5723e0dab47628d58 PhysLogger2_DNC.pdb
+copy accb867d1022208b6244a1504ad61c6e PhysLogger2_DNC.runtimeconfig.json
+copy d144a10b998ab3e95cb77387d1e29859 RingByteBuffer.dll
+copy 16fc975c24acb946bdcf3d639bcf296a RJCP.SerialPortStream.dll
+copy 038618ae72912b10608483ba064f4849 Silk.NET.Core.dll
+copy dfb4f25e8135423ce0e8ecb1e852dbe1 Silk.NET.OpenAL.dll
+copy ed17ceb7b96274d0aeee54e9b65a3ca4 SkiaSharp.dll
+copy fbb71f5df4618aaf050ba5dd99b6be24 SkiaSharp.HarfBuzz.dll
+copy 3fdd615a61bb5ea5fafe6ca22d567527 Splash.png
+copy 34f6f6df02024f033c0d9cecc9e19f5e System.CodeDom.dll
+copy be22da1cad42253f0c6e21b74ddc69d9 System.Drawing.Common.dll
+copy ba2736cc6b998ee77730f03f221dfb4e System.Management.dll
+copy 7a5e858d3ff03f420a99c26b3cbb2c3b System.Windows.Forms.dll
+execute Installation Any admin a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe .Net<$s$>6.0<$s$>Runtime Needed<$s$>to<$s$>run<$s$>the<$s$>application False
+execute Default Any user fbadf5fb3746f159900181860648e770 M3DDesktop.exe M3D<$s$>Desktop <$s$> True
+execute Open Any user URL https://markhor3d.com/ <$s$> <$s$> False
+dshortcut fbadf5fb3746f159900181860648e770 M3D<$s$>Desktop M3DDesktop.exe
+Version = 1
+Whats New = First release<$lb$>+ Raw Controls<$lb$>+ Bed Leveling<$lb$>> More coming soon
+Update Size = 123.38 MB
+Final Size = 123.38 MB
+Published on = 2023-Jun-28 06:49:13
+zip Hash = 98d4eb408c531f7f48c9ca7b81e9fc9d
+Zip Size = 15.04 MB
+z01 size = 23 MB
+z01 Hash = 6e30ac30ee220e77879ebebbaac0a9f6
+z02 size = 23 MB
+z02 Hash = bc3ae3a66833f71c7eca89888a246c30
+z03 size = 23 MB
+z03 Hash = 87e319548a6685571f4118ef6b03cbb9
+Zip Parts = 4
