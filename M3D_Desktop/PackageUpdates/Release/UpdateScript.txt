@@ -132,6 +132,7 @@ copy 7d2262212e8fc82e640d0426cb1afcf6 visuals\default\EraseTableEntry.png
 copy 20a256f7c71ac1d410dc7777f9687dd8 visuals\default\Explore.png
 copy cde72e20d6119f927e3b46c6b049f9e2 visuals\default\horizontalAveraging.png
 copy 7ece03cb53d2cc77ac33dfa2de6c4cd9 visuals\default\horizontal_slider_preview.png
+copy 2bdd1ea621fb1e60b0473ad2f6a3d334 visuals\default\Icon.png
 copy 39a6c2a14d19a4a959f8bbff68f4e975 visuals\default\leftlimit.png
 copy f52dcf448cfd3315741287ccda3b720f visuals\default\LeftLimitWarning_Light.png
 copy 0a26fbc6efecba56a47bd751bf2f47dc visuals\default\local icon.png
@@ -193,10 +194,10 @@ copy 18cb5a6cd5ba015b1844467c74fa605f GLFW.NET.dll
 copy 512430493616907278cfe670d12e165b HarfBuzzSharp.dll
 copy b8135a11f2062daef9019ce1eb1efa8e IntelHexFormatReader.dll
 copy 7ec66ca9ee51b24b02e772eac7656129 JetBrains.Annotations.dll
-copy a72063584e86fac3bec288ae7610b218 M3DDesktop.deps.json
-copy 33ce28b1141319bf349ecc883b3b1bcf M3DDesktop.dll
+copy 5d7c57e4581240279495651e7872be16 M3DDesktop.deps.json
+copy b5aee84ba0697c061e5ee23b3b889eb2 M3DDesktop.dll
 copy fbadf5fb3746f159900181860648e770 M3DDesktop.exe
-copy a6a138366243acc7f3b758b6710a0856 M3DDesktop.pdb
+copy 468f4ff2d11bdd34963843f9cc145c50 M3DDesktop.pdb
 copy accb867d1022208b6244a1504ad61c6e M3DDesktop.runtimeconfig.json
 copy c707848e9804131a6d445751b4717cc1 MathNet.Numerics.dll
 copy 00ab0f02b1114c57c758f5ad595224f1 Microsoft.DotNet.PlatformAbstractions.dll
@@ -204,10 +205,10 @@ copy b0b997723e8a50f98f8ee30975338117 Microsoft.Extensions.DependencyModel.dll
 copy b061bd1c73fcaee092af498a85680fa3 Microsoft.Extensions.Logging.Abstractions.dll
 copy 79d6c2a9de95fd50eda86bdcdea58698 Microsoft.Win32.SystemEvents.dll
 copy 5685936422ef1258bf75429d1ba13422 PerfCopy.dll
-copy dd3c3da9ab1ce0867151c1f734db2116 PhysLogger2_DNC.deps.json
-copy 9b9fdafaee75551cf63e0459f4634f8f PhysLogger2_DNC.dll
+copy d92a26d5099259aa31640f6c5bb2f89d PhysLogger2_DNC.deps.json
+copy cd65580b460ca442ffa420402a9d78d9 PhysLogger2_DNC.dll
 copy 13f76f55d49af4b782c16412a18210cc PhysLogger2_DNC.exe
-copy 0137dd194875d3d5723e0dab47628d58 PhysLogger2_DNC.pdb
+copy 6532007cf550f1ae7e7541b1c10524e1 PhysLogger2_DNC.pdb
 copy accb867d1022208b6244a1504ad61c6e PhysLogger2_DNC.runtimeconfig.json
 copy d144a10b998ab3e95cb77387d1e29859 RingByteBuffer.dll
 copy 16fc975c24acb946bdcf3d639bcf296a RJCP.SerialPortStream.dll
@@ -220,21 +221,20 @@ copy 34f6f6df02024f033c0d9cecc9e19f5e System.CodeDom.dll
 copy be22da1cad42253f0c6e21b74ddc69d9 System.Drawing.Common.dll
 copy ba2736cc6b998ee77730f03f221dfb4e System.Management.dll
 copy 7a5e858d3ff03f420a99c26b3cbb2c3b System.Windows.Forms.dll
-execute Installation Any admin a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe .Net<$s$>6.0<$s$>Runtime Needed<$s$>to<$s$>run<$s$>the<$s$>application False
+execute Installation Any admin a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe .Net<$s$>6.0 Needed<$s$>to<$s$>run<$s$>the<$s$>application False
+execute Open Any user URL www.markhor3d.com <$s$> <$s$> False
 execute Default Any user fbadf5fb3746f159900181860648e770 M3DDesktop.exe M3D<$s$>Desktop <$s$> True
-execute Open Any user URL https://markhor3d.com/ <$s$> <$s$> False
-dshortcut fbadf5fb3746f159900181860648e770 M3D<$s$>Desktop M3DDesktop.exe
 Version = 1
 Whats New = First release<$lb$>+ Raw Controls<$lb$>+ Bed Leveling<$lb$>> More coming soon
-Update Size = 123.38 MB
-Final Size = 123.38 MB
-Published on = 2023-Jun-28 06:49:13
-zip Hash = 98d4eb408c531f7f48c9ca7b81e9fc9d
-Zip Size = 15.04 MB
+Update Size = 123.44 MB
+Final Size = 123.44 MB
+Published on = 2023-Jul-04 04:51:14
+zip Hash = 35e431b25a913f3b62870ed0b4a9913c
+Zip Size = 15.1 MB
 z01 size = 23 MB
-z01 Hash = 6e30ac30ee220e77879ebebbaac0a9f6
+z01 Hash = 6b53704d04a2c87917105131ebb9f873
 z02 size = 23 MB
 z02 Hash = bc3ae3a66833f71c7eca89888a246c30
 z03 size = 23 MB
-z03 Hash = 87e319548a6685571f4118ef6b03cbb9
+z03 Hash = a03487fdfd24335a734692fcda58e23c
 Zip Parts = 4
