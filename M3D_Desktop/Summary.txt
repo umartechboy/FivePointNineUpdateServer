@@ -1,11 +1,11 @@
 Application Title = M3D Desktop
 Company = Markhor3D
-Last Updated = 2023-Aug-14 07:29:40
+Last Updated = 2023-Aug-14 07:52:51
 Whats New = First release<$lb$>+ Raw Controls<$lb$>+ Bed Leveling<$lb$>> More coming soon
 Current Version = 1
 About = Utility to manage M3D Enabler series 3D printers
 App ID = E670F7326D0B6C3A444E89262256868E
-Update Size= 124.22 MB
-Final Size = 124.22 MB
+Update Size= 123.93 MB
+Final Size = 123.93 MB
 Default Exe = M3DDesktop.exe
 Zip Parts = 4

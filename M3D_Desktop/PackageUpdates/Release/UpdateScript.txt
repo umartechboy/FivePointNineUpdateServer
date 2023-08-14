@@ -58,11 +58,15 @@ copy fa422c698fb5abaaa325da756f9a5fa2 languages\SupportedLanguages.plf
 copy a1cd6a64e8f8ad5d4b6c07dc4113c7ec redist\nircmd.exe
 copy 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe
 copy a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe
+copy acd19086e2b5f44cb5518f9a46eee9c5 runtimes\linux-arm\native\libSystem.IO.Ports.Native.so
+copy 6010d4af0251e03fbc220b538e373f15 runtimes\linux-arm64\native\libSystem.IO.Ports.Native.so
+copy 2752b6847553cf11f29a1013eddcb377 runtimes\linux-x64\native\libSystem.IO.Ports.Native.so
 copy b30b00ca7fada02592b0b1e25aba3873 runtimes\osx\native\libHarfBuzzSharp.dylib
 copy b3cafd4e70ecf056dd6ff74996a3bf1c runtimes\osx\native\libSkiaSharp.dylib
-copy 86e139d290234bb43917cd5ca8c1944c runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-copy 02991bc8ebfd556c5eb06276b849d273 runtimes\win\lib\net6.0\System.Drawing.Common.dll
-copy cd4bc0795ce5d04efc0a7644d8ff6159 runtimes\win\lib\net6.0\System.Management.dll
+copy c0feca4c2b95da8ea6889811d07a18b2 runtimes\osx-arm64\native\libSystem.IO.Ports.Native.dylib
+copy b1a539ffc7241b6979956b1bba2b1763 runtimes\osx-x64\native\libSystem.IO.Ports.Native.dylib
+copy 198b91981c275c9307be0aab525bd163 runtimes\unix\lib\net6.0\System.IO.Ports.dll
+copy 594ec0bc751f50bda16b8fc1e1c995f9 runtimes\win\lib\net6.0\System.IO.Ports.dll
 copy b3c1f4574d9d5bafbd6c71360f327fe0 runtimes\win-arm64\native\libHarfBuzzSharp.dll
 copy 28e6df7eb187790ccb110ae1beee6c7c runtimes\win-arm64\native\libSkiaSharp.dll
 copy eaa6c0d42c8967d86a39808806c49869 runtimes\win-x64\native\libHarfBuzzSharp.dll
@@ -229,7 +233,7 @@ copy 512430493616907278cfe670d12e165b HarfBuzzSharp.dll
 copy b8135a11f2062daef9019ce1eb1efa8e IntelHexFormatReader.dll
 copy 7ec66ca9ee51b24b02e772eac7656129 JetBrains.Annotations.dll
 copy 5d7c57e4581240279495651e7872be16 M3DDesktop.deps.json
-copy b5aee84ba0697c061e5ee23b3b889eb2 M3DDesktop.dll
+copy 401b35690d9052fc2402dfddd9251e56 M3DDesktop.dll
 copy fbadf5fb3746f159900181860648e770 M3DDesktop.exe
 copy 28553dce84c6f0b652878d32a687a285 M3DDesktop.pdb
 copy accb867d1022208b6244a1504ad61c6e M3DDesktop.runtimeconfig.json
@@ -240,7 +244,7 @@ copy b061bd1c73fcaee092af498a85680fa3 Microsoft.Extensions.Logging.Abstractions.
 copy 79d6c2a9de95fd50eda86bdcdea58698 Microsoft.Win32.SystemEvents.dll
 copy 5685936422ef1258bf75429d1ba13422 PerfCopy.dll
 copy d92a26d5099259aa31640f6c5bb2f89d PhysLogger2_DNC.deps.json
-copy cd65580b460ca442ffa420402a9d78d9 PhysLogger2_DNC.dll
+copy a6be1cd461be420b9255901882fbc9f3 PhysLogger2_DNC.dll
 copy 13f76f55d49af4b782c16412a18210cc PhysLogger2_DNC.exe
 copy 8899ea2fd30fa6ccd3b3b886c2d422fc PhysLogger2_DNC.pdb
 copy accb867d1022208b6244a1504ad61c6e PhysLogger2_DNC.runtimeconfig.json
@@ -253,24 +257,25 @@ copy fbb71f5df4618aaf050ba5dd99b6be24 SkiaSharp.HarfBuzz.dll
 copy 3fdd615a61bb5ea5fafe6ca22d567527 Splash.png
 copy 34f6f6df02024f033c0d9cecc9e19f5e System.CodeDom.dll
 copy be22da1cad42253f0c6e21b74ddc69d9 System.Drawing.Common.dll
+copy 6c3a1d75ac27afd28f6c52057c2c7f8a System.IO.Ports.dll
 copy ba2736cc6b998ee77730f03f221dfb4e System.Management.dll
 copy 7a5e858d3ff03f420a99c26b3cbb2c3b System.Windows.Forms.dll
 dshortcut fbadf5fb3746f159900181860648e770 M3D<$s$>Desktop M3DDesktop.exe
-execute Installation Any admin a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe Microsoft<$s$>Windows<$s$>Desktop<$s$>Runtime Microsoft<$s$>DotNet<$s$>Runtime<$s$>6<$s$>is<$s$>required<$s$>to<$s$>run<$s$>this<$s$>app<$s$>and<$s$>will<$s$>be<$s$>installed False
-execute Installation Any admin 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe OpenAL OpenAL<$s$>will<$s$>be<$s$>installed<$s$>to<$s$>play<$s$>in-app<$s$>sounds False
+execute Installation Any admin a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe Microsoft<$s$>Windows<$s$>Desktop<$s$>Runtime Microsoft<$s$>DotNet<$s$>runtime<$s$>will<$s$>be<$s$>installed<$s$>to<$s$>run<$s$>M3D<$s$>Desktop False
+execute Installation Any admin 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe OpenAL OpenAL<$s$>library<$s$>will<$s$>be<$s$>installed<$s$>to<$s$>run<$s$>sounds<$s$>in<$s$>the<$s$>app False
 execute Default Any user fbadf5fb3746f159900181860648e770 M3DDesktop.exe M3D<$s$>Desktop <$s$> True
 execute Open Any user URL https://www.markhor3d.com/m3d-desktop <$s$> <$s$> False
 Version = 1
 Whats New = First release<$lb$>+ Raw Controls<$lb$>+ Bed Leveling<$lb$>> More coming soon
-Update Size = 124.22 MB
-Final Size = 124.22 MB
-Published on = 2023-Aug-14 07:29:31
-zip Hash = d55d204049666e2fbc77163c3a384e3f
-Zip Size = 15.66 MB
+Update Size = 123.93 MB
+Final Size = 123.93 MB
+Published on = 2023-Aug-14 07:52:42
+zip Hash = 47c717add9e5d76b54fefaa0289bd184
+Zip Size = 15.47 MB
 z01 size = 23 MB
-z01 Hash = f011670d73bd8311f7371e6b692f8610
+z01 Hash = 96b720e8205406dc7f3ce44dd03065fd
 z02 size = 23 MB
 z02 Hash = 7bf3a94645f9b00d3872aaa05a128c72
 z03 size = 23 MB
-z03 Hash = f5910e3d5f83832a8c72e970862b4d0b
+z03 Hash = a15f515a1362c5812352dca78dcbc82f
 Zip Parts = 4
