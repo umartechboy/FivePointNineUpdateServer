@@ -264,7 +264,7 @@ dshortcut fbadf5fb3746f159900181860648e770 M3D<$s$>Desktop M3DDesktop.exe
 execute Installation Any admin a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe Microsoft<$s$>Windows<$s$>Desktop<$s$>Runtime Microsoft<$s$>DotNet<$s$>runtime<$s$>will<$s$>be<$s$>installed<$s$>to<$s$>run<$s$>M3D<$s$>Desktop False
 execute Installation Any admin 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe OpenAL OpenAL<$s$>library<$s$>will<$s$>be<$s$>installed<$s$>to<$s$>run<$s$>sounds<$s$>in<$s$>the<$s$>app False
 execute Default Any user fbadf5fb3746f159900181860648e770 M3DDesktop.exe M3D<$s$>Desktop <$s$> True
-execute Open Any user URL https://www.markhor3d.com/m3d-desktop <$s$> <$s$> False
+execute Open Any user URL https://www.markhor3d.com/blogs/tutorials/m3d-desktop <$s$> <$s$> False
 Version = 1
 Whats New = First release<$lb$>+ Raw Controls<$lb$>+ Bed Leveling<$lb$>> More coming soon
 Update Size = 123.93 MB
