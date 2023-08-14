@@ -1,8 +1,21 @@
 mkdir languages
 mkdir redist
 mkdir runtimes
+mkdir runtimes\linux-arm
+mkdir runtimes\linux-arm\native
+mkdir runtimes\linux-arm64
+mkdir runtimes\linux-arm64\native
+mkdir runtimes\linux-x64
+mkdir runtimes\linux-x64\native
 mkdir runtimes\osx
 mkdir runtimes\osx\native
+mkdir runtimes\osx-arm64
+mkdir runtimes\osx-arm64\native
+mkdir runtimes\osx-x64
+mkdir runtimes\osx-x64\native
+mkdir runtimes\unix
+mkdir runtimes\unix\lib
+mkdir runtimes\unix\lib\net6.0
 mkdir runtimes\win
 mkdir runtimes\win\lib
 mkdir runtimes\win\lib\net6.0
@@ -17,12 +30,33 @@ mkdir sounds\default
 mkdir visuals
 mkdir visuals\dark
 mkdir visuals\default
+mkdir visuals\default\72ppi
+mkdir visuals\default\cloud_live
+mkdir visuals\default\connect a logger
+mkdir visuals\default\control animation
+mkdir visuals\default\input channel selector
+mkdir visuals\default\live plots scroll anim 0
+mkdir visuals\default\live plots scroll anim 1
+mkdir visuals\default\live plots scroll anim 2
+mkdir visuals\default\live plots scroll anim 3
+mkdir visuals\default\liveplots preview
+mkdir visuals\default\measure animation
+mkdir visuals\default\MenuIcon_Latch_Detail
+mkdir visuals\default\output channel selector
+mkdir visuals\default\PhysWatt_Channel_Selected
+mkdir visuals\default\record_live
+mkdir visuals\default\resume animation
 mkdir visuals\default\spinner big
 mkdir visuals\default\spinner small
+mkdir visuals\default\Template_Brochure_Empty
+mkdir visuals\default\Template_Brochure_LivePlot
+mkdir visuals\default\Template_Brochure_Physcl
+mkdir visuals\default\Template_Brochure_Physcloud
 copy 111698a1f70964b723e6482521cdaedd languages\default.plf
 copy a623a46091b8f20d167e4181fc3451ce languages\Punjabi.plf
 copy fa422c698fb5abaaa325da756f9a5fa2 languages\SupportedLanguages.plf
 copy a1cd6a64e8f8ad5d4b6c07dc4113c7ec redist\nircmd.exe
+copy 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe
 copy a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe
 copy b30b00ca7fada02592b0b1e25aba3873 runtimes\osx\native\libHarfBuzzSharp.dylib
 copy b3cafd4e70ecf056dd6ff74996a3bf1c runtimes\osx\native\libSkiaSharp.dylib
@@ -197,7 +231,7 @@ copy 7ec66ca9ee51b24b02e772eac7656129 JetBrains.Annotations.dll
 copy 5d7c57e4581240279495651e7872be16 M3DDesktop.deps.json
 copy b5aee84ba0697c061e5ee23b3b889eb2 M3DDesktop.dll
 copy fbadf5fb3746f159900181860648e770 M3DDesktop.exe
-copy 468f4ff2d11bdd34963843f9cc145c50 M3DDesktop.pdb
+copy 28553dce84c6f0b652878d32a687a285 M3DDesktop.pdb
 copy accb867d1022208b6244a1504ad61c6e M3DDesktop.runtimeconfig.json
 copy c707848e9804131a6d445751b4717cc1 MathNet.Numerics.dll
 copy 00ab0f02b1114c57c758f5ad595224f1 Microsoft.DotNet.PlatformAbstractions.dll
@@ -208,7 +242,7 @@ copy 5685936422ef1258bf75429d1ba13422 PerfCopy.dll
 copy d92a26d5099259aa31640f6c5bb2f89d PhysLogger2_DNC.deps.json
 copy cd65580b460ca442ffa420402a9d78d9 PhysLogger2_DNC.dll
 copy 13f76f55d49af4b782c16412a18210cc PhysLogger2_DNC.exe
-copy 6532007cf550f1ae7e7541b1c10524e1 PhysLogger2_DNC.pdb
+copy 8899ea2fd30fa6ccd3b3b886c2d422fc PhysLogger2_DNC.pdb
 copy accb867d1022208b6244a1504ad61c6e PhysLogger2_DNC.runtimeconfig.json
 copy d144a10b998ab3e95cb77387d1e29859 RingByteBuffer.dll
 copy 16fc975c24acb946bdcf3d639bcf296a RJCP.SerialPortStream.dll
@@ -221,20 +255,22 @@ copy 34f6f6df02024f033c0d9cecc9e19f5e System.CodeDom.dll
 copy be22da1cad42253f0c6e21b74ddc69d9 System.Drawing.Common.dll
 copy ba2736cc6b998ee77730f03f221dfb4e System.Management.dll
 copy 7a5e858d3ff03f420a99c26b3cbb2c3b System.Windows.Forms.dll
-execute Installation Any admin a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe .Net<$s$>6.0 Needed<$s$>to<$s$>run<$s$>the<$s$>application False
-execute Open Any user URL www.markhor3d.com <$s$> <$s$> False
+dshortcut fbadf5fb3746f159900181860648e770 M3D<$s$>Desktop M3DDesktop.exe
+execute Installation Any admin a9c3fb5a551ea4bdfc9b4fbd48afa943 redist\windowsdesktop-runtime-6.0.19-win-x64.exe Microsoft<$s$>Windows<$s$>Desktop<$s$>Runtime Microsoft<$s$>DotNet<$s$>Runtime<$s$>6<$s$>is<$s$>required<$s$>to<$s$>run<$s$>this<$s$>app<$s$>and<$s$>will<$s$>be<$s$>installed False
+execute Installation Any admin 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe OpenAL OpenAL<$s$>will<$s$>be<$s$>installed<$s$>to<$s$>play<$s$>in-app<$s$>sounds False
 execute Default Any user fbadf5fb3746f159900181860648e770 M3DDesktop.exe M3D<$s$>Desktop <$s$> True
+execute Open Any user URL https://www.markhor3d.com/m3d-desktop <$s$> <$s$> False
 Version = 1
 Whats New = First release<$lb$>+ Raw Controls<$lb$>+ Bed Leveling<$lb$>> More coming soon
-Update Size = 123.44 MB
-Final Size = 123.44 MB
-Published on = 2023-Jul-04 04:51:14
-zip Hash = 35e431b25a913f3b62870ed0b4a9913c
-Zip Size = 15.1 MB
+Update Size = 124.22 MB
+Final Size = 124.22 MB
+Published on = 2023-Aug-14 07:29:31
+zip Hash = d55d204049666e2fbc77163c3a384e3f
+Zip Size = 15.66 MB
 z01 size = 23 MB
-z01 Hash = 6b53704d04a2c87917105131ebb9f873
+z01 Hash = f011670d73bd8311f7371e6b692f8610
 z02 size = 23 MB
-z02 Hash = bc3ae3a66833f71c7eca89888a246c30
+z02 Hash = 7bf3a94645f9b00d3872aaa05a128c72
 z03 size = 23 MB
-z03 Hash = a03487fdfd24335a734692fcda58e23c
+z03 Hash = f5910e3d5f83832a8c72e970862b4d0b
 Zip Parts = 4
