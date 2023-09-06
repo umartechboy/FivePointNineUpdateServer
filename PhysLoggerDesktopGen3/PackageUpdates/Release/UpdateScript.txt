@@ -1,0 +1,1178 @@
+mkdir languages
+mkdir quantities
+mkdir quantities\ArduinoReader
+mkdir quantities\PhysBar
+mkdir quantities\PhysCompass
+mkdir quantities\PhysDisp
+mkdir quantities\PhysHygro_Humidity
+mkdir quantities\PhysHygro_Temp
+mkdir quantities\PhysLoad
+mkdir redist
+mkdir runtimes
+mkdir runtimes\osx
+mkdir runtimes\osx\native
+mkdir runtimes\win
+mkdir runtimes\win\lib
+mkdir runtimes\win\lib\net6.0
+mkdir runtimes\win-arm64
+mkdir runtimes\win-arm64\native
+mkdir runtimes\win-x64
+mkdir runtimes\win-x64\native
+mkdir runtimes\win-x86
+mkdir runtimes\win-x86\native
+mkdir sounds
+mkdir sounds\default
+mkdir visuals
+mkdir visuals\dark
+mkdir visuals\default
+mkdir visuals\default\72ppi
+mkdir visuals\default\cloud_live
+mkdir visuals\default\connect a logger
+mkdir visuals\default\control animation
+mkdir visuals\default\input channel selector
+mkdir visuals\default\live plots scroll anim 0
+mkdir visuals\default\live plots scroll anim 1
+mkdir visuals\default\live plots scroll anim 2
+mkdir visuals\default\live plots scroll anim 3
+mkdir visuals\default\liveplots preview
+mkdir visuals\default\measure animation
+mkdir visuals\default\MenuIcon_Latch_Detail
+mkdir visuals\default\output channel selector
+mkdir visuals\default\PhysWatt_Channel_Selected
+mkdir visuals\default\record_live
+mkdir visuals\default\resume animation
+mkdir visuals\default\spinner big
+mkdir visuals\default\spinner small
+mkdir visuals\default\Template_Brochure_Empty
+mkdir visuals\default\Template_Brochure_LivePlot
+mkdir visuals\default\Template_Brochure_Physcl
+mkdir visuals\default\Template_Brochure_Physcloud
+copy 111698a1f70964b723e6482521cdaedd languages\default.plf
+copy a623a46091b8f20d167e4181fc3451ce languages\Punjabi.plf
+copy fa422c698fb5abaaa325da756f9a5fa2 languages\SupportedLanguages.plf
+copy 10fc255e14d682a9b02e52d6a5d26d38 quantities\ArduinoReader\d_Icon_ArduinoReader.png
+copy d4c4ace2b0325904aaa0aff29226a9ac quantities\ArduinoReader\qdef.plf
+copy 1342b87470f7108a2118d52ef41fe2c9 quantities\ArduinoReader\q_icon_ArduinoReader.png
+copy 37135ba7aa32ecc960081b46e286c41d quantities\PhysBar\d_icon_PhysBar.png
+copy 00ac999512134a7b598c9f46b162fd1b quantities\PhysBar\qdef.plf
+copy dc7fb7e386906e2afd050b8e26726eb8 quantities\PhysBar\q_icon_PhysBar.png
+copy dc7fb7e386906e2afd050b8e26726eb8 quantities\PhysBar\WizardListThumbnail_PhysBar.png
+copy 01bd39e1850276351b26e94f3df75518 quantities\PhysBar\WizardMenuIcon_PhysBar.png
+copy 04fbac3715e2c6bee91f1bc9e83d911b quantities\PhysCompass\d_icon_PhysCompass.png
+copy 3a7e9114b46c38d0f4066b9a9ceefae9 quantities\PhysCompass\qdef.plf
+copy cd08bcfe620dcfec0ef6febce0fe9ded quantities\PhysCompass\q_icon_PhysCompass.png
+copy cd08bcfe620dcfec0ef6febce0fe9ded quantities\PhysCompass\WizardListThumbnail_PhysCompass.png
+copy 8042513e9f0d12dc14e988199776dadb quantities\PhysCompass\WizardMenuIcon_PhysCompass.png
+copy e190ae210f95266f726c34dd4fd3efaf quantities\PhysDisp\d_icon_PhysDisp.png
+copy e8cfec4a34b383a4ba68736b3765ade1 quantities\PhysDisp\qdef.plf
+copy e810c18495c1e0ea1a1981a524304893 quantities\PhysDisp\q_icon_PhysDisp.png
+copy e810c18495c1e0ea1a1981a524304893 quantities\PhysDisp\WizardListThumbnail_PhysDisp.png
+copy 5cc79c503f4e2aa2127c38099f8c4acc quantities\PhysDisp\WizardMenuIcon_PhysDisp.png
+copy 0bbc81ff31bcaa26155b2b98f5db099f quantities\PhysHygro_Humidity\d_icon_PhysHygro.png
+copy 9fc4940a0f570a6738603274a1b4c5f7 quantities\PhysHygro_Humidity\qdef.plf
+copy dc7fb7e386906e2afd050b8e26726eb8 quantities\PhysHygro_Humidity\q_icon_PhysHygro_Humidity.png
+copy dc7fb7e386906e2afd050b8e26726eb8 quantities\PhysHygro_Humidity\WizardListThumbnail_PhysHygro_Humidity.png
+copy 01bd39e1850276351b26e94f3df75518 quantities\PhysHygro_Humidity\WizardMenuIcon_PhysHygro_Humidity.png
+copy 0bbc81ff31bcaa26155b2b98f5db099f quantities\PhysHygro_Temp\d_icon_PhysHygro.png
+copy ffd120af5e78e3e0ae8963d4de44dfdb quantities\PhysHygro_Temp\qdef.plf
+copy 2e77e1bffec17d4f6fcb0840b3e3a1cb quantities\PhysHygro_Temp\q_icon_PhysHygro_Temp.png
+copy 2e77e1bffec17d4f6fcb0840b3e3a1cb quantities\PhysHygro_Temp\WizardListThumbnail_PhysHygro_Temp.png
+copy 01bd39e1850276351b26e94f3df75518 quantities\PhysHygro_Temp\WizardMenuIcon_PhysHygro_Temp.png
+copy 9219c02ae95373332da17380f71f4a26 quantities\PhysLoad\d_icon_PhysLoad.png
+copy 14f3e17a3439c597b51b98b54d567721 quantities\PhysLoad\qdef.plf
+copy 5b79447418f2e54c47718fd45f8e1998 quantities\PhysLoad\q_icon_PhysLoad.png
+copy 5b79447418f2e54c47718fd45f8e1998 quantities\PhysLoad\WizardListThumbnail_PhysLoad.png
+copy 37f3ee40132d4b0e3e9d73ad8c96a87e quantities\PhysLoad\WizardMenuIcon_PhysLoad.png
+copy 92b6a3ba0083b0414eaa759356e14a7a redist\dotnet-runtime-6.0.21-win-x64.exe
+copy c3c159661cdecc8bf9cdd68960cac760 redist\dotnet-runtime-6.0.21-win-x86.exe
+copy 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe
+copy 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe
+copy b30b00ca7fada02592b0b1e25aba3873 runtimes\osx\native\libHarfBuzzSharp.dylib
+copy b3cafd4e70ecf056dd6ff74996a3bf1c runtimes\osx\native\libSkiaSharp.dylib
+copy b3c1f4574d9d5bafbd6c71360f327fe0 runtimes\win-arm64\native\libHarfBuzzSharp.dll
+copy 28e6df7eb187790ccb110ae1beee6c7c runtimes\win-arm64\native\libSkiaSharp.dll
+copy eaa6c0d42c8967d86a39808806c49869 runtimes\win-x64\native\libHarfBuzzSharp.dll
+copy 70d45a6d44b56f1be6a3146f5f3b32f2 runtimes\win-x64\native\libSkiaSharp.dll
+copy 34e122f4d80aa0ebea519b1ed077a98d runtimes\win-x86\native\libHarfBuzzSharp.dll
+copy 19bf278d367828df1322034e3d394b2a runtimes\win-x86\native\libSkiaSharp.dll
+copy a16ed09d0a38b604a3f2d4d30048eec5 sounds\default\message box error.wav
+copy 3ea789aa56d3ffa6eb4cd32b0efeb3c8 sounds\default\message box inform.wav
+copy 338f7f31bfbdd3b91e66aac094598ded sounds\default\message box normal.wav
+copy 77919142c96417667b28e4e76c05001d sounds\default\message box question.wav
+copy ce92f806d545fbd912e4176aca5fb058 sounds\default\mouse click 1.wav
+copy 0a182e0ab01f974a4607f3d266e690a3 sounds\default\mouse hover 1.wav
+copy a45eb0260ab402b5db07d131a4b57471 sounds\default\mouse hover 2.wav
+copy 149b57431ce0dec4f830b58d759bc252 sounds\default\mouse hover 3.wav
+copy e2ccaaeca3f522b8ef2b839e7430342a sounds\default\mouse hover 4.wav
+copy 75c89c0887131c0f1c707dd32e0cd273 visuals\dark\colors.plf
+copy 14e90b5a1acd2754d8a0a96c6f10a198 visuals\dark\PhysVoltChannel_Unselected.png
+copy 3816f36ddf298e6394624b0fa966c04e visuals\dark\q_icon_ClockTime.png
+copy 33f62530b63ddd5704978e45b9d7fc0e visuals\default\72ppi\Template_Icon_Empty.png
+copy eca7dc59b3c725c48d76d0ac64739c94 visuals\default\cloud_live\1.png
+copy f90ed69b547e2b6377841f1597e4c08e visuals\default\cloud_live\2.png
+copy cf99567e0033026aec843a17178ee64d visuals\default\cloud_live\animation_options.txt
+copy c19ee16df957087eef0ebe7cec6eb100 visuals\default\connect a logger\animation_options.txt
+copy 7a55d086195cca3cc8802a1c9c8e5839 visuals\default\connect a logger\physlogger.1.png
+copy 988e3cf479bdce819ac331be4534670e visuals\default\connect a logger\physlogger.10.png
+copy 2e84433d37683696eb8d5fcd026cfda4 visuals\default\connect a logger\physlogger.11.png
+copy 6c3209d7a3b6aa6050bda5168cd2e66e visuals\default\connect a logger\physlogger.12.png
+copy 44131a6d1351955339d10614da1b2da1 visuals\default\connect a logger\physlogger.13.png
+copy 9900769c16fdddf8661a770d680a050a visuals\default\connect a logger\physlogger.14.png
+copy 50d1cf4b806862d67e3719df45639099 visuals\default\connect a logger\physlogger.15.png
+copy 41b703a7fc56716fdcc26ce994fd626c visuals\default\connect a logger\physlogger.16.png
+copy bb0c12d2a2c4346cc1643715062b7a82 visuals\default\connect a logger\physlogger.17.png
+copy da43bd0ebdfb0b083ede1e2a0e92cb3f visuals\default\connect a logger\physlogger.18.png
+copy 0469b937163b375fc8cf1c8e764067b5 visuals\default\connect a logger\physlogger.19.png
+copy f750dc21aa09f4cefbbd78103bfc2c98 visuals\default\connect a logger\physlogger.2.png
+copy 17b93557cd161963a44b378bd5542d20 visuals\default\connect a logger\physlogger.20.png
+copy 90e52c68c4471085cf1bb200e1ea9edf visuals\default\connect a logger\physlogger.21.png
+copy 12fbe410baec08687398947e313f71ad visuals\default\connect a logger\physlogger.22.png
+copy 2a3057cca5d606a956d2a81b9f6ff37a visuals\default\connect a logger\physlogger.23.png
+copy eaea6143db7b424c95ac7977b3ec61ba visuals\default\connect a logger\physlogger.24.png
+copy 7f190764393d4dbdfe05c38625a1ea24 visuals\default\connect a logger\physlogger.25.png
+copy 4fabc1a13601820fcc1c25845df2f31b visuals\default\connect a logger\physlogger.26.png
+copy f52d6866eb4152f28739e1a73a81801e visuals\default\connect a logger\physlogger.27.png
+copy 2b02367d0866754751787a2db508d8ce visuals\default\connect a logger\physlogger.28.png
+copy 275d0b6eb8709ef497fc5a69ad23044f visuals\default\connect a logger\physlogger.29.png
+copy 7cc24b594e7dfd1b594f1189001ca414 visuals\default\connect a logger\physlogger.3.png
+copy 8ab918e1c9578b9f6f1e0aaafee4fef2 visuals\default\connect a logger\physlogger.30.png
+copy a7769b2914baf4d7e6038801a497196c visuals\default\connect a logger\physlogger.31.png
+copy be20aab6cc8d46d28fd9eb1dc41f1a3d visuals\default\connect a logger\physlogger.32.png
+copy 191db6e2f6e373159157f368e5729e70 visuals\default\connect a logger\physlogger.33.png
+copy 63c00895fbc5dfc404c31706dc4c39c5 visuals\default\connect a logger\physlogger.34.png
+copy 64463cc8916c4e083e0b47352606f4f5 visuals\default\connect a logger\physlogger.35.png
+copy 98c4c50ae8640f1d2a3fe83206fb05c2 visuals\default\connect a logger\physlogger.36.png
+copy a00de6f56084a0e5845a862f5d627a8c visuals\default\connect a logger\physlogger.37.png
+copy 554f19c7571ea258d3aacff93dc60695 visuals\default\connect a logger\physlogger.38.png
+copy 1efee41634f3813682f50b489f64a3ec visuals\default\connect a logger\physlogger.39.png
+copy 6bbb9e35b4120a21d0b74c03db8970d0 visuals\default\connect a logger\physlogger.4.png
+copy c87ae36bcc0a0394f7c1f0e7db7493cc visuals\default\connect a logger\physlogger.40.png
+copy 23421a42196c67a8b47d1436513e457e visuals\default\connect a logger\physlogger.41.png
+copy 36b232b441e8dfe355ba75f3b7115ab5 visuals\default\connect a logger\physlogger.42.png
+copy 4901b584a268116819d1a8bc3465453c visuals\default\connect a logger\physlogger.43.png
+copy 7907fe5d88fae6486703487c39c4d7a5 visuals\default\connect a logger\physlogger.44.png
+copy 54813396ebed2e5508953281e3ee38a9 visuals\default\connect a logger\physlogger.45.png
+copy d51f8cd4c658e43b706a54d48ac4f7c4 visuals\default\connect a logger\physlogger.46.png
+copy 54c16d62d36de9422b712a6fb90c4adc visuals\default\connect a logger\physlogger.47.png
+copy eb6aca2a678ad85f37d8591eaf35ce58 visuals\default\connect a logger\physlogger.48.png
+copy 12ec627d25479e8545c99d12178e9993 visuals\default\connect a logger\physlogger.49.png
+copy ea7d6234811b98bc005716934f98dc3b visuals\default\connect a logger\physlogger.5.png
+copy 2ef0b05590c3e8c64aa2fd936bda7655 visuals\default\connect a logger\physlogger.50.png
+copy 8ab0abbfa4d5a7bd9efc1a12530a5df7 visuals\default\connect a logger\physlogger.51.png
+copy 119cb55fed2ee1c64b21c946061ffd58 visuals\default\connect a logger\physlogger.52.png
+copy 0fc9a6342542db46d6259d464d1b7cd2 visuals\default\connect a logger\physlogger.53.png
+copy f8fb61e190690983e23837eeb2461ad9 visuals\default\connect a logger\physlogger.54.png
+copy 4e591102b8ccde462e16ebd9e97f4d9c visuals\default\connect a logger\physlogger.55.png
+copy 52e414d156c92f6fea7c3be31f71d737 visuals\default\connect a logger\physlogger.56.png
+copy 875783c37acea8832d28cf84a582ffb8 visuals\default\connect a logger\physlogger.57.png
+copy 0c160cea5767f95a0035682b74c9d23d visuals\default\connect a logger\physlogger.58.png
+copy a97824ebe1cf7f8e2ed9be6c6c177dad visuals\default\connect a logger\physlogger.59.png
+copy cec851250330b9dadde586c34813828b visuals\default\connect a logger\physlogger.6.png
+copy 07fec55ee1562dd6c11bd2acffc8daa9 visuals\default\connect a logger\physlogger.60.png
+copy 1563d5a3793f76ad41d344752bb73f02 visuals\default\connect a logger\physlogger.61.png
+copy 64e7c58cc405103eca1b0bf32a40265b visuals\default\connect a logger\physlogger.62.png
+copy ae68abc0e8c906a9cd7d51cd98868ad3 visuals\default\connect a logger\physlogger.63.png
+copy ff90e8ee1a80a9fc1e4f67aac9b3c38e visuals\default\connect a logger\physlogger.64.png
+copy f917190ff9b802c51e5d058123dcce12 visuals\default\connect a logger\physlogger.65.png
+copy a8e9f21503e64525c63f47b9c1e1dec7 visuals\default\connect a logger\physlogger.66.png
+copy d0ab597d6bc499aad978fd4b72d66ecb visuals\default\connect a logger\physlogger.67.png
+copy e23bd502e8733a4a2446a6be2f48194e visuals\default\connect a logger\physlogger.68.png
+copy 176a19cc7d89bc74e3d64d8c4e3884d1 visuals\default\connect a logger\physlogger.69.png
+copy 5b011be0dc270d4b75b95472265d21e4 visuals\default\connect a logger\physlogger.7.png
+copy 2f624a2b2a38e6a71795c293adfa16b0 visuals\default\connect a logger\physlogger.70.png
+copy 60d0b614758656138521520e835ff0c7 visuals\default\connect a logger\physlogger.71.png
+copy c5988d22659a431e90be16efda83659c visuals\default\connect a logger\physlogger.72.png
+copy 66f5444edecbb94c5f79f96839c3ae2f visuals\default\connect a logger\physlogger.73.png
+copy a9fa7cb1dbb9a1e0ffc3cc23de5b3818 visuals\default\connect a logger\physlogger.74.png
+copy 518ab7a1a73b00878bfea6729687e1ca visuals\default\connect a logger\physlogger.75.png
+copy 7e7145c734c69e5cf5199670f139215b visuals\default\connect a logger\physlogger.76.png
+copy d5359ef6c08d28e41f4109ed235a2328 visuals\default\connect a logger\physlogger.77.png
+copy 8e8d9a0ee563c3f83476058ee440d96f visuals\default\connect a logger\physlogger.78.png
+copy 3a6416f78c6d029319e8ed790c1efc39 visuals\default\connect a logger\physlogger.79.png
+copy 57b50748f1292929b33ba1a5b95e19a3 visuals\default\connect a logger\physlogger.8.png
+copy 99723bb26476d669d24871078a873d22 visuals\default\connect a logger\physlogger.80.png
+copy d64a25162bc541dae7821baea1fc7377 visuals\default\connect a logger\physlogger.81.png
+copy 8ab35286f1d916c0332cfcad1585cae9 visuals\default\connect a logger\physlogger.82.png
+copy d0f81ada1fa6588cdfce9e1684e07006 visuals\default\connect a logger\physlogger.83.png
+copy 4bac99b294770c3575d7a53e71b77c40 visuals\default\connect a logger\physlogger.84.png
+copy d66d1b7f9cd77311cd6cb06180d3495c visuals\default\connect a logger\physlogger.85.png
+copy 5a9dbffeaee8fe19ce3c296ab6842a77 visuals\default\connect a logger\physlogger.86.png
+copy c531d9611e35075fa076ab15951c5298 visuals\default\connect a logger\physlogger.87.png
+copy 3a807ba168d01fb68bf10ffc59e5ece2 visuals\default\connect a logger\physlogger.88.png
+copy fadcf4be7ff6702b513eceaebe71c477 visuals\default\connect a logger\physlogger.89.png
+copy 1d7e7d408592feef328c45e2055b460e visuals\default\connect a logger\physlogger.9.png
+copy 8d566597203406f13763e1cd15f7ed0c visuals\default\connect a logger\physlogger.90.png
+copy 197ef9ccd1737a73924408fa2ad79303 visuals\default\connect a logger\physlogger.91.png
+copy ba4793fdd780930ecd34350f865be312 visuals\default\control animation\animation_options.txt
+copy ca14bb3a2b56203652efba8ac575b93e visuals\default\control animation\Comp 1_00000.png
+copy 6ccf0606fb920cf210a255e9bbb9a82f visuals\default\control animation\Comp 1_00001.png
+copy 7d11bafbdbf04926cc5b45a59639ff73 visuals\default\control animation\Comp 1_00002.png
+copy d0e807773d577fb9fc488851eeafd788 visuals\default\control animation\Comp 1_00003.png
+copy 7dd4ee374c8af56fae5575beb7801d66 visuals\default\control animation\Comp 1_00004.png
+copy 17d822049150692ee0f85f0ab63b13b0 visuals\default\control animation\Comp 1_00005.png
+copy a6f157b8c1934db08363e6106cee82ba visuals\default\control animation\Comp 1_00006.png
+copy c20feaab83fcc334e319bf7f16219e42 visuals\default\control animation\Comp 1_00007.png
+copy 6684a0947012f59229b16b7a30b7f1f7 visuals\default\control animation\Comp 1_00008.png
+copy e41081796f40894af8753124ae466bfd visuals\default\control animation\Comp 1_00009.png
+copy 996cc207c5280d4900c0cd367a4b827d visuals\default\control animation\Comp 1_00010.png
+copy 708427f0fe7e7061b7ab83f48ab979db visuals\default\control animation\Comp 1_00011.png
+copy 76c9ae93d708059037f054d20b3928ce visuals\default\control animation\Comp 1_00012.png
+copy d4c9cebd11480dbccd3c43421c11dd20 visuals\default\control animation\Comp 1_00013.png
+copy 016c4d1deb79761f8551ebdbd9c11f14 visuals\default\control animation\Comp 1_00014.png
+copy a44975390271985b9ca63410cd83c384 visuals\default\control animation\Comp 1_00015.png
+copy c312102fef392a4812bbe16ff81608f4 visuals\default\control animation\Comp 1_00016.png
+copy fc78b2272e189394af11e8da5158ef3c visuals\default\control animation\Comp 1_00017.png
+copy 5ce24f74e669a090ed7dec2513ce59dd visuals\default\control animation\Comp 1_00018.png
+copy 182fb77a120602b00f040943e5f556ca visuals\default\control animation\Comp 1_00019.png
+copy da43f92b244a36196508ab406dd84d36 visuals\default\control animation\Comp 1_00020.png
+copy faf6727602b41c06fc137657eda63c04 visuals\default\control animation\Comp 1_00021.png
+copy d02e6bf25cf88f1542498ec11996ba80 visuals\default\control animation\Comp 1_00022.png
+copy 893a4f5f2c558dbbb0cde851a161aee7 visuals\default\control animation\Comp 1_00023.png
+copy 63967c2f13bcadfa8916f122393f663b visuals\default\control animation\Comp 1_00024.png
+copy 79e6e11ab198ad409b753da5dfb952fc visuals\default\control animation\Comp 1_00025.png
+copy 4185dbe9748e92fd2909c7e40a222fca visuals\default\control animation\Comp 1_00026.png
+copy f678bad35c072f7b0f77d7923f77b286 visuals\default\control animation\Comp 1_00027.png
+copy 5c4b399dc805358e7b0bc58f312d049d visuals\default\control animation\Comp 1_00028.png
+copy a3ec74ee914d58fb55945fdc9ceb3dff visuals\default\control animation\Comp 1_00029.png
+copy 41fd23370ef3d1790bb254d09d5e3271 visuals\default\control animation\Comp 1_00030.png
+copy 411e6e5da8ca0bdd98ef050dcd2e2e40 visuals\default\control animation\Comp 1_00031.png
+copy bd31cd001e27c884f5a549752fdd1c3d visuals\default\control animation\Comp 1_00032.png
+copy b2e05d95667cceb762855fa71b95da39 visuals\default\control animation\Comp 1_00033.png
+copy 3994ab4c380e33b27129e4ef41121f72 visuals\default\control animation\Comp 1_00034.png
+copy 82c02321d03de552ce53bb485fe24623 visuals\default\control animation\Comp 1_00035.png
+copy f26e804e0debed4d20add1087bd9ed4c visuals\default\control animation\Comp 1_00036.png
+copy 7410f5f6c69d79ce8c779d0db89fba14 visuals\default\control animation\Comp 1_00037.png
+copy 50f1db1da5ba26d691e434f1a6bfe315 visuals\default\control animation\Comp 1_00038.png
+copy b6a10d7008efd844ef1b45d6fb3334a1 visuals\default\control animation\Comp 1_00039.png
+copy 197c09609ab70a5b97aa923346b6f026 visuals\default\control animation\Comp 1_00040.png
+copy aba16a705dc525e47ce11d427bb12aef visuals\default\control animation\Comp 1_00041.png
+copy 70e37d362bada8139c554a85502895d2 visuals\default\control animation\Comp 1_00042.png
+copy 70355c9492d485545190ee3096385296 visuals\default\control animation\Comp 1_00043.png
+copy 45b40475cd1d7533355d5f2f5fd2c8ca visuals\default\control animation\Comp 1_00044.png
+copy 8f7e9018bb4d0b425adec25999526872 visuals\default\control animation\Comp 1_00045.png
+copy c990abfe566541eeee098bb183a854d6 visuals\default\control animation\Comp 1_00046.png
+copy 9e6d2da7af12777952c244f20994914c visuals\default\control animation\Comp 1_00047.png
+copy b762a1948e12ecb6ae6a3eb12477d9f4 visuals\default\control animation\Comp 1_00048.png
+copy 6b89677c7475bf29efccd7dbc2993e36 visuals\default\control animation\Comp 1_00049.png
+copy 1524fdf8a37f49a232605dfb760182f3 visuals\default\control animation\Comp 1_00050.png
+copy 31490f7552323f08d3145caf552e49b9 visuals\default\control animation\Comp 1_00051.png
+copy d271e759095371683eeaf0037a2b7cf2 visuals\default\control animation\Comp 1_00052.png
+copy 16bb1e5b1f8b771bbc40ab2c96d7cddf visuals\default\control animation\Comp 1_00053.png
+copy 9c0039168dbb0950f0590765d9b4d19d visuals\default\control animation\Comp 1_00054.png
+copy 2bd72fefe958e6e5eba55c6b485a4c83 visuals\default\control animation\Comp 1_00055.png
+copy d158c74f4ef13f683d323f3441f6d546 visuals\default\control animation\Comp 1_00056.png
+copy 5191ccb48ffc96fa47abc4f89bb22f05 visuals\default\control animation\Comp 1_00057.png
+copy 2917e0e816d68cd70922459bea1e6486 visuals\default\control animation\Comp 1_00058.png
+copy ef2eba25640c78c38e83a48178564732 visuals\default\control animation\Comp 1_00059.png
+copy f1d134b1e2b65e38aa00b9ad4b6b23b9 visuals\default\control animation\Comp 1_00060.png
+copy 3edd55eef06138be921d3ad693f5fe72 visuals\default\control animation\Comp 1_00061.png
+copy c49f97766f34980fa198def87cd9492c visuals\default\control animation\Comp 1_00062.png
+copy 3a3cbf67b8ab2067363057b8e9bc681b visuals\default\control animation\Comp 1_00063.png
+copy f7d5e1b1ec40f091a282e2505bf901f3 visuals\default\control animation\Comp 1_00064.png
+copy 9046c54b14774e5f0952595e53b0ea35 visuals\default\control animation\Comp 1_00065.png
+copy 68ca8aaebbccc335bf7f7aea83ebc6eb visuals\default\control animation\Comp 1_00066.png
+copy 257c5b2c2d340e6d2110dbff479026f1 visuals\default\control animation\Comp 1_00067.png
+copy 105e537fbc499bd94ea4de6145a5be49 visuals\default\control animation\Comp 1_00068.png
+copy 703b26e98756663d929a980f039000e6 visuals\default\control animation\Comp 1_00069.png
+copy 35eb6e1f98dced515bf15d3db93d0e0b visuals\default\control animation\Comp 1_00070.png
+copy 5ccfa13ad3540db6b944f8c279c618cd visuals\default\control animation\Comp 1_00071.png
+copy 94bfffc6e3d2ca27792a59957bd41f70 visuals\default\control animation\Comp 1_00072.png
+copy 712658be88e8a507fd82eb6f3eb96d93 visuals\default\control animation\Comp 1_00073.png
+copy 713cf303dbf7f933cb5edd0ae635643f visuals\default\control animation\Comp 1_00074.png
+copy ba25f389ac749c54162468985f8d6bd4 visuals\default\control animation\Comp 1_00075.png
+copy f10f9305f4494f5789a1379ea7132867 visuals\default\control animation\Comp 1_00076.png
+copy 7066ebbd3f52b66c2193c81fb62454f7 visuals\default\control animation\Comp 1_00077.png
+copy 22fb4694d60c18b10a79cfc8bf22a6d1 visuals\default\control animation\Comp 1_00078.png
+copy 0be56cba02c4b936e68423dc85c36339 visuals\default\control animation\Comp 1_00079.png
+copy cdcb568b8350eb8fbb1c64a508f52c98 visuals\default\control animation\Comp 1_00080.png
+copy b84efc5c96ce58837f238f5ed10ca667 visuals\default\control animation\Comp 1_00081.png
+copy e287b08608546a17e4a4376068a8c758 visuals\default\control animation\Comp 1_00082.png
+copy 70830c5c39fef856b3ce42fd93cf7c1c visuals\default\control animation\Comp 1_00083.png
+copy 97893830a1480375185a715672eb6939 visuals\default\control animation\Comp 1_00084.png
+copy 119b4d917cfa15616c561c6eca762910 visuals\default\control animation\Comp 1_00085.png
+copy b49291b34af09dfcf8e1a06958b367b3 visuals\default\control animation\Comp 1_00086.png
+copy ced67e0fccaaa8e01f3c150b4d653491 visuals\default\control animation\Comp 1_00087.png
+copy cfd4e4aea2bdc15b5d8f649a6d4d04f7 visuals\default\control animation\Comp 1_00088.png
+copy 37fec27cdd342a0b49c6170416e2613d visuals\default\control animation\Comp 1_00089.png
+copy fff136692e05b5a39884e1d3e91f59f4 visuals\default\control animation\Comp 1_00090.png
+copy a28e90029367794cdd4cb8a1251f9a94 visuals\default\control animation\Comp 1_00091.png
+copy 968b5ce043a1757874682b3d5a072b52 visuals\default\control animation\Comp 1_00092.png
+copy 9fc481ce078f24cc5d732070eccc85e1 visuals\default\control animation\Comp 1_00093.png
+copy e4921b8ff1a37a630c45b1875b3574ca visuals\default\control animation\Comp 1_00094.png
+copy 744d993e079baa5dc10dca69fc4dd07e visuals\default\control animation\Comp 1_00095.png
+copy d7e546b799a395b087fc34bf26fa4024 visuals\default\control animation\Comp 1_00096.png
+copy 806803dfe3842d5b18f28ecc353f61ff visuals\default\control animation\Comp 1_00097.png
+copy 395f6f6d2b4300fa30493b85dacb01ad visuals\default\control animation\Comp 1_00098.png
+copy f318209b10f7d85bc2cb817a153f62d0 visuals\default\control animation\Comp 1_00099.png
+copy 65c2a3b67ba274d4c23ba28933fbdb57 visuals\default\input channel selector\animation_options.txt
+copy 112e6482a4980621c4534687e15f80e1 visuals\default\input channel selector\PHYSLOGGER_animation-1.png
+copy f82d57beedf504ba72f4faa6a4019eb1 visuals\default\input channel selector\PHYSLOGGER_animation-2.png
+copy e8e059c14a2ac6ff75b1580f5c531207 visuals\default\input channel selector\PHYSLOGGER_animation-3.png
+copy d59d810c955d43a14fc5186b4fd8731c visuals\default\input channel selector\PHYSLOGGER_animation-4.png
+copy 132f2a445b6bd9f516eb4b1a40195b90 visuals\default\input channel selector\PHYSLOGGER_animation-5.png
+copy fe022582518f535345e69c28020b1b9f visuals\default\input channel selector\PHYSLOGGER_animation-6.png
+copy 2db467a1675c35a2151b2b094a2db9f6 visuals\default\live plots scroll anim 0\1.png
+copy 12f9d31eeb74a0dd403426a7542e0f9f visuals\default\live plots scroll anim 0\10.png
+copy f69c2e92e75029248991eda9581cc7f9 visuals\default\live plots scroll anim 0\11.png
+copy 45de7fb5ba8ff11bcad57adc768be8a4 visuals\default\live plots scroll anim 0\12.png
+copy bcde31bac821ea8bf6b21828083d3feb visuals\default\live plots scroll anim 0\13.png
+copy 01e3c3483210362fc6ce15415e274700 visuals\default\live plots scroll anim 0\14.png
+copy 9ba533e68309617829775cf0cd2e6444 visuals\default\live plots scroll anim 0\15.png
+copy fba4135bd4fc60544b5708736a8cc844 visuals\default\live plots scroll anim 0\16.png
+copy 8ac73a48812ada8a40269daf2fabf093 visuals\default\live plots scroll anim 0\2.png
+copy c945d2856389b1306cd15bf182e7f20e visuals\default\live plots scroll anim 0\3.png
+copy 98ba203c1d924be4fc3cab923ce1194f visuals\default\live plots scroll anim 0\4.png
+copy cfd36d9793429349222f87864300d189 visuals\default\live plots scroll anim 0\5.png
+copy d06029d8c02837463ecbb25d8c7f981f visuals\default\live plots scroll anim 0\6.png
+copy 30e088ec10ca1287e37d54c6fac2583d visuals\default\live plots scroll anim 0\7.png
+copy 7097ead880b7020756019448fa06655e visuals\default\live plots scroll anim 0\8.png
+copy 49d2e2c9b0af9f846808a4fc7ff09a56 visuals\default\live plots scroll anim 0\9.png
+copy ba4793fdd780930ecd34350f865be312 visuals\default\live plots scroll anim 0\animation_options.txt
+copy 58f8b47bb21771dcf23c2933d58f3919 visuals\default\live plots scroll anim 1\1.png
+copy 14dc0b8dc2b33d702dac3fef86640d72 visuals\default\live plots scroll anim 1\10.png
+copy 942c1ed94d7cc14c2c67420372fe3be1 visuals\default\live plots scroll anim 1\11.png
+copy f53cbd4d01f0ccb50ad0bb750c3e5876 visuals\default\live plots scroll anim 1\12.png
+copy 6cef65bec4931d6479b0cc1b84db2485 visuals\default\live plots scroll anim 1\13.png
+copy e59172f7b5200ed31e1bd837da6bd33e visuals\default\live plots scroll anim 1\14.png
+copy a489fade1faee6033f146369c367075b visuals\default\live plots scroll anim 1\15.png
+copy d48fa14a0f2ffddf0acdc05db18017b6 visuals\default\live plots scroll anim 1\16.png
+copy 0b85576b3ff8ddb71909dc11b507ae32 visuals\default\live plots scroll anim 1\2.png
+copy 3e4c122cf9ecbf7cf1ca9b6e9caa0bd0 visuals\default\live plots scroll anim 1\3.png
+copy efb23a72e1e96ee0cf39ed5357907df5 visuals\default\live plots scroll anim 1\4.png
+copy 87f276b734f4986ecf1fbaa7f2181607 visuals\default\live plots scroll anim 1\5.png
+copy e28ab1c8374982f4fc373f4987f6d930 visuals\default\live plots scroll anim 1\6.png
+copy 6b4ac5c4229cefa62b5bd37d0cf7e624 visuals\default\live plots scroll anim 1\7.png
+copy 543549521ac596296b748efc69fd4733 visuals\default\live plots scroll anim 1\8.png
+copy 6d021570f0b4b68aafe796a17eebcc3d visuals\default\live plots scroll anim 1\9.png
+copy ba4793fdd780930ecd34350f865be312 visuals\default\live plots scroll anim 1\animation_options.txt
+copy 5befd15fd695be280cb12ce61cc80dc5 visuals\default\live plots scroll anim 2\1.png
+copy 2893799648dd4ed6bdc77d41c2360509 visuals\default\live plots scroll anim 2\10.png
+copy fa44892ca47c7318361d3120178222a4 visuals\default\live plots scroll anim 2\11.png
+copy 03b0579c50e3152e6f1c2e949c25fce0 visuals\default\live plots scroll anim 2\12.png
+copy efc7b41912a257a8db9351d89b6d808d visuals\default\live plots scroll anim 2\13.png
+copy ca091cf876715701b2617054d015fe66 visuals\default\live plots scroll anim 2\14.png
+copy 92d7b998dc3cfc5aa5c37c33214e8f2e visuals\default\live plots scroll anim 2\15.png
+copy b67cd46aafd1ffcc613ccbc2518ae471 visuals\default\live plots scroll anim 2\16.png
+copy 4c4cf11fa38b5990573dd75c156af797 visuals\default\live plots scroll anim 2\2.png
+copy d7f1366f8fca6c01a699eeb7fbd9961a visuals\default\live plots scroll anim 2\3.png
+copy 77de2d5962790dd1cc1246500c4b78ea visuals\default\live plots scroll anim 2\4.png
+copy 0377835268cefb0734e4cd801c4502fa visuals\default\live plots scroll anim 2\5.png
+copy 91f8a87cf3503d25e916b68d204ec325 visuals\default\live plots scroll anim 2\6.png
+copy d5b069a4406339ef6915f9c683335f0b visuals\default\live plots scroll anim 2\7.png
+copy 10f00c4716bbb64d73843fea8076a5d7 visuals\default\live plots scroll anim 2\8.png
+copy 1864924080e088c7d73efa563e95b980 visuals\default\live plots scroll anim 2\9.png
+copy ba4793fdd780930ecd34350f865be312 visuals\default\live plots scroll anim 2\animation_options.txt
+copy 5befd15fd695be280cb12ce61cc80dc5 visuals\default\live plots scroll anim 3\1.png
+copy 2893799648dd4ed6bdc77d41c2360509 visuals\default\live plots scroll anim 3\10.png
+copy fa44892ca47c7318361d3120178222a4 visuals\default\live plots scroll anim 3\11.png
+copy 03b0579c50e3152e6f1c2e949c25fce0 visuals\default\live plots scroll anim 3\12.png
+copy efc7b41912a257a8db9351d89b6d808d visuals\default\live plots scroll anim 3\13.png
+copy 4c4cf11fa38b5990573dd75c156af797 visuals\default\live plots scroll anim 3\2.png
+copy d7f1366f8fca6c01a699eeb7fbd9961a visuals\default\live plots scroll anim 3\3.png
+copy 77de2d5962790dd1cc1246500c4b78ea visuals\default\live plots scroll anim 3\4.png
+copy 0377835268cefb0734e4cd801c4502fa visuals\default\live plots scroll anim 3\5.png
+copy 91f8a87cf3503d25e916b68d204ec325 visuals\default\live plots scroll anim 3\6.png
+copy d5b069a4406339ef6915f9c683335f0b visuals\default\live plots scroll anim 3\7.png
+copy 10f00c4716bbb64d73843fea8076a5d7 visuals\default\live plots scroll anim 3\8.png
+copy 1864924080e088c7d73efa563e95b980 visuals\default\live plots scroll anim 3\9.png
+copy ba4793fdd780930ecd34350f865be312 visuals\default\live plots scroll anim 3\animation_options.txt
+copy 5a06c7383d6b5a790bede88dbad15599 visuals\default\liveplots preview\frame014.jpg
+copy dc0fbfd7693c59e31d178f259158038a visuals\default\liveplots preview\frame015.jpg
+copy 000a80d70102f8ec8f2f01f7e7f77253 visuals\default\liveplots preview\frame016.jpg
+copy 64d440b775e4716bb0daad87d6c93641 visuals\default\liveplots preview\frame017.jpg
+copy 00126376786552c6f2855787fcdd5772 visuals\default\liveplots preview\frame018.jpg
+copy 85abafbe7fda46f1a00456ff6bb80e01 visuals\default\liveplots preview\frame019.jpg
+copy 55886900dab39c2dd039d0de37dc0eb5 visuals\default\liveplots preview\frame020.jpg
+copy 6fe2f1e9217bfdb3325ec33f7001a3a0 visuals\default\liveplots preview\frame021.jpg
+copy 6e9fd6fd74f1d925ba4390d1bc5a7b34 visuals\default\liveplots preview\frame022.jpg
+copy e007572d388346b6ec38d801cb48cd91 visuals\default\liveplots preview\frame023.jpg
+copy d67575f33fdc85da354197181cf2c96b visuals\default\liveplots preview\frame024.jpg
+copy 1f40868fa9c62a65a6a7df8143bfc70e visuals\default\liveplots preview\frame025.jpg
+copy 1dc8dcd1aae51b692b8313ad7a40009b visuals\default\liveplots preview\frame026.jpg
+copy 506ce479bd4e225f8fd3ddc7296bb31d visuals\default\liveplots preview\frame027.jpg
+copy 2ed78df31cc5dab41ceacf603d588fee visuals\default\liveplots preview\frame028.jpg
+copy 3d75d83284f438dcbc6c81bfba7f6f03 visuals\default\liveplots preview\frame029.jpg
+copy 198e8f4489b0857023aec2ff5a884b0b visuals\default\liveplots preview\frame030.jpg
+copy 22ce9e29f05854605e1f838fd20b1a20 visuals\default\liveplots preview\frame031.jpg
+copy 0b49c4ff0f1414ac53107608b235dbe6 visuals\default\liveplots preview\frame032.jpg
+copy ba4793fdd780930ecd34350f865be312 visuals\default\measure animation\animation_options.txt
+copy 6997aab98dac37f8fe2ed7d686f297e2 visuals\default\measure animation\Measure Animation_00001.png
+copy da5564f738bea72788ee94206756b3be visuals\default\measure animation\Measure Animation_00002.png
+copy ebb1caed28d0c2e68d6814443f2a1520 visuals\default\measure animation\Measure Animation_00003.png
+copy bb5187c27aaf7b922b09615a5316f34b visuals\default\measure animation\Measure Animation_00004.png
+copy acfc57e5492e43d7df4938274eb2f142 visuals\default\measure animation\Measure Animation_00005.png
+copy 2efe32fdf72c8c5a6b6361a2e4094fac visuals\default\measure animation\Measure Animation_00006.png
+copy 46774dfef327f1252dead27cf0846dc7 visuals\default\measure animation\Measure Animation_00007.png
+copy f4300d15b32441b1bca16e04c13f672a visuals\default\measure animation\Measure Animation_00008.png
+copy 64a066fcaed2f0c0de087b44ca28dd99 visuals\default\measure animation\Measure Animation_00009.png
+copy 9fd2312f15e5192644e4a0de1173a385 visuals\default\measure animation\Measure Animation_00010.png
+copy 6a9e01b42b652896237cd20130617f10 visuals\default\measure animation\Measure Animation_00011.png
+copy 415546115c0e2972d6a50e5d56d87ea7 visuals\default\measure animation\Measure Animation_00012.png
+copy 2a82af69aa5e6944c56384e7e04fc9b9 visuals\default\measure animation\Measure Animation_00013.png
+copy 3fca7e381a003c814732ea414faf2a09 visuals\default\measure animation\Measure Animation_00014.png
+copy 836cdc08140e3dbda41f3e473cf1ea3a visuals\default\measure animation\Measure Animation_00015.png
+copy e95d03730ea534d7aeabbb15b8d19cd1 visuals\default\measure animation\Measure Animation_00016.png
+copy 3eb8afdc9ae4a7afa980440b0a3e52c2 visuals\default\measure animation\Measure Animation_00017.png
+copy 12d5faae18e06ed3aac909cd60ef315a visuals\default\measure animation\Measure Animation_00018.png
+copy a31bcd0cd687da231e4f80545aa93f57 visuals\default\measure animation\Measure Animation_00019.png
+copy 78adb595bf0a7b5713e6a19993fc1848 visuals\default\measure animation\Measure Animation_00020.png
+copy 05b66be27454bf9dfad25da4ba6ca12e visuals\default\measure animation\Measure Animation_00021.png
+copy 4410ed26ddc9e8dbc69614fb3a37a714 visuals\default\measure animation\Measure Animation_00022.png
+copy e295994e9e9be1cf592aefb6ea894730 visuals\default\measure animation\Measure Animation_00023.png
+copy 5a6bad9864df95d862a6f4407867fda9 visuals\default\measure animation\Measure Animation_00024.png
+copy 7d2aa43c3ab0e96f691905caa9c9f9e6 visuals\default\measure animation\Measure Animation_00025.png
+copy b9e4085119775cdd91eda20436d424de visuals\default\measure animation\Measure Animation_00026.png
+copy d0106e5b25cff7d1687d1c4fec724cbd visuals\default\measure animation\Measure Animation_00027.png
+copy 43ae7b4682083830176511168736a519 visuals\default\measure animation\Measure Animation_00028.png
+copy 7c957a091d102365eae168a6b0683de4 visuals\default\measure animation\Measure Animation_00029.png
+copy 8633663d4ecfdc45d362f66e7329f609 visuals\default\measure animation\Measure Animation_00030.png
+copy 4e01605ee353c9a29c7059a2a585d773 visuals\default\measure animation\Measure Animation_00031.png
+copy c287f6904958f9480c6cae0a141e76bd visuals\default\measure animation\Measure Animation_00032.png
+copy 0e93d1492e9a70be8f501ac42b550db5 visuals\default\measure animation\Measure Animation_00033.png
+copy a80d621e3d9ae0845bbbe10b169f79d3 visuals\default\measure animation\Measure Animation_00034.png
+copy 6b1ef1e55426592849d59b7298f68cd7 visuals\default\measure animation\Measure Animation_00035.png
+copy e45680b468b72349ea024d796abadda1 visuals\default\measure animation\Measure Animation_00036.png
+copy 1141541570ecd8add507f2f433a2d61b visuals\default\measure animation\Measure Animation_00037.png
+copy 0c5f0f67bc208f2e0499a0639606c52c visuals\default\measure animation\Measure Animation_00038.png
+copy fe84e8af78711637c6278cc623e58c8f visuals\default\measure animation\Measure Animation_00039.png
+copy 0a8a90fd66f9f62badf89c838ebd74e8 visuals\default\measure animation\Measure Animation_00040.png
+copy f5e34fdcdff68bc4a9cf47083a036211 visuals\default\measure animation\Measure Animation_00041.png
+copy 59b8a42863bbd5016e53f751ae761ec1 visuals\default\measure animation\Measure Animation_00042.png
+copy 4a5247c185f783639899f847e1744f78 visuals\default\measure animation\Measure Animation_00043.png
+copy 88f7e06c754da84194c75d276cd39957 visuals\default\measure animation\Measure Animation_00044.png
+copy d7f07e111b78b94a3268eea4f20a3090 visuals\default\measure animation\Measure Animation_00045.png
+copy b38a1366d2e0fd7f1107ab751b7ba6d2 visuals\default\measure animation\Measure Animation_00046.png
+copy 7de223da5435e2842898e19f3c6456a5 visuals\default\measure animation\Measure Animation_00047.png
+copy ee08cb9538ca5f10ceaacfd04592eadf visuals\default\measure animation\Measure Animation_00048.png
+copy ef25433d59b06f18ea13ba6246dff5fe visuals\default\measure animation\Measure Animation_00049.png
+copy 6763c65086dab4934a7e0ed31dc05ee3 visuals\default\measure animation\Measure Animation_00050.png
+copy 44c6c1e58491eb33fa4c3a936d43f626 visuals\default\measure animation\Measure Animation_00051.png
+copy cd53bdb646053e3af09baf2135b0474a visuals\default\measure animation\Measure Animation_00052.png
+copy 51decbda95f55a7986f358a8df62c378 visuals\default\measure animation\Measure Animation_00053.png
+copy e424820a36f4a08507d5238443a975db visuals\default\measure animation\Measure Animation_00054.png
+copy c9a1ba976a0e68f530fd152482af56fc visuals\default\measure animation\Measure Animation_00055.png
+copy 927120893be7a9953962b8091a945ac9 visuals\default\measure animation\Measure Animation_00056.png
+copy f10414c9cadb3bf35516eae7c19d2f17 visuals\default\measure animation\Measure Animation_00057.png
+copy cc8e55d2d915a92cb21934e35ad5e4d4 visuals\default\measure animation\Measure Animation_00058.png
+copy 03de1737f68ddbc144326292c1ae0232 visuals\default\measure animation\Measure Animation_00059.png
+copy a7ba68f15ecca16c09b8735fd5fb5df3 visuals\default\measure animation\Measure Animation_00060.png
+copy 5198714259786a155d01600709cf8185 visuals\default\measure animation\Measure Animation_00061.png
+copy 8ab7e5bf061dddf7d72691e3d7fc8c6b visuals\default\measure animation\Measure Animation_00062.png
+copy c4094bb135fb7ee897a1beaabeba44d6 visuals\default\measure animation\Measure Animation_00063.png
+copy 24787056947e093ee67a78c5532de2b3 visuals\default\measure animation\Measure Animation_00064.png
+copy b93b2a00a6efd42c69e8667bc382c245 visuals\default\measure animation\Measure Animation_00065.png
+copy 6bb4097347c73ec39263f8b18e121c14 visuals\default\measure animation\Measure Animation_00066.png
+copy 996245b969b76c03b1d0db2b8a22bbdd visuals\default\measure animation\Measure Animation_00067.png
+copy d47e1ff354704030ca3f44047acd29bb visuals\default\measure animation\Measure Animation_00068.png
+copy 6405f4882c67d96d584973d69ff1e681 visuals\default\measure animation\Measure Animation_00069.png
+copy ee436ac2f85b4f3719f9454da107490e visuals\default\measure animation\Measure Animation_00070.png
+copy 75a3943bd8a95e379e5e64c30bf3f26f visuals\default\measure animation\Measure Animation_00071.png
+copy 6c06f114e90036608b5015299d8095bb visuals\default\measure animation\Measure Animation_00072.png
+copy 3b3ba0df2264a95a0155f96e6766d906 visuals\default\measure animation\Measure Animation_00073.png
+copy ff813a68cd8eb933ca4b0d655615de0b visuals\default\measure animation\Measure Animation_00074.png
+copy f3852c65fdf629fad8c6fccdefe11859 visuals\default\measure animation\Measure Animation_00075.png
+copy 8f3ad7c773fc52247b36a2dc83e1bf72 visuals\default\measure animation\Measure Animation_00076.png
+copy 575c2795ddff04d86777c8991e320f2d visuals\default\measure animation\Measure Animation_00077.png
+copy 6409cef41254eb94698d041ff3a19144 visuals\default\measure animation\Measure Animation_00078.png
+copy 21f93f0c3d3afc2bf6a19a92f4a447ba visuals\default\measure animation\Measure Animation_00079.png
+copy 91c4a0f7d509e5c7941508e59347a48b visuals\default\measure animation\Measure Animation_00080.png
+copy 9327337bf3d3ce719852d66f5ae5088d visuals\default\measure animation\Measure Animation_00081.png
+copy fbd4232421042ea1ea6201955d50f18d visuals\default\measure animation\Measure Animation_00082.png
+copy b7b8836eaeb3ba9eda9253b0b5b011a5 visuals\default\measure animation\Measure Animation_00083.png
+copy fa7b95092d02913e115f66dc11cc3e0b visuals\default\measure animation\Measure Animation_00084.png
+copy e3c2719b892969c46802821e9b0a4ac8 visuals\default\measure animation\Measure Animation_00085.png
+copy 1e0ad3bcddd9aa7704d8f843562b6a71 visuals\default\measure animation\Measure Animation_00086.png
+copy 84e2cc2b7061ccbd84e056f549e28c4f visuals\default\measure animation\Measure Animation_00087.png
+copy 6bbbb2215a103bb1dad3fb60af2bc86b visuals\default\measure animation\Measure Animation_00088.png
+copy acf2cb994b50cca519dea04136fc2389 visuals\default\measure animation\Measure Animation_00089.png
+copy 7a541b0be58164ac000082e9701164de visuals\default\measure animation\Measure Animation_00090.png
+copy 69a4760acdb26d413b4f406c9362806c visuals\default\measure animation\Measure Animation_00091.png
+copy 9708a7abec3817df089e023b1787f505 visuals\default\measure animation\Measure Animation_00092.png
+copy c19573b61862fada87b63d67aa24fdee visuals\default\measure animation\Measure Animation_00093.png
+copy cef0699eff38eaa8001179ceb05ba863 visuals\default\measure animation\Measure Animation_00094.png
+copy a9c3f95d293c25f2c4fe28e7f5f0966f visuals\default\measure animation\Measure Animation_00095.png
+copy 050665791585ad061508b50a7daccd2a visuals\default\measure animation\Measure Animation_00096.png
+copy 6d9219c3e3ab4af945dcad9e274ff5fa visuals\default\measure animation\Measure Animation_00097.png
+copy 6e98191e041f21ae5e9dbd44ceb73505 visuals\default\measure animation\Measure Animation_00098.png
+copy 480ebedd2c50e49f523f3256c8642ef9 visuals\default\measure animation\Measure Animation_00099.png
+copy 62be9ba129fc3001e854076e16593ee6 visuals\default\measure animation\Measure Animation_00100.png
+copy 1e8c4ece50f76317c5b18cb7bf32a396 visuals\default\measure animation\Measure Animation_00101.png
+copy 492274d95b2977af6c9d0c9b44ff15d0 visuals\default\measure animation\Measure Animation_00102.png
+copy fbd2c2d15bfa6f21b756a840a590d94e visuals\default\measure animation\Measure Animation_00103.png
+copy ad0421ec681d458e3959e4e68d02c194 visuals\default\measure animation\Measure Animation_00104.png
+copy 89851eb61a8509aeac162559766973a9 visuals\default\measure animation\Measure Animation_00105.png
+copy ee63911999ef1e04554c7071a2f97828 visuals\default\measure animation\Measure Animation_00106.png
+copy 73b4355f3fca3cf453fb5c23dd9abdbb visuals\default\measure animation\Measure Animation_00107.png
+copy cc1371466e684166c2eab476ce19804e visuals\default\measure animation\Measure Animation_00108.png
+copy 131dc48b56c5d231cb7e5a0e4b9432c3 visuals\default\measure animation\Measure Animation_00109.png
+copy 46c97884c85a1b4e8c1d5a16cb490135 visuals\default\measure animation\Measure Animation_00110.png
+copy 824f1babe0833eb055786b68dc3f5ae2 visuals\default\measure animation\Measure Animation_00111.png
+copy 11b9f2278db6aa3dd9de534e58afae9b visuals\default\measure animation\Measure Animation_00112.png
+copy c5d8b1d83e5d68e16c6794662394705e visuals\default\measure animation\Measure Animation_00113.png
+copy 0fe835149843fa706928211d0af39a4b visuals\default\measure animation\Measure Animation_00114.png
+copy 1cb7532cecd1c8e19cb5360dd18a8679 visuals\default\measure animation\Measure Animation_00115.png
+copy cc3a5b9ebfe2752f4aaa7ff9a141da1f visuals\default\measure animation\Measure Animation_00116.png
+copy d0677467552147e22f0779fc55f5910d visuals\default\measure animation\Measure Animation_00117.png
+copy 254eca7eb5feb0156466e5418a881c88 visuals\default\measure animation\Measure Animation_00118.png
+copy 001ed520b09d2c21bde7f7c8c3b0a7da visuals\default\measure animation\Measure Animation_00119.png
+copy ad4596aa32069035841c4bee0491bfd6 visuals\default\measure animation\Measure Animation_00120.png
+copy 6caf1d50251ea3a8e21676c2316a91ff visuals\default\MenuIcon_Latch_Detail\animation_options.txt
+copy feca24961eb41c540f05f0d63e18ddb3 visuals\default\MenuIcon_Latch_Detail\MenuIcon_Latch_Detail.png
+copy 16bcaf53647327850ff85ae9cbf3feb5 visuals\default\MenuIcon_Latch_Detail\MenuIcon_latch_Detail_2.png
+copy 65c2a3b67ba274d4c23ba28933fbdb57 visuals\default\output channel selector\animation_options.txt
+copy d77e43cce3356641fbe152899240d0e0 visuals\default\output channel selector\PHYSLOGGER_animation-1.png
+copy 6706e8123fa9f8736fec2503c542eec2 visuals\default\output channel selector\PHYSLOGGER_animation-2.png
+copy 441f8b26fb075fa5657c9605ab41857b visuals\default\output channel selector\PHYSLOGGER_animation-3.png
+copy de122a25c9409cdd75fe407c29d2d228 visuals\default\output channel selector\PHYSLOGGER_animation-4.png
+copy ed3f223d78a8de4b21f5540a259ac2df visuals\default\output channel selector\PHYSLOGGER_animation-5.png
+copy 69b0a01a04c4057e09133724db10cbaf visuals\default\output channel selector\PHYSLOGGER_animation-6.png
+copy 14e90b5a1acd2754d8a0a96c6f10a198 visuals\default\PhysWatt_Channel_Selected\1.png
+copy 2f7537d7f575e0cccae7ab1439d323d5 visuals\default\PhysWatt_Channel_Selected\2.png
+copy 55bd1c805271a815df67727a93f777d0 visuals\default\PhysWatt_Channel_Selected\animation_options.txt
+copy eca7dc59b3c725c48d76d0ac64739c94 visuals\default\record_live\1.png
+copy f90ed69b547e2b6377841f1597e4c08e visuals\default\record_live\2.png
+copy cf99567e0033026aec843a17178ee64d visuals\default\record_live\animation_options.txt
+copy ba4793fdd780930ecd34350f865be312 visuals\default\resume animation\animation_options.txt
+copy 74f4bc54c188cdc972e2ea1e085cac68 visuals\default\resume animation\Comp 1_00000.png
+copy 0aff1b8e95532704e9ddd67a9eb6255e visuals\default\resume animation\Comp 1_00001.png
+copy 33f7b2dc566ec8e3f6612acf3e856e8f visuals\default\resume animation\Comp 1_00002.png
+copy 1bc602981829df339c83e7e8413e8c1e visuals\default\resume animation\Comp 1_00003.png
+copy e5ae836d48952d2d1676fd0535a7fc0e visuals\default\resume animation\Comp 1_00004.png
+copy ee27c37052b222e3834d7b0c550e4257 visuals\default\resume animation\Comp 1_00005.png
+copy ef61b2666a8dcd4bce9582c66817fad6 visuals\default\resume animation\Comp 1_00006.png
+copy 7b34ef6887bbeb6f052ab146323143ac visuals\default\resume animation\Comp 1_00007.png
+copy f337cc69a5488d3468abb1cc76156b5d visuals\default\resume animation\Comp 1_00008.png
+copy cd81ce0294b47843ad4d30c988c9a885 visuals\default\resume animation\Comp 1_00009.png
+copy 22f0faf8456360233266a97bbbcc4ef9 visuals\default\resume animation\Comp 1_00010.png
+copy 66efc83889d4f98bf03d9861eff3c132 visuals\default\resume animation\Comp 1_00011.png
+copy f6cfd4813cff43efe46edce303a4d797 visuals\default\resume animation\Comp 1_00012.png
+copy a810832b734bc70f1b48555aad15128d visuals\default\resume animation\Comp 1_00013.png
+copy d6fcee2f1619e855b450a059541e8608 visuals\default\resume animation\Comp 1_00014.png
+copy 517e6bd7e50214329c2f66f9343789bc visuals\default\resume animation\Comp 1_00015.png
+copy ed2451cd6904ac97f8629b2c94b0d05b visuals\default\resume animation\Comp 1_00016.png
+copy 565e6bb28667cadfe252add0356b9693 visuals\default\resume animation\Comp 1_00017.png
+copy 0386e00b3565c25ebf3392fa228ee656 visuals\default\resume animation\Comp 1_00018.png
+copy 646bee340f9e9c3301989685841ca95f visuals\default\resume animation\Comp 1_00019.png
+copy d133fedf2cdd102f0930f2bad8b0c2a4 visuals\default\resume animation\Comp 1_00020.png
+copy 2cc925c8ea5215476d51cf06dcc1e4eb visuals\default\resume animation\Comp 1_00021.png
+copy 73998d584691945df5144c500063fb39 visuals\default\resume animation\Comp 1_00022.png
+copy 29d1c474f3eabac13237756a7cfeab86 visuals\default\resume animation\Comp 1_00023.png
+copy 7c5d984f409950a2524da7907d34232f visuals\default\resume animation\Comp 1_00024.png
+copy af7120d24968dd05f3d0ec20977ab0f9 visuals\default\resume animation\Comp 1_00025.png
+copy a36caf87291442625a368953f27e97c9 visuals\default\resume animation\Comp 1_00026.png
+copy 96fb752dcc884fe6be877465e0cd5ac7 visuals\default\resume animation\Comp 1_00027.png
+copy 61fe703782083a98f3348aa50ec1be3f visuals\default\resume animation\Comp 1_00028.png
+copy f3c3e1f7b7c08f704c88cc247b46827b visuals\default\resume animation\Comp 1_00029.png
+copy 9ab855d7bf197edd9f4ce21906393efd visuals\default\resume animation\Comp 1_00030.png
+copy f2b5b70761c80245587628e5135a5133 visuals\default\resume animation\Comp 1_00031.png
+copy 0a681ed3f14a776cb92ae1aed2c7dafa visuals\default\resume animation\Comp 1_00032.png
+copy 103a7f6393c93756241b38b553cdb307 visuals\default\resume animation\Comp 1_00033.png
+copy 85a2a72aa47041f596502c5068e18261 visuals\default\resume animation\Comp 1_00034.png
+copy 7bc7f79367747e3003966fda27f1e464 visuals\default\resume animation\Comp 1_00035.png
+copy d0928b5970d98f00aed580c1a93f71fa visuals\default\resume animation\Comp 1_00036.png
+copy 71705e79b190747d29a566d0b5dcd57b visuals\default\resume animation\Comp 1_00037.png
+copy 5dd14c19d7424a2c306abc535a2075e7 visuals\default\resume animation\Comp 1_00038.png
+copy 9e2884249873d561e9a086ea6afcce87 visuals\default\resume animation\Comp 1_00039.png
+copy f46d3de6660ec2ef51d6f55eabe4225e visuals\default\resume animation\Comp 1_00040.png
+copy edacd37dcaa79d5edec540ff3cbcdc1f visuals\default\resume animation\Comp 1_00041.png
+copy a5810ee896da3a3e83c153a37043767e visuals\default\resume animation\Comp 1_00042.png
+copy 9e0a39eb11792a1837cab37f24c5ab32 visuals\default\resume animation\Comp 1_00043.png
+copy 7d9f746f98a4f3246933800bc8359c15 visuals\default\resume animation\Comp 1_00044.png
+copy ab509c6d275d979f42c34e5884108bcd visuals\default\resume animation\Comp 1_00045.png
+copy d41148bd2a3369313d82efa4164b3a86 visuals\default\resume animation\Comp 1_00046.png
+copy 243cb7aeab2dc4bbc6bf2f53232083d5 visuals\default\resume animation\Comp 1_00047.png
+copy e381efa078f08b65ab78bc1a2f5eeb29 visuals\default\resume animation\Comp 1_00048.png
+copy 37608249ab011adde719831e3ab3a1e6 visuals\default\resume animation\Comp 1_00049.png
+copy 5bd555175d663f1429276597b158f414 visuals\default\resume animation\Comp 1_00050.png
+copy 48faa016380200e7a9b6fdc64f3d9fbb visuals\default\resume animation\Comp 1_00051.png
+copy 99ce3418f9a95c44ad9bacd703213df3 visuals\default\resume animation\Comp 1_00052.png
+copy 7ee4e43527b2671375e838aa3de42657 visuals\default\resume animation\Comp 1_00053.png
+copy bdd5cbcae14b621e1f9b14d7ce220ecb visuals\default\resume animation\Comp 1_00054.png
+copy 4471b358e973ae8667ae64697f7dca87 visuals\default\resume animation\Comp 1_00055.png
+copy 2f0bf4116a6315d6eba84cfc2821efe3 visuals\default\resume animation\Comp 1_00056.png
+copy 3034e80077bb5c5ac3f70b6ef1860a91 visuals\default\resume animation\Comp 1_00057.png
+copy b93aca50c1260f09588d07480e4cc26e visuals\default\resume animation\Comp 1_00058.png
+copy f5a332c84ab52594342c4911f774ec04 visuals\default\resume animation\Comp 1_00059.png
+copy 7af28ab2d48a0421823ed99bb1b67520 visuals\default\resume animation\Comp 1_00060.png
+copy d9c2bee05b2383baf185d5fa5c5684db visuals\default\resume animation\Comp 1_00061.png
+copy bc65e2177c6e28b6acdd78f50d7528ad visuals\default\resume animation\Comp 1_00062.png
+copy f5a3fa0e0b3fed02ec8d8f6489760888 visuals\default\resume animation\Comp 1_00063.png
+copy 9606f8be6f306cf7301f4d14c3ac7c94 visuals\default\resume animation\Comp 1_00064.png
+copy eabe9841694738565831d7d8b82586cc visuals\default\resume animation\Comp 1_00065.png
+copy 115f8509a859cea4bc74dd4fa98aa531 visuals\default\resume animation\Comp 1_00066.png
+copy 4826d003347664593054ef3915a445dd visuals\default\resume animation\Comp 1_00067.png
+copy dd818f507cc5cb1b387353b5ce54c73f visuals\default\resume animation\Comp 1_00068.png
+copy ce2a2e1f761f22900ed69cd38616f229 visuals\default\resume animation\Comp 1_00069.png
+copy b74ed36b7093aeada7d08e21e42e77f0 visuals\default\resume animation\Comp 1_00070.png
+copy 95c315affa41fe115778c2e37bed08ba visuals\default\resume animation\Comp 1_00071.png
+copy f68fa8c25ddb49308501214bac6adc21 visuals\default\resume animation\Comp 1_00072.png
+copy ac312997b420604a458fd01a061dbf8f visuals\default\resume animation\Comp 1_00073.png
+copy aed54bce87e1dc318f1c6eda2292af38 visuals\default\resume animation\Comp 1_00074.png
+copy b7ae6a22fc798b4bb9644670981c9706 visuals\default\resume animation\Comp 1_00075.png
+copy d4e6ae4cef72ba12b9b03ef2cc010771 visuals\default\resume animation\Comp 1_00076.png
+copy 028e0113abf5edb570b2756c983d2680 visuals\default\resume animation\Comp 1_00077.png
+copy e6c738a6d19141fc84456150b4f704fb visuals\default\resume animation\Comp 1_00078.png
+copy 4e504ef16518a9ece37ab9bd5741b3ca visuals\default\resume animation\Comp 1_00079.png
+copy 1a6d6bb9227fe2e20bb3684c61ffbe81 visuals\default\resume animation\Comp 1_00080.png
+copy f64accb739998710cdf524d70d42552b visuals\default\resume animation\Comp 1_00081.png
+copy 13b78ce73a6b1b1dd26dfa0db3bc6594 visuals\default\resume animation\Comp 1_00082.png
+copy 07e94b04b9cfd8caa162ce8470fae38f visuals\default\resume animation\Comp 1_00083.png
+copy ea6488ffafe4a288434496c5b83800c1 visuals\default\resume animation\Comp 1_00084.png
+copy 43283c99902da52613c6868d131bfce2 visuals\default\resume animation\Comp 1_00085.png
+copy 521178d8ae49abdfb9acacd0f7dcf2e4 visuals\default\resume animation\Comp 1_00086.png
+copy 732cc14e48842547730ba75220909f4c visuals\default\resume animation\Comp 1_00087.png
+copy 3f53bec46dbe0c7612a49f83d43297c7 visuals\default\resume animation\Comp 1_00088.png
+copy c68c2b4529b353fee0028f1bca1ac0f9 visuals\default\resume animation\Comp 1_00089.png
+copy 760cf326d1b0afd12ad00147f18e4c64 visuals\default\resume animation\Comp 1_00090.png
+copy e1d09de90342d5d66da1e2829d86e34d visuals\default\resume animation\Comp 1_00091.png
+copy d49dce25230ca4eb791d8bb1d74a3ef2 visuals\default\resume animation\Comp 1_00092.png
+copy e8ae4ae466dd664a036674f34cfb5c88 visuals\default\resume animation\Comp 1_00093.png
+copy b2554de605b01fd781692652e95c21fe visuals\default\resume animation\Comp 1_00094.png
+copy 317a2711b4bba4a3852c09cda1b31032 visuals\default\resume animation\Comp 1_00095.png
+copy 50a0749b300c42123a0c07c5cc3bc0b1 visuals\default\resume animation\Comp 1_00096.png
+copy 5f1b78c740fb54e01ea623ed1ff6534e visuals\default\resume animation\Comp 1_00097.png
+copy c07d74cfd16f08d5fc485dc875e80f08 visuals\default\resume animation\Comp 1_00098.png
+copy 8a4b3d890d8a1e6d71216fea26d6872f visuals\default\resume animation\Comp 1_00099.png
+copy b5174a9ffddb460b6f81af2479c59a55 visuals\default\resume animation\Comp 1_00100.png
+copy 92e772acf1f41640ae8ea4fa11055399 visuals\default\resume animation\Comp 1_00101.png
+copy 51a72dc2c8b9f54e8e07d90468fbd7e3 visuals\default\resume animation\Comp 1_00102.png
+copy 9dd45420aabda36427383c765af0e7e7 visuals\default\resume animation\Comp 1_00103.png
+copy 2c95ae33392987b38a4310b92bc583ab visuals\default\resume animation\Comp 1_00104.png
+copy af7cf4fd32113e851abe149d37b2abcf visuals\default\resume animation\Comp 1_00105.png
+copy 2b595cde00400fd23631780efa8517c4 visuals\default\resume animation\Comp 1_00106.png
+copy f2ab3d3be1164d546ae842d1219e1f49 visuals\default\resume animation\Comp 1_00107.png
+copy fad02f7ec821ebd9c344df63542c0812 visuals\default\resume animation\Comp 1_00108.png
+copy 372d43970576439b4760a878c122c95c visuals\default\resume animation\Comp 1_00109.png
+copy 1a8ad9df338484cc1b027d6f1a81e63b visuals\default\resume animation\Comp 1_00110.png
+copy f60036e501f9634add51fb678af4b4db visuals\default\resume animation\Comp 1_00111.png
+copy ecbe730be9d5b9cf922f232eafadbf74 visuals\default\resume animation\Comp 1_00112.png
+copy a5c3f939311c88dc520298482428b9c0 visuals\default\resume animation\Comp 1_00113.png
+copy a8521e360f5fd14a4b6e06bd64bc75f9 visuals\default\resume animation\Comp 1_00114.png
+copy 9ec74392bc0cf3ff9a6b5ba371e041be visuals\default\resume animation\Comp 1_00115.png
+copy c4bbf65729e086c1cc040b6f7b101e92 visuals\default\resume animation\Comp 1_00116.png
+copy f3339f419ec5cb321ca83c04cad7798d visuals\default\resume animation\Comp 1_00117.png
+copy 6f3727031000ed803bbc37176cfde0b0 visuals\default\resume animation\Comp 1_00118.png
+copy 51a472ee9127e8e09425a257da623f99 visuals\default\resume animation\Comp 1_00119.png
+copy 96872694d454f8862c3decd1cb8f5a91 visuals\default\resume animation\Comp 1_00120.png
+copy 96872694d454f8862c3decd1cb8f5a91 visuals\default\resume animation\Comp 1_00121.png
+copy 96872694d454f8862c3decd1cb8f5a91 visuals\default\resume animation\Comp 1_00122.png
+copy 96872694d454f8862c3decd1cb8f5a91 visuals\default\resume animation\Comp 1_00123.png
+copy 96872694d454f8862c3decd1cb8f5a91 visuals\default\resume animation\Comp 1_00124.png
+copy ba4793fdd780930ecd34350f865be312 visuals\default\spinner big\animation_options.txt
+copy 4b5dfe890390d3ef96499dde00907b98 visuals\default\spinner big\Spinner-1s-200px-00.jpg
+copy fe121286301102392260c444f612aace visuals\default\spinner big\Spinner-1s-200px-01.jpg
+copy f25dbca4820fc690dda9b4fc30ed9891 visuals\default\spinner big\Spinner-1s-200px-02.jpg
+copy 9e2f24faaacb99181e3bda5435363840 visuals\default\spinner big\Spinner-1s-200px-03.jpg
+copy e5f576a19974bb3846ffc4981e9ea01e visuals\default\spinner big\Spinner-1s-200px-04.jpg
+copy 1ade759888b53ae2c72730bbdb0826c9 visuals\default\spinner big\Spinner-1s-200px-05.jpg
+copy e2eafb325ea7a3e3280a5b591c38e56b visuals\default\spinner big\Spinner-1s-200px-06.jpg
+copy 221b5d054fcb80b2e6971c608b914ba1 visuals\default\spinner big\Spinner-1s-200px-07.jpg
+copy 05cf978e0c231328adaf7792242a735b visuals\default\spinner big\Spinner-1s-200px-08.jpg
+copy f10b45c33a1ed628e08d0c2e6b58e275 visuals\default\spinner big\Spinner-1s-200px-09.jpg
+copy bb28bc8b5ed1d7d16a3477fd11919fa0 visuals\default\spinner big\Spinner-1s-200px-10.jpg
+copy 209e0835c10113fec8c6cc54920dadd2 visuals\default\spinner big\Spinner-1s-200px-11.jpg
+copy 4a71742bdde9d18b7344136d08736532 visuals\default\spinner big\Spinner-1s-200px-12.jpg
+copy 15d11ede79bff56911d8d0dac6bbe754 visuals\default\spinner big\Spinner-1s-200px-13.jpg
+copy 3a52f5f611a8e86cca063a6a72a5916b visuals\default\spinner big\Spinner-1s-200px-14.jpg
+copy 2862b6abdfd0d484310ce463dc9c523a visuals\default\spinner big\Spinner-1s-200px-15.jpg
+copy 5aa04970954f413423f9ff9feb7375af visuals\default\spinner big\Spinner-1s-200px-16.jpg
+copy 56cb8412c634020ac4e4dce8dd84b82a visuals\default\spinner big\Spinner-1s-200px-17.jpg
+copy 48a57d258ab1900c34976e58409386c8 visuals\default\spinner big\Spinner-1s-200px-18.jpg
+copy 9112b8a0a1bc53e16d0770d1bf20ec1d visuals\default\spinner big\Spinner-1s-200px-19.jpg
+copy 450eab439f27a7bf360c6c0c8e43a73e visuals\default\spinner big\Spinner-1s-200px-20.jpg
+copy d1dff74ca867fd0c16cb6a882b6515ee visuals\default\spinner big\Spinner-1s-200px-21.jpg
+copy aec15615b7141a70a6b5fe406fdf0a1c visuals\default\spinner big\Spinner-1s-200px-22.jpg
+copy 37b0a5a9cc3281627af46a22d82ff788 visuals\default\spinner big\Spinner-1s-200px-23.jpg
+copy e5f0281ca53f6fd67a618ae7885bad8d visuals\default\spinner big\Spinner-1s-200px-24.jpg
+copy d852b704a8bc4924ebddc8fa84783c97 visuals\default\spinner big\Spinner-1s-200px-25.jpg
+copy b48c314dd06fa9f3d4cb10b80a91ab65 visuals\default\spinner big\Spinner-1s-200px-26.jpg
+copy 83ee31d858c124d57eb765c8dda9c879 visuals\default\spinner big\Spinner-1s-200px-27.jpg
+copy 70da65c7e22abb453c7779ae246074fe visuals\default\spinner big\Spinner-1s-200px-28.jpg
+copy 4dd46f2e54a571d4ac78e5d9ceb1e174 visuals\default\spinner big\Spinner-1s-200px-29.jpg
+copy 4b5dfe890390d3ef96499dde00907b98 visuals\default\spinner big\Spinner-1s-200px-30.jpg
+copy ba4793fdd780930ecd34350f865be312 visuals\default\spinner small\animation_options.txt
+copy e74f8645d276a4f0b2b3cbe8a4ad9191 visuals\default\spinner small\Spinner-1s-200px-01.jpg
+copy 94e603919769c594f2edcfbca173988d visuals\default\spinner small\Spinner-1s-200px-02.jpg
+copy bfa268020ab7db305d2794a84d2b403b visuals\default\spinner small\Spinner-1s-200px-03.jpg
+copy 48530dc55ce1ec8fa8ac27452cd0d3da visuals\default\spinner small\Spinner-1s-200px-04.jpg
+copy 07b10e4032a58093ae4bfbdcbcc317d0 visuals\default\spinner small\Spinner-1s-200px-05.jpg
+copy 1aae5758e7e71486ecc75f3cb68f5dab visuals\default\spinner small\Spinner-1s-200px-06.jpg
+copy 126ac4141a702ea231e48129f5c7ad6a visuals\default\spinner small\Spinner-1s-200px-07.jpg
+copy f2708cf4d63f0de3803b837d80f85b27 visuals\default\spinner small\Spinner-1s-200px-08.jpg
+copy 629961bafbe98f3d6a789ed425f40203 visuals\default\spinner small\Spinner-1s-200px-09.jpg
+copy c92a5248756abbf3c95c9ba89190c73a visuals\default\spinner small\Spinner-1s-200px-10.jpg
+copy 11ab0407e9f898ad15af22a28d626300 visuals\default\spinner small\Spinner-1s-200px-11.jpg
+copy daaeb6cccdeb050acc495c0a6e707f4b visuals\default\spinner small\Spinner-1s-200px-12.jpg
+copy 82ee8274e11ea2962f820f490ad8f973 visuals\default\spinner small\Spinner-1s-200px-13.jpg
+copy 413f65f5424faa3a2ff1f991594e61b1 visuals\default\spinner small\Spinner-1s-200px-14.jpg
+copy a8a1a682a2ee00e76b33668262fa5366 visuals\default\spinner small\Spinner-1s-200px-15.jpg
+copy c4ed594d707b067b1fd5fffe0c900ed1 visuals\default\spinner small\Spinner-1s-200px-16.jpg
+copy fbe4c0cf719cb831707be1e97ac63491 visuals\default\spinner small\Spinner-1s-200px-17.jpg
+copy d5e2415df1cc810ced275edaccc6338b visuals\default\spinner small\Spinner-1s-200px-18.jpg
+copy 9116ff7490dd482437b11baba7e02a18 visuals\default\spinner small\Spinner-1s-200px-19.jpg
+copy 0795dc5a9c73d04663ade99849498f47 visuals\default\spinner small\Spinner-1s-200px-20.jpg
+copy 41f204c94c7a47cced1765c01ceded6d visuals\default\spinner small\Spinner-1s-200px-21.jpg
+copy b70c808040b0a3ad8fbf1362c98611e2 visuals\default\spinner small\Spinner-1s-200px-22.jpg
+copy 35943c1c29fc32deb4f14fbab0518add visuals\default\spinner small\Spinner-1s-200px-23.jpg
+copy 087a47a2f8c141b70f10cea31d2755b2 visuals\default\spinner small\Spinner-1s-200px-24.jpg
+copy 89bb93e6c8f424086b98af95c942f68c visuals\default\spinner small\Spinner-1s-200px-25.jpg
+copy 6044e5be59097678fe6561e97737d268 visuals\default\spinner small\Spinner-1s-200px-26.jpg
+copy 168b86bfde0827505b298a2e112b23f8 visuals\default\spinner small\Spinner-1s-200px-27.jpg
+copy e2c20e897d910e9f2cfbf159c2d78097 visuals\default\spinner small\Spinner-1s-200px-28.jpg
+copy faaa235407485d737f9ad045a4176230 visuals\default\spinner small\Spinner-1s-200px-29.jpg
+copy 09a875922a1d9b550fc34a8de0578bdb visuals\default\spinner small\Spinner-1s-200px-30.jpg
+copy a91a1edec9e5b2b154d44ef4e90b20e0 visuals\default\Template_Brochure_Empty\animation_options.txt
+copy c633754db1c1479c5d14a22d3b4c66d5 visuals\default\Template_Brochure_Empty\frame006.jpg
+copy 42f08c357074e1441e87f2e24e0ebb19 visuals\default\Template_Brochure_Empty\frame012.jpg
+copy f58f76970ca27a9d84b0daa816451216 visuals\default\Template_Brochure_Empty\frame013.jpg
+copy fd9d1b00237f4b781b8c0d90bf2d9748 visuals\default\Template_Brochure_Empty\frame014.jpg
+copy 720fb8672c6cc69b2971a63bd73db9a1 visuals\default\Template_Brochure_Empty\frame015.jpg
+copy 47343d2aa551a0f6c6f068a4a02727a7 visuals\default\Template_Brochure_Empty\frame017.jpg
+copy 6065857da2b0b431f883ff0605eba053 visuals\default\Template_Brochure_Empty\frame019.jpg
+copy 36c0b8c79c1d480973bf36c840b6b033 visuals\default\Template_Brochure_Empty\frame021.jpg
+copy 95d8aef84507b0197f4ac17d1466605b visuals\default\Template_Brochure_Empty\frame022.jpg
+copy b6c09509dbabd1077606b5ece1c75be5 visuals\default\Template_Brochure_Empty\frame023.jpg
+copy 1ac3ab61828daa165a690b46f26d45e6 visuals\default\Template_Brochure_Empty\frame024.jpg
+copy 7b0e53bca0ee7516a76d35a2dc27425d visuals\default\Template_Brochure_Empty\frame026.jpg
+copy 04632c0e0dde2eecf8761b56d06748c1 visuals\default\Template_Brochure_Empty\frame032.jpg
+copy 7315eaf0d2bbe99f162fabd6d6364e5d visuals\default\Template_Brochure_Empty\frame034.jpg
+copy 12c620d8576bbcf320897a8483a73d56 visuals\default\Template_Brochure_Empty\frame039.jpg
+copy 3fd0b48c6fcf864101aec4c4ff8c3865 visuals\default\Template_Brochure_Empty\frame040.jpg
+copy 842092c22e95b7fde8a7c7e94c5995a1 visuals\default\Template_Brochure_Empty\frame041.jpg
+copy c68d2321bcf04779386a09913516fd33 visuals\default\Template_Brochure_Empty\frame042.jpg
+copy 94ef23c3a072b04580f12b167d68d571 visuals\default\Template_Brochure_Empty\frame043.jpg
+copy e5a7c638042482d9193a5e804686e970 visuals\default\Template_Brochure_Empty\frame044.jpg
+copy 535b7d5f762ed11bb1340241c38bdf81 visuals\default\Template_Brochure_Empty\frame052.jpg
+copy 0f43716aaf6549dff461ecbdcd2fde67 visuals\default\Template_Brochure_Empty\frame055.jpg
+copy 76f5a5b3e84419f0ebc18e0e39b76afd visuals\default\Template_Brochure_Empty\frame056.jpg
+copy 5f281fac655fe2386efc6dfc7ffc694f visuals\default\Template_Brochure_Empty\frame058.jpg
+copy dca9720c7553e5b8cb76d6a1dac5fdad visuals\default\Template_Brochure_Empty\frame060.jpg
+copy 592e1ca47efd9aa3474c011db2f380c8 visuals\default\Template_Brochure_Empty\frame067.jpg
+copy 0cff10df0f2671ff4709fc259856a2a5 visuals\default\Template_Brochure_Empty\frame068.jpg
+copy 032ec853a20beeb25d387cb73d2864d1 visuals\default\Template_Brochure_Empty\frame069.jpg
+copy b043e4b14874c434adfece977219777f visuals\default\Template_Brochure_Empty\frame070.jpg
+copy 7f2c7b7df7fe07cc13bff02d119000d8 visuals\default\Template_Brochure_Empty\frame072.jpg
+copy 30de03dbe3ba8ae647f0898af4e5ae80 visuals\default\Template_Brochure_Empty\frame074.jpg
+copy c22f9602699784bcd3b57915ab7427e1 visuals\default\Template_Brochure_Empty\frame075.jpg
+copy 926994d0fc0b0cb538e2e0303aca0d72 visuals\default\Template_Brochure_Empty\frame077.jpg
+copy f3355a05d5d76b9bd08411d9e78cfc5f visuals\default\Template_Brochure_Empty\frame078.jpg
+copy b475d21d61864050e62aefb39cf3711e visuals\default\Template_Brochure_Empty\frame081.jpg
+copy 8bc50b37949771b07f8770c1fbd453fe visuals\default\Template_Brochure_Empty\frame083.jpg
+copy 232238f773013f205983d9a64e0441b9 visuals\default\Template_Brochure_Empty\frame084.jpg
+copy 82f51cc5b48ca45bb79077ef45504bf2 visuals\default\Template_Brochure_LivePlot\animation_options.txt
+copy 5a06c7383d6b5a790bede88dbad15599 visuals\default\Template_Brochure_LivePlot\frame014.jpg
+copy dc0fbfd7693c59e31d178f259158038a visuals\default\Template_Brochure_LivePlot\frame015.jpg
+copy 000a80d70102f8ec8f2f01f7e7f77253 visuals\default\Template_Brochure_LivePlot\frame016.jpg
+copy 64d440b775e4716bb0daad87d6c93641 visuals\default\Template_Brochure_LivePlot\frame017.jpg
+copy 00126376786552c6f2855787fcdd5772 visuals\default\Template_Brochure_LivePlot\frame018.jpg
+copy 85abafbe7fda46f1a00456ff6bb80e01 visuals\default\Template_Brochure_LivePlot\frame019.jpg
+copy 55886900dab39c2dd039d0de37dc0eb5 visuals\default\Template_Brochure_LivePlot\frame020.jpg
+copy 6fe2f1e9217bfdb3325ec33f7001a3a0 visuals\default\Template_Brochure_LivePlot\frame021.jpg
+copy 6e9fd6fd74f1d925ba4390d1bc5a7b34 visuals\default\Template_Brochure_LivePlot\frame022.jpg
+copy e007572d388346b6ec38d801cb48cd91 visuals\default\Template_Brochure_LivePlot\frame023.jpg
+copy d67575f33fdc85da354197181cf2c96b visuals\default\Template_Brochure_LivePlot\frame024.jpg
+copy 1f40868fa9c62a65a6a7df8143bfc70e visuals\default\Template_Brochure_LivePlot\frame025.jpg
+copy 1dc8dcd1aae51b692b8313ad7a40009b visuals\default\Template_Brochure_LivePlot\frame026.jpg
+copy 506ce479bd4e225f8fd3ddc7296bb31d visuals\default\Template_Brochure_LivePlot\frame027.jpg
+copy 2ed78df31cc5dab41ceacf603d588fee visuals\default\Template_Brochure_LivePlot\frame028.jpg
+copy 3d75d83284f438dcbc6c81bfba7f6f03 visuals\default\Template_Brochure_LivePlot\frame029.jpg
+copy 198e8f4489b0857023aec2ff5a884b0b visuals\default\Template_Brochure_LivePlot\frame030.jpg
+copy 22ce9e29f05854605e1f838fd20b1a20 visuals\default\Template_Brochure_LivePlot\frame031.jpg
+copy 0b49c4ff0f1414ac53107608b235dbe6 visuals\default\Template_Brochure_LivePlot\frame032.jpg
+copy 82f51cc5b48ca45bb79077ef45504bf2 visuals\default\Template_Brochure_Physcl\animation_options.txt
+copy 5a06c7383d6b5a790bede88dbad15599 visuals\default\Template_Brochure_Physcl\frame014.jpg
+copy dc0fbfd7693c59e31d178f259158038a visuals\default\Template_Brochure_Physcl\frame015.jpg
+copy 000a80d70102f8ec8f2f01f7e7f77253 visuals\default\Template_Brochure_Physcl\frame016.jpg
+copy 64d440b775e4716bb0daad87d6c93641 visuals\default\Template_Brochure_Physcl\frame017.jpg
+copy 00126376786552c6f2855787fcdd5772 visuals\default\Template_Brochure_Physcl\frame018.jpg
+copy 85abafbe7fda46f1a00456ff6bb80e01 visuals\default\Template_Brochure_Physcl\frame019.jpg
+copy 55886900dab39c2dd039d0de37dc0eb5 visuals\default\Template_Brochure_Physcl\frame020.jpg
+copy 6fe2f1e9217bfdb3325ec33f7001a3a0 visuals\default\Template_Brochure_Physcl\frame021.jpg
+copy 6e9fd6fd74f1d925ba4390d1bc5a7b34 visuals\default\Template_Brochure_Physcl\frame022.jpg
+copy e007572d388346b6ec38d801cb48cd91 visuals\default\Template_Brochure_Physcl\frame023.jpg
+copy d67575f33fdc85da354197181cf2c96b visuals\default\Template_Brochure_Physcl\frame024.jpg
+copy 1f40868fa9c62a65a6a7df8143bfc70e visuals\default\Template_Brochure_Physcl\frame025.jpg
+copy 1dc8dcd1aae51b692b8313ad7a40009b visuals\default\Template_Brochure_Physcl\frame026.jpg
+copy 506ce479bd4e225f8fd3ddc7296bb31d visuals\default\Template_Brochure_Physcl\frame027.jpg
+copy 2ed78df31cc5dab41ceacf603d588fee visuals\default\Template_Brochure_Physcl\frame028.jpg
+copy 3d75d83284f438dcbc6c81bfba7f6f03 visuals\default\Template_Brochure_Physcl\frame029.jpg
+copy 198e8f4489b0857023aec2ff5a884b0b visuals\default\Template_Brochure_Physcl\frame030.jpg
+copy 22ce9e29f05854605e1f838fd20b1a20 visuals\default\Template_Brochure_Physcl\frame031.jpg
+copy 0b49c4ff0f1414ac53107608b235dbe6 visuals\default\Template_Brochure_Physcl\frame032.jpg
+copy 82f51cc5b48ca45bb79077ef45504bf2 visuals\default\Template_Brochure_Physcloud\animation_options.txt
+copy 5a06c7383d6b5a790bede88dbad15599 visuals\default\Template_Brochure_Physcloud\frame014.jpg
+copy dc0fbfd7693c59e31d178f259158038a visuals\default\Template_Brochure_Physcloud\frame015.jpg
+copy 000a80d70102f8ec8f2f01f7e7f77253 visuals\default\Template_Brochure_Physcloud\frame016.jpg
+copy 64d440b775e4716bb0daad87d6c93641 visuals\default\Template_Brochure_Physcloud\frame017.jpg
+copy 00126376786552c6f2855787fcdd5772 visuals\default\Template_Brochure_Physcloud\frame018.jpg
+copy 85abafbe7fda46f1a00456ff6bb80e01 visuals\default\Template_Brochure_Physcloud\frame019.jpg
+copy 55886900dab39c2dd039d0de37dc0eb5 visuals\default\Template_Brochure_Physcloud\frame020.jpg
+copy 6fe2f1e9217bfdb3325ec33f7001a3a0 visuals\default\Template_Brochure_Physcloud\frame021.jpg
+copy 6e9fd6fd74f1d925ba4390d1bc5a7b34 visuals\default\Template_Brochure_Physcloud\frame022.jpg
+copy e007572d388346b6ec38d801cb48cd91 visuals\default\Template_Brochure_Physcloud\frame023.jpg
+copy d67575f33fdc85da354197181cf2c96b visuals\default\Template_Brochure_Physcloud\frame024.jpg
+copy 1f40868fa9c62a65a6a7df8143bfc70e visuals\default\Template_Brochure_Physcloud\frame025.jpg
+copy 1dc8dcd1aae51b692b8313ad7a40009b visuals\default\Template_Brochure_Physcloud\frame026.jpg
+copy 506ce479bd4e225f8fd3ddc7296bb31d visuals\default\Template_Brochure_Physcloud\frame027.jpg
+copy 2ed78df31cc5dab41ceacf603d588fee visuals\default\Template_Brochure_Physcloud\frame028.jpg
+copy 3d75d83284f438dcbc6c81bfba7f6f03 visuals\default\Template_Brochure_Physcloud\frame029.jpg
+copy 198e8f4489b0857023aec2ff5a884b0b visuals\default\Template_Brochure_Physcloud\frame030.jpg
+copy 22ce9e29f05854605e1f838fd20b1a20 visuals\default\Template_Brochure_Physcloud\frame031.jpg
+copy 0b49c4ff0f1414ac53107608b235dbe6 visuals\default\Template_Brochure_Physcloud\frame032.jpg
+copy a57c71b487c0c58eff14a1fbc8c84d5a visuals\default\add extension.png
+copy 0bcb49599b3478c330e0128052203c94 visuals\default\AddBelow - Copy.png
+copy 0bcb49599b3478c330e0128052203c94 visuals\default\AddBelow.png
+copy f304d99e8331e06f5a929b1b0918bd41 visuals\default\AddManualEntryButton.png
+copy 19402c32df6c20e0243efdba29ce8c6f visuals\default\ai_selected.png
+copy fd2acddc5f0da0288cce1975fa5d3771 visuals\default\ao_selected.png
+copy 6d06789bca93ba39c6f4d5788150d12f visuals\default\bi_selected.png
+copy 89de38898a9f1f0e4ce0aee849e81818 visuals\default\bottomlimit.png
+copy 52a33da1bf0ef561ed70450d5fba56d1 visuals\default\bo_selected.png
+copy 5f182f9160290aa2e255e6a2632c9b62 visuals\default\ci_selected.png
+copy 0498c404c39ef0670f54ddd45a6400dc visuals\default\clear plot.png
+copy c607a0e904d96ac570b28b302754b7eb visuals\default\clear plot_active.png
+copy 90670a7a963dbc547e0bb877a6e03234 visuals\default\clear session.png
+copy c6cb66a3928a0d62d0c46df629ab4bde visuals\default\ClearSession.png
+copy a6177dcb06db7b7e0f8c2eba48e7efba visuals\default\ClearSession_active.png
+copy 8090dd2bb7bceb56caddb3dc4d45b89a visuals\default\close icon.png
+copy 95416d9a7555368a3ff5ccff45416e59 visuals\default\cloud widget.png
+copy e678f29063411164f1510729d3d8306d visuals\default\cloudconfig.png
+copy eca7dc59b3c725c48d76d0ac64739c94 visuals\default\cloud_log.png
+copy f90ed69b547e2b6377841f1597e4c08e visuals\default\cloud_log_active.png
+copy da432e2b4a52b6e67883f6cfb9a2cfbc visuals\default\colors.plf
+copy 9fa1ab68a9e8ad8756518e67324e3f18 visuals\default\community icon.png
+copy dc72faee8ba12c71d67a463ea3337f1f visuals\default\ContextMenuStripChecked.png
+copy b4f8f1a913c196418b33126da2bae401 visuals\default\ContextMenuStripUnchecked.png
+copy e02951be4228e63031f1af7d9552e406 visuals\default\control.png
+copy b6c6313c92f47f373ed33b58d5bf476f visuals\default\create.png
+copy 5ffe9a24e4876f27290d52a65091f506 visuals\default\delete.png
+copy c8f1de08772b5cdf31822d3e1a58f85f visuals\default\di_selected.png
+copy 21d2d2bf0625164e6952faa66a65d4b2 visuals\default\DownLimitWarning_Light.png
+copy b2ce99ee10108a6b8536c1402f0cab74 visuals\default\d_Icon_PhysLogger.png
+copy 949392155bd7c713f0494bd4cd40683d visuals\default\d_Icon_PhysLoggerSoftware.png
+copy 1f247426bc8d8eaeee39fa55139dc5d2 visuals\default\d_Icon_PhysWattManager.png
+copy 83f096763378f9f327dc73c542c99dfa visuals\default\d_icon_StepperMotorManagementQuantity.png
+copy cf7c42023b8d913efe69da9b1fe5c376 visuals\default\edge_icon_both.png
+copy cf7c42023b8d913efe69da9b1fe5c376 visuals\default\edge_icon_falling.png
+copy cf7c42023b8d913efe69da9b1fe5c376 visuals\default\edge_icon_rising.png
+copy 13891c1c60f17f9a0e7d774d9d3b2ebd visuals\default\Edit_24x24.png
+copy 7d2262212e8fc82e640d0426cb1afcf6 visuals\default\EraseTableEntry.png
+copy 20a256f7c71ac1d410dc7777f9687dd8 visuals\default\Explore.png
+copy 3a346d291333c6c64e8553dc2a098528 visuals\default\extension menu option icon.png
+copy cde72e20d6119f927e3b46c6b049f9e2 visuals\default\horizontalAveraging.png
+copy 7ece03cb53d2cc77ac33dfa2de6c4cd9 visuals\default\horizontal_slider_preview.png
+copy 71ae6b6f82a9b62943b2f04dc24920bf visuals\default\InstrumentMenuIcon_PhysGate.png
+copy 2cca79a640ea9a378ce833c92a1526cc visuals\default\instrumentmenuicon_physhall.png
+copy 6fa0193762ad0d034df3940671919e23 visuals\default\instrumentmenuicon_Physpump.png
+copy aa68a5730414726a9334178a16f2b36a visuals\default\InstrumentMenuIcon_PhysTherm.png
+copy a89a1f9f9a2a62b32d01df43329e1eee visuals\default\instrumentmenuicon_Physwatt.png
+copy 80564bde516b1df9e72a5fe06556107c visuals\default\InstrumentMenuIcon_RProbe.png
+copy a8504a03c3a5eda77fde76de3af43089 visuals\default\layout preview.png
+copy 05de9bfd1ef7bb6aa1703de51f0c9083 visuals\default\LayoutRectangleSetup_CascadedHorizontal.png
+copy ffd8598c659ca9de0dade9eca6750402 visuals\default\LayoutRectangleSetup_CascadedVertical.png
+copy 3b067fe41f6fb7f9e54c90425d778366 visuals\default\LayoutRectangleSetup_Overlapping.png
+copy 39a6c2a14d19a4a959f8bbff68f4e975 visuals\default\leftlimit.png
+copy f52dcf448cfd3315741287ccda3b720f visuals\default\LeftLimitWarning_Light.png
+copy 0a26fbc6efecba56a47bd751bf2f47dc visuals\default\local icon.png
+copy 90670a7a963dbc547e0bb877a6e03234 visuals\default\LoggingActive.png
+copy 90670a7a963dbc547e0bb877a6e03234 visuals\default\LoggingInactive.png
+copy c3f2a934f152da515d899af08453415c visuals\default\MakeTemplate_Community.png
+copy dc02a2e1d02bf6af4b262a656fe82075 visuals\default\MakeTemplate_Local.png
+copy 81fa4c71d90f546d6220525584b11d0b visuals\default\ManageSession.png
+copy 7a7d72bd8ea4c554af6a80ffdc2fbe0b visuals\default\measure.png
+copy c708eafbfadda43bcacc75a1205fb6ca visuals\default\MENU-2-NUMERIC INPUT-01-01.png
+copy 5cc184a52bbfc80a78764c27cae3a890 visuals\default\MenuIcon_ABS.png
+copy c0b230a783289ee5212b2e87465f7a45 visuals\default\MenuIcon_BinaryAdder.png
+copy 4ade059c994275931915f29c6cad7155 visuals\default\MenuIcon_BinaryComparator.png
+copy b8dea41ebf366ddc88f672dbbf4ff5ca visuals\default\MenuIcon_BinaryMultiplier.png
+copy 70b32f9bdfa2a1491534d342c714d788 visuals\default\MenuIcon_CountEdge.png
+copy 3881ae8fa091852250bb6886e0ab7615 visuals\default\MenuIcon_Exponent.png
+copy 60296f1b65556ce343083c4e6750510f visuals\default\MenuIcon_Extrema.png
+copy 4010b4fa5c945b51e6322fabdb3aa1cf visuals\default\MenuIcon_Gauge.png
+copy 1d9615466277564a96b178c9be033bd2 visuals\default\MenuIcon_Gauge_Detail.png
+copy 8c2c7e12776bc3353982c37e0c58ea00 visuals\default\MenuIcon_HorizontalSlider.png
+copy 678ec6785f3019fb69b2cdc9c14f0ff5 visuals\default\MenuIcon_Integrate.png
+copy 7405cd8244ef1e2da050095703cc0f5a visuals\default\MenuIcon_Latch.png
+copy 6d9e3910764614005137e7ef3cbb97fc visuals\default\MenuIcon_LinearInterpolator.png
+copy a76e9779d3adec06dad8551dbc6564ef visuals\default\MenuIcon_LivePlots.png
+copy c25628842bdc2bbea033175900b921dd visuals\default\MenuIcon_LivePlots_Detail.png
+copy d12a9aac7dcd1f79ec187df5797346fe visuals\default\MenuIcon_ManualDataTable.png
+copy 50dd20bda3f138c22586a6a201a59399 visuals\default\MenuIcon_ManualTextEntryWidget.png
+copy 7d8fc29afa25e370d7fc13ea9a959522 visuals\default\MenuIcon_NumericIndicator.png
+copy feef12056743a2cb7df825fdd935c4c6 visuals\default\MenuIcon_PhysCloud.png
+copy 09fe3dbd446c19fc330c2f01f4c34132 visuals\default\MenuIcon_PID.png
+copy 41132d7adaf54f55007f5591c8ed2476 visuals\default\MenuIcon_PushButton.png
+copy 302571e458ba2bc3e31329110fd84d27 visuals\default\MenuIcon_Range.png
+copy 1c335a320f7a7d43a63b6b22b3f719fa visuals\default\MenuIcon_SawtoothGenerator.png
+copy d9a17fcb7c98ba562af086825d42b2e7 visuals\default\MenuIcon_SawtoothGenerator_Detail.png
+copy 5aab9ff1416aac43e8be34bce9f38eb0 visuals\default\MenuIcon_SineGenerator.png
+copy 2e00e8cc0d892de0e52f7f40f7e7f69d visuals\default\MenuIcon_SineGenerator_Detail.png
+copy 9d3e357f77e1c9585f14f3547ec970c3 visuals\default\MenuIcon_SquarePulseGenerator.png
+copy 9bcbfb18c6b8f0e9341b566a9691ee46 visuals\default\MenuIcon_SquarePulseGenerator_Detail.png
+copy aaef4eb36cbd20c22bc088f86b6895f6 visuals\default\MenuIcon_ToggleSwitch.png
+copy 18d4f828c9f19b26a7a082a8b3902925 visuals\default\MenuIcon_TriangularWaveGenerator.png
+copy 908c9741b5b0a6304ca569095712b5d1 visuals\default\MenuIcon_TriangularWaveGenerator_Detail.png
+copy bb6905e39f6f2a90c0151f7bfd342a25 visuals\default\MenuIcon_VerticalSlider.png
+copy 30ea71cb92c66b53c8c0518555fab9a0 visuals\default\MenuIcon_XYJoyPad.png
+copy 8faa6f9b9fbe65234393d5b4f8fe31a3 visuals\default\MenuIcon__4Pointdifferentiation.png
+copy a80917b70e8863074d5f404eaa6a85a5 visuals\default\merge_plots.png
+copy b0949148a48c1897f770d381447a79f8 visuals\default\minimize icon.png
+copy 54ad332e59c5bb60282b8dc900b6542a visuals\default\notification error.png
+copy 08d1a5aaf445e3f568621f77cd4b58e0 visuals\default\notification ok.png
+copy d9d9e67341f6c8deab14cb23688a12ac visuals\default\notification warning.png
+copy 064f2624ddf92f19c72848d456d5d8e3 visuals\default\open workspace session.png
+copy be143b2b347560cab85e0932fb78f386 visuals\default\password.png
+copy 720a0a0bf9a0986ca7bd35c93f721534 visuals\default\pause.png
+copy b92e20a88beff1df5f983eedcd62fc1e visuals\default\pause_active.png
+copy 8810b832f11b6e5a1afab929618059f2 visuals\default\pdfToJPG.exe.config
+copy fc9f896933b6123abebb21c8476448ec visuals\default\pdfToJPG.vshost.exe
+copy 8810b832f11b6e5a1afab929618059f2 visuals\default\pdfToJPG.vshost.exe.config
+copy a19a2658ba69030c6ac9d11fd7d7e3c1 visuals\default\pdfToJPG.vshost.exe.manifest
+copy b0991b482fd77adec39ffba9e50cafd0 visuals\default\period.png
+copy 96a5722a614775d2e25eb8378d42a220 visuals\default\PhotoGate_Clear.png
+copy e7e0187653c379227b53485d5c089e75 visuals\default\PhotoGate_Closed.png
+copy e4c5601f0c9d6e06c29c47629a234732 visuals\default\PhysCloud.png
+copy 9195cb1a895971c051e1c6de5240a327 visuals\default\PhysWatt_AC.png
+copy 3943c24b472991f6deb809df05b42c18 visuals\default\PhysWatt_ACIcon.png
+copy 98aadfa30be8f46a730762f6aaea7ebf visuals\default\PhysWatt_BiPolar.png
+copy f73f458cd8030a75343c70039afcc151 visuals\default\PhysWatt_BiPolarIcon.png
+copy 2f7537d7f575e0cccae7ab1439d323d5 visuals\default\PhysWatt_Channel_Unselected.png
+copy 3417a5de9adc7f5780ee37e192d8b72b visuals\default\PhysWatt_DoubleRange.png
+copy c26eb56d99e40f0ef1a5ead64740c63d visuals\default\PhysWatt_DoubleRangeIcon.png
+copy 6c9cab452958e9d530b465a81422abbb visuals\default\PhysWatt_Independent.png
+copy e3495ef048c7369985dad1b49225d558 visuals\default\PhysWatt_IndependentIcon.png
+copy d1b72b02c350028b3e12dbd79fbb1ca2 visuals\default\play.png
+copy aba8aaedbd3f784df9e171089d36800e visuals\default\play_active.png
+copy 968e5f237354a371e4a6cde315ddffe4 visuals\default\pushButtonIcon.png
+copy 5ccb13a2aed9460baad42d30f417d913 visuals\default\Q Page Icon Back.png
+copy 4acc9f87d51b2cd5dad591de6fd9274e visuals\default\Q Page Icon.png
+copy 0f0569f66a2919f1bb919f65dae6d674 visuals\default\q_icon_Absolute.png
+copy cf7c42023b8d913efe69da9b1fe5c376 visuals\default\q_icon_ADCInput.png
+copy 82f14ded99b518bcd3b113d3c67bdb6d visuals\default\q_icon_BinaryAdder.png
+copy 83e31b2f52f8b3383c1131078c75b9c8 visuals\default\q_icon_BinaryComparator.png
+copy 572fb6099f158222aa83e07a11175463 visuals\default\q_icon_BinaryDivider.png
+copy c9f308ba8746d0e7d4a590b83384295f visuals\default\q_icon_BinaryMultiplier.png
+copy 2ab63c55790c8ff9c2a4d94240d598c7 visuals\default\q_icon_ClockTime.png
+copy c6e1c64faa757eb761aed8037bf5c2f6 visuals\default\q_icon_ColorLCD.png
+copy 86da6bf343191d658234d01927f5aa06 visuals\default\q_icon_Current.png
+copy 3faf99d377eb71d09f03e2949e323b53 visuals\default\q_icon_DACOutput.png
+copy 3faf99d377eb71d09f03e2949e323b53 visuals\default\q_icon_EdgeCounter.png
+copy ae511bcdd62752da4b894693c31490cc visuals\default\q_icon_EdgeCounter_bkp.png
+copy fdadfc477fdce9e68d1c1810e7850a04 visuals\default\q_icon_empty.png
+copy 0d0180df4bd4334ca970b97f131de7c3 visuals\default\q_icon_Encoder_Angle.png
+copy d3dba4f4dd7e68396d4a0d915a62d2ff visuals\default\q_icon_Encoder_AngularDisplacement.png
+copy 2829fd445c66055f5c9e77feb8d4914f visuals\default\q_icon_exponent.png
+copy 32b21d2f04b4ec2fd02d90dce24a1b35 visuals\default\q_icon_FlowRate.png
+copy 401dc140914250376a740219fdaefbb9 visuals\default\q_icon_HorizontalSlider.png
+copy 12f3baa685a782be7243fe2b8a394d9a visuals\default\q_icon_Integrate.png
+copy 31708b5aceb59b94d3d19dcb8a65fd47 visuals\default\q_icon_linearinterpolator.png
+copy 135fb5fc786036a8ea5c7a9af6109b62 visuals\default\q_icon_LinearStageX.png
+copy 07d35087802949d86080f198f005ffad visuals\default\q_icon_LinearStageY.png
+copy 18cbd7236939d1209f8917a5b33211a6 visuals\default\q_icon_LowPassFilter copy.png
+copy f5c8b99a3d75fe6a1f1496cd40b59f38 visuals\default\q_icon_LowPassFilter.png
+copy cc1d01510d87bbf909648586486fd261 visuals\default\q_icon_MagneticFlux.png
+copy 1fee979ff1933e6f46186dbd99a06d25 visuals\default\q_icon_ManualQuantityValue.png
+copy 3d1469e840ddfa8267f5c469c02f80d2 visuals\default\q_icon_PhysLoadQuantity.png
+copy f5c8b99a3d75fe6a1f1496cd40b59f38 visuals\default\q_icon_PhysWattChannelCurrent.png
+copy ac923def1dfe4c197d7c71458305ad8a visuals\default\q_icon_PhysWattChannelPower.png
+copy 570a5347fc6a046904be88ae81094e16 visuals\default\q_icon_PhysWattChannelRelay.png
+copy 570a5347fc6a046904be88ae81094e16 visuals\default\q_icon_physwattchannelvoltage.png
+copy 017e54de28537e22e5669386447ffe75 visuals\default\q_icon_PhysWattManager.png
+copy 5095a612e1305f160ac18138c6b2d296 visuals\default\q_icon_pid.png
+copy f0a45bd0a1146dcf99af5b08828dc3a2 visuals\default\q_icon_presence.png
+copy 55ae1403e4a714918f2bf8760619af08 visuals\default\q_icon_PushButton.png
+copy 19c0c840b7e590c69efb2c4b9d735b60 visuals\default\q_icon_Range.png
+copy 82c7b2af7f3b6ca8440602e21d14b066 visuals\default\q_icon_Resistance.png
+copy e20c289a7da2b0cc1c4f5b2c02903302 visuals\default\q_icon_Rotation_Displacement.png
+copy e80b885c855a7f5c6617efb6035edcb2 visuals\default\q_icon_Rotation_Speed.png
+copy dbd6e471637da1118bab5a421b9bfc8e visuals\default\q_icon_SampleImage - Copy.png
+copy dbd6e471637da1118bab5a421b9bfc8e visuals\default\q_icon_SampleImage.png
+copy fbd94b991b72bde65c273a5937e4b474 visuals\default\q_icon_SawToothGenerator.png
+copy 7d3ede34e0a135fbfa28dabe767bc1cc visuals\default\q_icon_SineGenerator.png
+copy 8a4777438db64167896b85444a9c7c22 visuals\default\q_icon_SquarePulseGenerator.png
+copy e20c289a7da2b0cc1c4f5b2c02903302 visuals\default\q_icon_StepperMotorDisplacementQuantity.png
+copy 659f792763d89691bc59163038b95804 visuals\default\q_icon_StepperMotorManagementQuantity.png
+copy e80b885c855a7f5c6617efb6035edcb2 visuals\default\q_icon_StepperMotorSpeedQuantity.png
+copy 15a69ea965d83d8f179ccb481f4455c6 visuals\default\q_icon_temperature.png
+copy 69e27e6dd83e1d9c319db5f1eb96a017 visuals\default\q_icon_ToggleSwitch.png
+copy 7b50aa3b1dd5253dd1de0284a902572b visuals\default\q_icon_TriangularWaveGenerator.png
+copy 4c1ce149da05a838a001c90e139819bc visuals\default\q_icon_unknown.png
+copy 6fed4bd4e7a2e6340e1d24971c0ca23d visuals\default\q_icon_VerticalSlider.png
+copy acb5bd950e27f42ca8be23e3231c2306 visuals\default\q_icon__4PointDifferentiation.png
+copy eca7dc59b3c725c48d76d0ac64739c94 visuals\default\record.png
+copy f90ed69b547e2b6377841f1597e4c08e visuals\default\record_active.png
+copy 90670a7a963dbc547e0bb877a6e03234 visuals\default\resume error.png
+copy d0aa24929cffca9748c79817cfe826dd visuals\default\Resume Session.png
+copy 5e5802ca40ddb577c41e32bb533e697d visuals\default\resume.png
+copy 762fe3d2612a84386be0114fba8f40d1 visuals\default\rightlimit.png
+copy a48ab1c455f602c56f488f67db3d42c4 visuals\default\RightLimitWarning_Light.png
+copy 5ba2127d429685014bde8628fa66ff70 visuals\default\save session message.png
+copy 62ac831049bc283a3dc136f3dd7224fc visuals\default\SaveIcon.png
+copy 02cd827f4fafc2b01245f93ee0608877 visuals\default\SaveSession.png
+copy acd3013c9a45e3a50081ec636e867615 visuals\default\SawtoothGenerator_Editor.png
+copy 9ad08273e377f9e98ccafbe577f48088 visuals\default\ScanBus.png
+copy 29957dabff8dcea164c38a35e4a56acf visuals\default\screenshot.png
+copy 44968179bc000ad8edb85966fff61aa4 visuals\default\settings icon.png
+copy ea6a25cb92c93b13ae62a7fa30561f3e visuals\default\SetupTimedEntry.png
+copy edefd501590787833a38b540c39185ac visuals\default\simple_gauge.png
+copy a708b3539f7699a458cb979e164d9dc6 visuals\default\simple_gauge_needlering.png
+copy 3eb66ade3a0ee56ce41361a699c45243 visuals\default\SineGenerator_Editor.png
+copy cfcd5c04691bf07c5715c5ef88c1420c visuals\default\splash back.png
+copy f9dbf987ec4b520f45cb7eea3fc6534b visuals\default\split_plots.png
+copy 7743bef75b394f63c2fe02108566c494 visuals\default\SquarePulseGenerator_Editor.png
+copy 192caa2be2af6db054bedcf76acc7eed visuals\default\ssid.png
+copy d9c7088186ff9128632ebee493122092 visuals\default\start new session.png
+copy 14ee9a84a4b908a64b3078e3b84f3072 visuals\default\SyringePumpInsertSyringe.jpg
+copy 92ea62a0d6e40b326ff13eb2957723a0 visuals\default\SyringePumpMoveLeft.png
+copy 7f4437a3f69a0044b24e32a05a1873f6 visuals\default\SyringePumpMoveLeftHighlight.png
+copy 1e077307c5f5b0c242483d7d58f28bda visuals\default\SyringePumpMovePlunger.jpg
+copy 6f5e6e1650ec78939c4c9706a3671928 visuals\default\SyringePumpMoveRight.png
+copy 30f50049fef89eee2972240aafcc24c4 visuals\default\SyringePumpMoveRightHighlight.png
+copy 99df57e17a569dd7bb01690006df7b5e visuals\default\SyringePumpTighten.jpg
+copy 63ebb41bf2cd2ce566b167e5ccf355d7 visuals\default\SyringePumpWireSetup.jpg
+copy 7074f3a13cd9d545513fca0ac5042ce5 visuals\default\TakeManualEntry.png
+copy 397731bb9b4d1db9e3a089bc8dbb0695 visuals\default\template.png
+copy a6dae0fca5840e8a3674b8f3d88d434b visuals\default\Template_Brochure_EMI.jpg
+copy aa8ad228f87f9a57a5fc21996aebaf4e visuals\default\Template_Brochure_Empty.jpg
+copy a8beaa90e506517968eaa2807e860346 visuals\default\Template_Brochure_Heat Transfer.jpg
+copy f94f60e1f5884f20ced6973c72291054 visuals\default\Template_Brochure_Linear Air-track.jpg
+copy 7eccf8d3008481b1d14947712ecff3cc visuals\default\template_brochure_physcloud.jpg
+copy d0cf4ba02389214446f1d5fc343a58e7 visuals\default\Template_Brochure_PhysMag.jpg
+copy 126b96c38ceeebc26cab79be8b9bf5b7 visuals\default\Template_Brochure_Rotaional Motion with Photogates.jpg
+copy 4835f20357b448579227d7388d25ace5 visuals\default\Template_Icon_1.png
+copy 48cbe205c34f06f2976c485a81e93705 visuals\default\Template_Icon_10.png
+copy 8443d52611823f71ea41efd7d9c414cc visuals\default\Template_Icon_11.png
+copy 9486567773ed7c267b8cffb99308fb21 visuals\default\Template_Icon_12.png
+copy 9f57c9dc508cbc73b1f74815a566ffe6 visuals\default\Template_Icon_2.png
+copy 730ac1836f1a479cd0ce9c37d7287b72 visuals\default\Template_Icon_3.png
+copy aff6042a5af5d776d31eb15061f23e35 visuals\default\Template_Icon_4.png
+copy 1d13c39b3587859c26f136d656891a3e visuals\default\Template_Icon_5.png
+copy b1373434a3231f4ca46e6133e614f2ec visuals\default\Template_Icon_6.png
+copy 825c9d6211f7deb5d9fc2df01c8b9279 visuals\default\Template_Icon_7.png
+copy a57bf777ef65448ebd7e179bd5083f5a visuals\default\Template_Icon_8.png
+copy 187963ff9d900e344a1d27d2bdc83e66 visuals\default\Template_Icon_9.png
+copy 5448f978c138db07c190fd6e39972d45 visuals\default\Template_Icon_Browse.png
+copy dd74b7e35a4344c11fa1f636cd87b20c visuals\default\Template_Icon_EMI.png
+copy fcf04755b3693e6d0aec227a912fff7d visuals\default\Template_Icon_Empty.png
+copy 0e66320ce52e2e5c4b323fa013322beb visuals\default\Template_Icon_Heat Transfer.png
+copy 1e2b0430380a72aff93036768c1cba56 visuals\default\Template_Icon_Linear Air-track.jpg
+copy 65ac8da2680c5aca9c12aa672f32712d visuals\default\Template_Icon_LivePlot.png
+copy 7e55c8691eaed377d1577b5f63f9bc1e visuals\default\Template_Icon_PhysCloud.png
+copy 29888a65354a07ceb0f03b3d78b65a1b visuals\default\Template_Icon_PhysMag.jpg
+copy 71ed145c5b4d2e91092a434508162b1c visuals\default\Template_Icon_Rotaional Motion with Photogates.jpg
+copy 217edefad33cbc6ad8603e7d076cd89e visuals\default\toplimit.png
+copy 4f0cc191e7a113919b5b75b48570b074 visuals\default\TriangularWaveGenerator_Editor.png
+copy f4901e46e2e620a875d512ac38ed92f4 visuals\default\UpLimitWarning_Light.png
+copy e243318ae4ec96b41195cfb09be787de visuals\default\usb dull.png
+copy cb147bddc216421bf3e8d5f1673e5f14 visuals\default\usb selected.png
+copy 81602c3f6f3968ba8d83a2ed7d817edc visuals\default\vertical_slider_preview.png
+copy b592d2be997adc55f54542b6ce87772b visuals\default\warning_60.png
+copy 394d390158d69282dcf8abcecafa6278 visuals\default\WifiActive.png
+copy 78d11f82c92140e2c3426ab8d33bc975 visuals\default\WifiInactive.png
+copy adede794bfdcd8cdfad1e48ec8415222 visuals\default\wizard option icon.png
+copy 86da6bf343191d658234d01927f5aa06 visuals\default\WizardListThumbnail_Current.png
+copy e9b2afd69449ea4d828f6d7bd942dafc visuals\default\wizardlistthumbnail_Force.png
+copy cc1d01510d87bbf909648586486fd261 visuals\default\wizardlistthumbnail_magneticflux.png
+copy f0a45bd0a1146dcf99af5b08828dc3a2 visuals\default\WizardListThumbnail_Presence.png
+copy 82c7b2af7f3b6ca8440602e21d14b066 visuals\default\WizardListThumbnail_Resistance.png
+copy b70b286d7dffbf0b5f592e2f27735097 visuals\default\WizardListThumbnail_Rotation.png
+copy 46678d1653c2a6851155bd0b169195e5 visuals\default\wizardlistthumbnail_Rotation_Displacement.png
+copy 5a1273ede8a7883a03d8221eed61c81b visuals\default\wizardlistthumbnail_Rotation_Speed.png
+copy 15a69ea965d83d8f179ccb481f4455c6 visuals\default\WizardListThumbnail_temperature.png
+copy ea8e4407ee1872287d50a50be9f73088 visuals\default\WizardListThumbnail_Voltage.png
+copy 971d76465a49cb72e834dd28247545a1 visuals\default\WizardMenuIcon_ConstantValue.png
+copy 9fce9f8cccfea9a8b96b61996c46dcaa visuals\default\WizardMenuIcon_Current.png
+copy 659840dc8488f91415a4b1c766339fb7 visuals\default\WizardMenuIcon_FlowRate.png
+copy 02edf7b3f804789c9433f5d2d09bd001 visuals\default\WizardMenuIcon_Force.png
+copy af62b7cc66e8cd483574e4ac98458fcf visuals\default\WizardMenuIcon_FunctionValue.png
+copy 2cca79a640ea9a378ce833c92a1526cc visuals\default\WizardMenuIcon_MagneticFlux.png
+copy 52bc5449989e32a996287d506a133f0c visuals\default\WizardMenuIcon_PhysCompass.png
+copy 8720a5618296ea38af21e6e051a2efdd visuals\default\wizardmenuicon_pidcontroller.png
+copy d17fab2c504468809aedbbfdded33b2d visuals\default\WizardMenuIcon_Power.png
+copy 71ae6b6f82a9b62943b2f04dc24920bf visuals\default\WizardMenuIcon_Presence.png
+copy 80564bde516b1df9e72a5fe06556107c visuals\default\WizardMenuIcon_Resistance.png
+copy f08d06a0877bb23df23178d59e8c5bf6 visuals\default\WizardMenuIcon_RotaryEncoder.png
+copy c277373f7d575357e95e513aebea78ee visuals\default\WizardMenuIcon_Rotation.png
+copy 2d292ffea3f89bd825e3e995ad51066b visuals\default\WizardMenuIcon_Rotation_Displacement.png
+copy 6b567e4d1bc25ef8f18ea61d41188937 visuals\default\WizardMenuIcon_Rotation_Speed.png
+copy cbe6402669b8a72438a1df5b35139b65 visuals\default\WizardMenuIcon_SampleImage.png
+copy aa68a5730414726a9334178a16f2b36a visuals\default\WizardMenuIcon_Temperature.png
+copy c5dc717336c944b8859ff3f4e2f93570 visuals\default\WizardMenuIcon_TransferFunction.png
+copy 84f85242c27d74ebb0732473bd6bf0ec visuals\default\WizardMenuIcon_Unknown.png
+copy beb0d7580609771fe2a0d02bd4dd38de visuals\default\wizardmenuicon_userinterface.png
+copy e72f9f4a230173a8d15ca8d03c05fe28 visuals\default\WizardMenuIcon_Voltage.png
+copy a8b72848b927a92e92970c362b0a4dfd visuals\default\workspace open icon.png
+copy 5487a6a029ada3e99b74f0422ddda19a visuals\default\workspace options icon.png
+copy 106e33c45baa6f5791a14703b34d648f visuals\default\workspace save icon.png
+copy fa44d26e9776717e0b592ddfc9f26bd1 visuals\default\workspace to template icon.png
+copy da2644823a5864aee664f5724024f401 visuals\default\XYJoyPadSettings.png
+copy 925bd655dfd782009a6ab348b818c1e0 visuals\bad robot.jpg
+copy 55ef196d86728f6742bc0cd082031c4e visuals\DefaultSplash.png
+copy 96da253ff8f855c14e1935d12a09f84b ArduinoSketchUploader_DNC.dll
+copy aa5ec4cd5b44858e57dca55d56a75e7b ArduinoSketchUploader_DNC.pdb
+copy 70fc5312ea025b6625b7b28ee1e860a5 ArduinoUploader_DNC.dll
+copy 54255577fd4993c069998bc3b9954cb1 ArduinoUploader_DNC.pdb
+copy 3654f4e4c0858a9388c383b1225b8384 CommandLine.dll
+copy d51a1eacbf7e349fe4c17f123d465772 CrashFormApp.deps.json
+copy ee6e7e53794ac63f5325c17e4ecef628 CrashFormApp.dll
+copy d7c7bf06f5b2274b65e25733952ed01c CrashFormApp.exe
+copy 7387fd3c971f6a17060eac723f682c86 CrashFormApp.pdb
+copy accb867d1022208b6244a1504ad61c6e CrashFormApp.runtimeconfig.json
+copy 115dcb701c2084388983461d06ae4c1a CrashForm_Basic.deps.json
+copy efdf60d2442fd4f8b95e4c08dfa75892 CrashForm_Basic.dll
+copy f3c37da169ebd265a7e5a1b97cf40eef CrashForm_Basic.exe
+copy 56333f6bbb027dc89697db3baa8ad742 CrashForm_Basic.pdb
+copy accb867d1022208b6244a1504ad61c6e CrashForm_Basic.runtimeconfig.json
+copy b2843d5b3c673f7ce0fba6a0585262df CSharpMath.dll
+copy 5941d97e036cbca355b896416b7967b8 CSharpMath.Editor.dll
+copy 9893d4d7e0ca24eba8bdbbe5bdd9e139 CSharpMath.Rendering.dll
+copy 68ee3fc2c7749677f80f89282d97735e CSharpMath.SkiaSharp.dll
+copy a2621370e8cc113dd7bae255c43d22b6 FolderDialog.Bll.dll
+copy 9c6e3f24e4177365774091c770a3e4ae FolderDialog.Bll.pdb
+copy 732d3c46d42abd44fd5555fe9c3ae29f glfw.dll
+copy 18cb5a6cd5ba015b1844467c74fa605f GLFW.NET.dll
+copy 512430493616907278cfe670d12e165b HarfBuzzSharp.dll
+copy b8135a11f2062daef9019ce1eb1efa8e IntelHexFormatReader.dll
+copy c707848e9804131a6d445751b4717cc1 MathNet.Numerics.dll
+copy 00ab0f02b1114c57c758f5ad595224f1 Microsoft.DotNet.PlatformAbstractions.dll
+copy b0b997723e8a50f98f8ee30975338117 Microsoft.Extensions.DependencyModel.dll
+copy b061bd1c73fcaee092af498a85680fa3 Microsoft.Extensions.Logging.Abstractions.dll
+copy 9fbb96a2f251c92298d1130c09041b79 OutputA INL-DNL.txt
+copy 5685936422ef1258bf75429d1ba13422 PerfCopy.dll
+copy ab4a0afb1de6287a94eee9d8cd386636 PhysLogger2_DNC.deps.json
+copy 128c3029a21e8950ffad6385361795e2 PhysLogger2_DNC.dll
+copy 98ea13b84c3d0632475aabd29837c9d2 PhysLogger2_DNC.exe
+copy ae50de4017a91827b50eb5a914797b7b PhysLogger2_DNC.pdb
+copy accb867d1022208b6244a1504ad61c6e PhysLogger2_DNC.runtimeconfig.json
+copy 023d0699753a0acad8f7acf06283af67 restarter.bat
+copy d144a10b998ab3e95cb77387d1e29859 RingByteBuffer.dll
+copy 16fc975c24acb946bdcf3d639bcf296a RJCP.SerialPortStream.dll
+copy 038618ae72912b10608483ba064f4849 Silk.NET.Core.dll
+copy dfb4f25e8135423ce0e8ecb1e852dbe1 Silk.NET.OpenAL.dll
+copy ed17ceb7b96274d0aeee54e9b65a3ca4 SkiaSharp.dll
+copy fbb71f5df4618aaf050ba5dd99b6be24 SkiaSharp.HarfBuzz.dll
+copy 7a5e858d3ff03f420a99c26b3cbb2c3b System.Windows.Forms.dll
+copy a26970261dcb4c5ced912b44f41be6bd VirtualSTM32_EEPROM.plf
+dshortcut 98ea13b84c3d0632475aabd29837c9d2 PhysLogger<$s$>Desktop<$s$>2023 PhysLogger2_DNC.exe
+execute Installation x64 admin 92b6a3ba0083b0414eaa759356e14a7a redist\dotnet-runtime-6.0.21-win-x64.exe DotNet<$s$>Runtime Required<$s$>to<$s$>run<$s$>this<$s$>application False
+execute Installation Any admin c3c159661cdecc8bf9cdd68960cac760 redist\dotnet-runtime-6.0.21-win-x86.exe DotNet<$s$>Runtime Required<$s$>to<$s$>run<$s$>this<$s$>application False
+execute Installation Any admin 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe OpenAL Enables<$s$>in-app<$s$>sounds False
+execute Installation Any admin 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe Urdu<$s$>Font Pak<$s$>Urdu<$s$>Fonts<$s$>Installer True
+execute Default Any user 98ea13b84c3d0632475aabd29837c9d2 PhysLogger2_DNC.exe PhysLogger<$s$>Desktop <$s$> True
+execute Open Any user URL https://www.physlogger.com <$s$> <$s$> False
+Version = 1
+Whats New = Working:<$lb$>. Measure, Control, Create, Templates<$lb$>. Save and resume session<$lb$>. Resume after PhysLogger Disconnects<$lb$>. Works on Windows, Linux, MacOS (needs DotNet runtime on all platforms)<$lb$>. Sounds working through OpenAL<$lb$><$lb$><$lb$>+ Better display performance<$lb$>* Numerous bug fixes
+Update Size = 149.59 MB
+Final Size = 149.59 MB
+Published on = 2023-Sep-06 02:16:49
+zip Hash = b5d10f9d19f4838b01e5885e3e9360af
+Zip Size = 16.23 MB
+z01 size = 23 MB
+z01 Hash = 847580633d703d8deb225185ddc102af
+z02 size = 23 MB
+z02 Hash = 2d33275cceef34c4eed0a4026f61ab8c
+z03 size = 23 MB
+z03 Hash = 724e32a73a0edb14849c6c45ca3d06cd
+z04 size = 23 MB
+z04 Hash = 580db3cae1c1d91bc3819bd82ba5efbb
+Zip Parts = 5
