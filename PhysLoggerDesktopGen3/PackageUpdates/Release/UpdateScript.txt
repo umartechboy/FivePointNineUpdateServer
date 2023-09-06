@@ -1155,7 +1155,7 @@ copy 7a5e858d3ff03f420a99c26b3cbb2c3b System.Windows.Forms.dll
 copy a26970261dcb4c5ced912b44f41be6bd VirtualSTM32_EEPROM.plf
 dshortcut 98ea13b84c3d0632475aabd29837c9d2 PhysLogger<$s$>Desktop<$s$>2023 PhysLogger2_DNC.exe
 execute Installation x64 admin 92b6a3ba0083b0414eaa759356e14a7a redist\dotnet-runtime-6.0.21-win-x64.exe DotNet<$s$>Runtime Required<$s$>to<$s$>run<$s$>this<$s$>application False
-execute Installation Any admin c3c159661cdecc8bf9cdd68960cac760 redist\dotnet-runtime-6.0.21-win-x86.exe DotNet<$s$>Runtime Required<$s$>to<$s$>run<$s$>this<$s$>application False
+execute Installation x86 admin c3c159661cdecc8bf9cdd68960cac760 redist\dotnet-runtime-6.0.21-win-x86.exe DotNet<$s$>Runtime Required<$s$>to<$s$>run<$s$>this<$s$>application False
 execute Installation Any admin 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe OpenAL Enables<$s$>in-app<$s$>sounds False
 execute Installation Any admin 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe Urdu<$s$>Font Pak<$s$>Urdu<$s$>Fonts<$s$>Installer True
 execute Default Any user 98ea13b84c3d0632475aabd29837c9d2 PhysLogger2_DNC.exe PhysLogger<$s$>Desktop <$s$> True
