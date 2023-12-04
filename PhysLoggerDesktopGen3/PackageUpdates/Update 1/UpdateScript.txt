@@ -1,0 +1,20 @@
+copy 78e7eb8a0f289ba4ace2b9ea9c6f276d redist\windowsdesktop-runtime-6.0.25-win-x64.exe
+copy c5b67af29311b595d2d6491cf67323bc redist\windowsdesktop-runtime-6.0.25-win-x86.exe
+execute Installation x64 admin 78e7eb8a0f289ba4ace2b9ea9c6f276d redist\windowsdesktop-runtime-6.0.25-win-x64.exe DotNet<$s$>Core<$s$>Runtime Required<$s$>to<$s$>run<$s$>the<$s$>application False
+execute Installation Any admin c5b67af29311b595d2d6491cf67323bc redist\windowsdesktop-runtime-6.0.25-win-x86.exe DotNet<$s$>Core<$s$>Runtime Required<$s$>to<$s$>run<$s$>the<$s$>application False
+Version = 2
+Whats New = Working:<$lb$>. Measure, Control, Create, Templates<$lb$>. Save and resume session<$lb$>. Resume after PhysLogger Disconnects<$lb$>. Works on Windows, Linux, MacOS (needs DotNet runtime on all platforms)<$lb$>. Sounds working through OpenAL<$lb$><$lb$><$lb$>+ Better display performance (1.5ms per frame)<$lb$>* Numerous bug fixes
+Update Size = 104.62 MB
+Final Size = 203.73 MB
+Published on = 2023-Dec-04 12:55:33
+zip Hash = d4f7cb92184e4389c0b60d3c370baeb5
+Zip Size = 12.18 MB
+z01 size = 23 MB
+z01 Hash = e088c088c68bef9d5da194e862baf21d
+z02 size = 23 MB
+z02 Hash = 97863688b9bc596b68ab0fdb8082a93e
+z03 size = 23 MB
+z03 Hash = 55888d05e72526ae6030f7bb95864aca
+z04 size = 23 MB
+z04 Hash = 6d4f1ae7c2d761c986774b7b25000c77
+Zip Parts = 5
