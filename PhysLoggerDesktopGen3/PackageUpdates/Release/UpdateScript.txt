@@ -83,8 +83,7 @@ copy 14f3e17a3439c597b51b98b54d567721 quantities\PhysLoad\qdef.plf
 copy 5b79447418f2e54c47718fd45f8e1998 quantities\PhysLoad\q_icon_PhysLoad.png
 copy 5b79447418f2e54c47718fd45f8e1998 quantities\PhysLoad\WizardListThumbnail_PhysLoad.png
 copy 37f3ee40132d4b0e3e9d73ad8c96a87e quantities\PhysLoad\WizardMenuIcon_PhysLoad.png
-copy 92b6a3ba0083b0414eaa759356e14a7a redist\dotnet-runtime-6.0.21-win-x64.exe
-copy c3c159661cdecc8bf9cdd68960cac760 redist\dotnet-runtime-6.0.21-win-x86.exe
+copy a1cd6a64e8f8ad5d4b6c07dc4113c7ec redist\nircmd.exe
 copy 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe
 copy 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe
 copy b30b00ca7fada02592b0b1e25aba3873 runtimes\osx\native\libHarfBuzzSharp.dylib
@@ -825,6 +824,7 @@ copy 0bcb49599b3478c330e0128052203c94 visuals\default\AddBelow.png
 copy f304d99e8331e06f5a929b1b0918bd41 visuals\default\AddManualEntryButton.png
 copy 19402c32df6c20e0243efdba29ce8c6f visuals\default\ai_selected.png
 copy fd2acddc5f0da0288cce1975fa5d3771 visuals\default\ao_selected.png
+copy 68ffb8ab21d6a85aa8780bd117d89238 visuals\default\autosave.png
 copy 6d06789bca93ba39c6f4d5788150d12f visuals\default\bi_selected.png
 copy 89de38898a9f1f0e4ce0aee849e81818 visuals\default\bottomlimit.png
 copy 52a33da1bf0ef561ed70450d5fba56d1 visuals\default\bo_selected.png
@@ -848,6 +848,7 @@ copy b6c6313c92f47f373ed33b58d5bf476f visuals\default\create.png
 copy 5ffe9a24e4876f27290d52a65091f506 visuals\default\delete.png
 copy c8f1de08772b5cdf31822d3e1a58f85f visuals\default\di_selected.png
 copy 21d2d2bf0625164e6952faa66a65d4b2 visuals\default\DownLimitWarning_Light.png
+copy 0b17d07d170498bffebcd476cdb21559 visuals\default\d_icon_CrushTester_MoveDown.png
 copy b2ce99ee10108a6b8536c1402f0cab74 visuals\default\d_Icon_PhysLogger.png
 copy 949392155bd7c713f0494bd4cd40683d visuals\default\d_Icon_PhysLoggerSoftware.png
 copy 1f247426bc8d8eaeee39fa55139dc5d2 visuals\default\d_Icon_PhysWattManager.png
@@ -859,6 +860,9 @@ copy 13891c1c60f17f9a0e7d774d9d3b2ebd visuals\default\Edit_24x24.png
 copy 7d2262212e8fc82e640d0426cb1afcf6 visuals\default\EraseTableEntry.png
 copy 20a256f7c71ac1d410dc7777f9687dd8 visuals\default\Explore.png
 copy 3a346d291333c6c64e8553dc2a098528 visuals\default\extension menu option icon.png
+copy 1d67a1f59cc8de32a79b8241621fa5da visuals\default\GoDownIcon.png
+copy b7e4df9c484417c58319ffd92c30b083 visuals\default\GoToHomeIcon.png
+copy 9f148922ad7031c27159c24323e2246f visuals\default\GoUpIcon.png
 copy cde72e20d6119f927e3b46c6b049f9e2 visuals\default\horizontalAveraging.png
 copy 7ece03cb53d2cc77ac33dfa2de6c4cd9 visuals\default\horizontal_slider_preview.png
 copy 71ae6b6f82a9b62943b2f04dc24920bf visuals\default\InstrumentMenuIcon_PhysGate.png
@@ -886,6 +890,7 @@ copy c0b230a783289ee5212b2e87465f7a45 visuals\default\MenuIcon_BinaryAdder.png
 copy 4ade059c994275931915f29c6cad7155 visuals\default\MenuIcon_BinaryComparator.png
 copy b8dea41ebf366ddc88f672dbbf4ff5ca visuals\default\MenuIcon_BinaryMultiplier.png
 copy 70b32f9bdfa2a1491534d342c714d788 visuals\default\MenuIcon_CountEdge.png
+copy f0133fcca822506ac3d0bca0a0f9220e visuals\default\MenuIcon_CrushTester.png
 copy 3881ae8fa091852250bb6886e0ab7615 visuals\default\MenuIcon_Exponent.png
 copy 60296f1b65556ce343083c4e6750510f visuals\default\MenuIcon_Extrema.png
 copy 4010b4fa5c945b51e6322fabdb3aa1cf visuals\default\MenuIcon_Gauge.png
@@ -954,6 +959,7 @@ copy 572fb6099f158222aa83e07a11175463 visuals\default\q_icon_BinaryDivider.png
 copy c9f308ba8746d0e7d4a590b83384295f visuals\default\q_icon_BinaryMultiplier.png
 copy 2ab63c55790c8ff9c2a4d94240d598c7 visuals\default\q_icon_ClockTime.png
 copy c6e1c64faa757eb761aed8037bf5c2f6 visuals\default\q_icon_ColorLCD.png
+copy f13b946f6db294273af38bd032a81c78 visuals\default\q_icon_CrushTester_MoveDown.png
 copy 86da6bf343191d658234d01927f5aa06 visuals\default\q_icon_Current.png
 copy 3faf99d377eb71d09f03e2949e323b53 visuals\default\q_icon_DACOutput.png
 copy 3faf99d377eb71d09f03e2949e323b53 visuals\default\q_icon_EdgeCounter.png
@@ -1032,6 +1038,7 @@ copy 99df57e17a569dd7bb01690006df7b5e visuals\default\SyringePumpTighten.jpg
 copy 63ebb41bf2cd2ce566b167e5ccf355d7 visuals\default\SyringePumpWireSetup.jpg
 copy 7074f3a13cd9d545513fca0ac5042ce5 visuals\default\TakeManualEntry.png
 copy 397731bb9b4d1db9e3a089bc8dbb0695 visuals\default\template.png
+copy d0cf4ba02389214446f1d5fc343a58e7 visuals\default\Template_Brochure_CrushTester.jpg
 copy a6dae0fca5840e8a3674b8f3d88d434b visuals\default\Template_Brochure_EMI.jpg
 copy aa8ad228f87f9a57a5fc21996aebaf4e visuals\default\Template_Brochure_Empty.jpg
 copy a8beaa90e506517968eaa2807e860346 visuals\default\Template_Brochure_Heat Transfer.jpg
@@ -1052,6 +1059,7 @@ copy 825c9d6211f7deb5d9fc2df01c8b9279 visuals\default\Template_Icon_7.png
 copy a57bf777ef65448ebd7e179bd5083f5a visuals\default\Template_Icon_8.png
 copy 187963ff9d900e344a1d27d2bdc83e66 visuals\default\Template_Icon_9.png
 copy 5448f978c138db07c190fd6e39972d45 visuals\default\Template_Icon_Browse.png
+copy 65ac8da2680c5aca9c12aa672f32712d visuals\default\Template_Icon_CrushTester.png
 copy dd74b7e35a4344c11fa1f636cd87b20c visuals\default\Template_Icon_EMI.png
 copy fcf04755b3693e6d0aec227a912fff7d visuals\default\Template_Icon_Empty.png
 copy 0e66320ce52e2e5c4b323fa013322beb visuals\default\Template_Icon_Heat Transfer.png
@@ -1110,7 +1118,7 @@ copy 925bd655dfd782009a6ab348b818c1e0 visuals\bad robot.jpg
 copy 55ef196d86728f6742bc0cd082031c4e visuals\DefaultSplash.png
 copy 96da253ff8f855c14e1935d12a09f84b ArduinoSketchUploader_DNC.dll
 copy aa5ec4cd5b44858e57dca55d56a75e7b ArduinoSketchUploader_DNC.pdb
-copy 70fc5312ea025b6625b7b28ee1e860a5 ArduinoUploader_DNC.dll
+copy 3a99f35e9d1e2b051ed111e9c950b66e ArduinoUploader_DNC.dll
 copy 54255577fd4993c069998bc3b9954cb1 ArduinoUploader_DNC.pdb
 copy 3654f4e4c0858a9388c383b1225b8384 CommandLine.dll
 copy d51a1eacbf7e349fe4c17f123d465772 CrashFormApp.deps.json
@@ -1140,9 +1148,9 @@ copy b061bd1c73fcaee092af498a85680fa3 Microsoft.Extensions.Logging.Abstractions.
 copy 9fbb96a2f251c92298d1130c09041b79 OutputA INL-DNL.txt
 copy 5685936422ef1258bf75429d1ba13422 PerfCopy.dll
 copy ab4a0afb1de6287a94eee9d8cd386636 PhysLogger2_DNC.deps.json
-copy 128c3029a21e8950ffad6385361795e2 PhysLogger2_DNC.dll
+copy e34590e57a2187c2ef50a2e4bcdaeb32 PhysLogger2_DNC.dll
 copy 98ea13b84c3d0632475aabd29837c9d2 PhysLogger2_DNC.exe
-copy ae50de4017a91827b50eb5a914797b7b PhysLogger2_DNC.pdb
+copy 3229e29a8ea130d429713c297d38403b PhysLogger2_DNC.pdb
 copy accb867d1022208b6244a1504ad61c6e PhysLogger2_DNC.runtimeconfig.json
 copy 023d0699753a0acad8f7acf06283af67 restarter.bat
 copy d144a10b998ab3e95cb77387d1e29859 RingByteBuffer.dll
@@ -1154,25 +1162,19 @@ copy fbb71f5df4618aaf050ba5dd99b6be24 SkiaSharp.HarfBuzz.dll
 copy 7a5e858d3ff03f420a99c26b3cbb2c3b System.Windows.Forms.dll
 copy a26970261dcb4c5ced912b44f41be6bd VirtualSTM32_EEPROM.plf
 dshortcut 98ea13b84c3d0632475aabd29837c9d2 PhysLogger<$s$>Desktop<$s$>2023 PhysLogger2_DNC.exe
-execute Installation x64 admin 92b6a3ba0083b0414eaa759356e14a7a redist\dotnet-runtime-6.0.21-win-x64.exe DotNet<$s$>Runtime Required<$s$>to<$s$>run<$s$>this<$s$>application False
-execute Installation x86 admin c3c159661cdecc8bf9cdd68960cac760 redist\dotnet-runtime-6.0.21-win-x86.exe DotNet<$s$>Runtime Required<$s$>to<$s$>run<$s$>this<$s$>application False
-execute Installation Any admin 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe OpenAL Enables<$s$>in-app<$s$>sounds False
-execute Installation Any admin 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe Urdu<$s$>Font Pak<$s$>Urdu<$s$>Fonts<$s$>Installer True
+execute Installation Any admin 694f54bd227916b89fc3eb1db53f0685 redist\oalinst.exe OpenAL Required<$s$>to<$s$>run<$s$>sounds<$s$>on<$s$>PhysLogger<$s$>Desktop False
+execute Installation Any admin 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe PakUrdu<$s$>Installer Required<$s$>to<$s$>use<$s$>urdu<$s$>as<$s$>a<$s$>language True
 execute Default Any user 98ea13b84c3d0632475aabd29837c9d2 PhysLogger2_DNC.exe PhysLogger<$s$>Desktop <$s$> True
-execute Open Any user URL https://www.physlogger.com <$s$> <$s$> False
+execute Open Any user URL www.physlogger.com <$s$> <$s$> False
 Version = 1
-Whats New = Working:<$lb$>. Measure, Control, Create, Templates<$lb$>. Save and resume session<$lb$>. Resume after PhysLogger Disconnects<$lb$>. Works on Windows, Linux, MacOS (needs DotNet runtime on all platforms)<$lb$>. Sounds working through OpenAL<$lb$><$lb$><$lb$>+ Better display performance<$lb$>* Numerous bug fixes
-Update Size = 149.59 MB
-Final Size = 149.59 MB
-Published on = 2023-Sep-06 02:16:49
-zip Hash = b5d10f9d19f4838b01e5885e3e9360af
-Zip Size = 16.23 MB
+Whats New = Working:<$lb$>. Measure, Control, Create, Templates<$lb$>. Save and resume session<$lb$>. Resume after PhysLogger Disconnects<$lb$>. Works on Windows, Linux, MacOS (needs DotNet runtime on all platforms)<$lb$>. Sounds working through OpenAL<$lb$><$lb$><$lb$>+ Better display performance (1.5ms per frame)<$lb$>* Numerous bug fixes
+Update Size = 99.11 MB
+Final Size = 99.11 MB
+Published on = 2023-Dec-04 12:48:47
+zip Hash = 7e06f1569f6641ead1f066893ab2e022
+Zip Size = 12.14 MB
 z01 size = 23 MB
-z01 Hash = 847580633d703d8deb225185ddc102af
+z01 Hash = e8a5cec38d305a64d683a65d0e053a63
 z02 size = 23 MB
-z02 Hash = 2d33275cceef34c4eed0a4026f61ab8c
-z03 size = 23 MB
-z03 Hash = 724e32a73a0edb14849c6c45ca3d06cd
-z04 size = 23 MB
-z04 Hash = 580db3cae1c1d91bc3819bd82ba5efbb
-Zip Parts = 5
+z02 Hash = efb9f058d8d4359edb4250a8c71d073c
+Zip Parts = 3

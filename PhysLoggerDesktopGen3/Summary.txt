@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop 2023
 Company = Qosain Scientific
-Last Updated = 2023-Sep-06 02:17:04
-Whats New = Working:<$lb$>. Measure, Control, Create, Templates<$lb$>. Save and resume session<$lb$>. Resume after PhysLogger Disconnects<$lb$>. Works on Windows, Linux, MacOS (needs DotNet runtime on all platforms)<$lb$>. Sounds working through OpenAL<$lb$><$lb$><$lb$>+ Better display performance<$lb$>* Numerous bug fixes
+Last Updated = 2023-Dec-04 12:48:54
+Whats New = Working:<$lb$>. Measure, Control, Create, Templates<$lb$>. Save and resume session<$lb$>. Resume after PhysLogger Disconnects<$lb$>. Works on Windows, Linux, MacOS (needs DotNet runtime on all platforms)<$lb$>. Sounds working through OpenAL<$lb$><$lb$><$lb$>+ Better display performance (1.5ms per frame)<$lb$>* Numerous bug fixes
 Current Version = 1
 About = PhysLogger Desktop
 App ID = 526152853C0973FC59A2CBC9C2DDF619
-Update Size= 149.59 MB
-Final Size = 149.59 MB
+Update Size= 99.11 MB
+Final Size = 99.11 MB
 Default Exe = PhysLogger2_DNC.exe
-Zip Parts = 5
+Zip Parts = 3
