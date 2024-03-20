@@ -1,0 +1,24 @@
+rmfile a1cd6a64e8f8ad5d4b6c07dc4113c7ec redist\nircmd.exe
+rmfile 0e058946a1cd46c33ec91a57ce39c861 redist\Pak-Urdu-Installer.exe
+copy a8a68bcc74b5022467f12587baf1ef93 redist\VC_redist.x64.exe
+copy 9882a328c8414274555845fa6b542d1e redist\VC_redist.x86.exe
+copy f7c456c88b130a861e45539ea0e3fa10 ArduinoSketchUploader_DNC.pdb
+copy a7ddaad868ce452caf3e5fd65ad73001 ArduinoUploader_DNC.pdb
+copy 58cbfd7f7fc34281c5f2462a2a1d3c99 CrashForm_Basic.pdb
+copy b706a4b78cdcbd607115ea8360dcb687 FolderDialog.Bll.dll
+copy e9b81f7614198cdb99a28f1caa86158f FolderDialog.Bll.pdb
+copy 6fb23082d0d8b0b62efea38ec1274b73 PhysLogger2_DNC.dll
+copy ef1471b5e7f85c3b20f8afea1b361d3b PhysLogger2_DNC.exe
+copy 522a55248db13c1cf441c84b2f21d220 PhysLogger2_DNC.pdb
+execute Installation x64 admin a8a68bcc74b5022467f12587baf1ef93 redist\VC_redist.x64.exe VC++<$s$>Redist Required<$s$>to<$s$>run<$s$>the<$s$>application False
+execute Installation Any admin 9882a328c8414274555845fa6b542d1e redist\VC_redist.x86.exe VC++<$s$>Redist Required<$s$>to<$s$>run<$s$>the<$s$>application True
+Version = 3
+Whats New = Working:<$lb$>+ Added MS VC++ Redist<$lb$>. Measure, Control, Create, Templates<$lb$>. Save and resume session<$lb$>. Resume after PhysLogger Disconnects<$lb$>. Works on Windows, Linux, MacOS (needs DotNet runtime on all platforms)<$lb$>. Sounds working through OpenAL<$lb$><$lb$><$lb$>+ Better display performance<$lb$>* Numerous bug fixes
+Update Size = 28.84 MB
+Final Size = 241.2 MB
+Published on = 2024-Mar-20 05:34:20
+zip Hash = 77391e63f93d8d896b54e6f380935f28
+Zip Size = 15.07 MB
+z01 size = 23 MB
+z01 Hash = 4ddf5f25257be60e46bb6d0101743aed
+Zip Parts = 2
