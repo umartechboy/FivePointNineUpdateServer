@@ -1,0 +1,15 @@
+copy b3e2e6acb3b5f662768722ad6fd30ede CrashFormApp.deps.json
+copy 37dfb8708d662261a17b3d3c7aaa41e1 CrashFormApp.dll
+copy e754cf5b4c9755a3138f5d6c97760e5b CrashFormApp.exe
+copy 8abec4613b158cdbc4d9d4fb474fddd2 CrashFormApp.pdb
+copy c8bd7ff5efa1b2cef468c79c0e2f3c21 PhysLogger2_DNC.deps.json
+copy ac235896be0f131885e5f917902dbf39 PhysLogger2_DNC.dll
+copy 9f4ef1d2f393072796b293840cde8ca3 PhysLogger2_DNC.pdb
+Version = 4
+Whats New = Working:<$lb$>+ Custom file name in saver<$lb$>* Latex string in file name fixed<$lb$>* Some crashes fixed<$lb$>* High CPU sage in Crashform fixed
+Update Size = 2.46 MB
+Final Size = 230.15 MB
+Published on = 2024-Mar-22 04:26:29
+zip Hash = 579aafdcf56f4b9080c6b33c8ee52b0d
+Zip Size = 1.01 MB
+Zip Parts = 1
