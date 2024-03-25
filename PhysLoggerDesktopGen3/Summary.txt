@@ -1,6 +1,6 @@
 Application Title = PhysLogger Desktop 2023
 Company = Qosain Scientific
-Last Updated = 2024-Mar-25 04:58:51
+Last Updated = 2024-Mar-25 05:46:45
 Whats New = Working:<$lb$>* Kill Existing App fix<$lb$>+ Custom file name in saver<$lb$>* Latex string in file name fixed<$lb$>* Some crashes fixed<$lb$>* High CPU sage in Crashform fixed
 Current Version = 4
 About = PhysLogger Desktop
