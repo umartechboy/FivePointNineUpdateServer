@@ -1,124 +1,19 @@
-rmfile cc1395839774e4723c56dc39eafbdf06 TestPlugin.pdb
-mkdir Hardware\avrdude
-copy 389ecdb5cb262fefcd1fa09ef0838afc Hardware\avrdude\avrdude.conf
-copy 1919a35fbf590e272f4e3e5092246256 Hardware\avrdude\avrdude.exe
-copy 535779909a40b42f4f3e48598f5778a5 Hardware\avrdude\libusb0.dll
-copy 6378eb114f8e846a92db99fb61a22ffa Hardware\avrdude\serial_upload.bat
-copy 3993ff7a86722aee9348ed58ee077dfd Hardware\stm32tools\serial_upload.bat
-copy 0c1c7101b218d7e8b1fa008d1b42d789 Hardware\PhysLoad.hex
-copy ab5e8b464f8111ebfd557e50dd1c7e53 Hardware\PhysLoggerG2.bin
-copy 2db467a1675c35a2151b2b094a2db9f6 visuals\default\live plots scroll anim 0\1.png
-copy 12f9d31eeb74a0dd403426a7542e0f9f visuals\default\live plots scroll anim 0\10.png
-copy 8ac73a48812ada8a40269daf2fabf093 visuals\default\live plots scroll anim 0\2.png
-copy c945d2856389b1306cd15bf182e7f20e visuals\default\live plots scroll anim 0\3.png
-copy 98ba203c1d924be4fc3cab923ce1194f visuals\default\live plots scroll anim 0\4.png
-copy cfd36d9793429349222f87864300d189 visuals\default\live plots scroll anim 0\5.png
-copy d06029d8c02837463ecbb25d8c7f981f visuals\default\live plots scroll anim 0\6.png
-copy 30e088ec10ca1287e37d54c6fac2583d visuals\default\live plots scroll anim 0\7.png
-copy 7097ead880b7020756019448fa06655e visuals\default\live plots scroll anim 0\8.png
-copy 49d2e2c9b0af9f846808a4fc7ff09a56 visuals\default\live plots scroll anim 0\9.png
-copy 58f8b47bb21771dcf23c2933d58f3919 visuals\default\live plots scroll anim 1\1.png
-copy 14dc0b8dc2b33d702dac3fef86640d72 visuals\default\live plots scroll anim 1\10.png
-copy 0b85576b3ff8ddb71909dc11b507ae32 visuals\default\live plots scroll anim 1\2.png
-copy 3e4c122cf9ecbf7cf1ca9b6e9caa0bd0 visuals\default\live plots scroll anim 1\3.png
-copy efb23a72e1e96ee0cf39ed5357907df5 visuals\default\live plots scroll anim 1\4.png
-copy 87f276b734f4986ecf1fbaa7f2181607 visuals\default\live plots scroll anim 1\5.png
-copy e28ab1c8374982f4fc373f4987f6d930 visuals\default\live plots scroll anim 1\6.png
-copy 6b4ac5c4229cefa62b5bd37d0cf7e624 visuals\default\live plots scroll anim 1\7.png
-copy 543549521ac596296b748efc69fd4733 visuals\default\live plots scroll anim 1\8.png
-copy 6d021570f0b4b68aafe796a17eebcc3d visuals\default\live plots scroll anim 1\9.png
-copy 5befd15fd695be280cb12ce61cc80dc5 visuals\default\live plots scroll anim 2\1.png
-copy 2893799648dd4ed6bdc77d41c2360509 visuals\default\live plots scroll anim 2\10.png
-copy 4c4cf11fa38b5990573dd75c156af797 visuals\default\live plots scroll anim 2\2.png
-copy d7f1366f8fca6c01a699eeb7fbd9961a visuals\default\live plots scroll anim 2\3.png
-copy 77de2d5962790dd1cc1246500c4b78ea visuals\default\live plots scroll anim 2\4.png
-copy 0377835268cefb0734e4cd801c4502fa visuals\default\live plots scroll anim 2\5.png
-copy 91f8a87cf3503d25e916b68d204ec325 visuals\default\live plots scroll anim 2\6.png
-copy d5b069a4406339ef6915f9c683335f0b visuals\default\live plots scroll anim 2\7.png
-copy 10f00c4716bbb64d73843fea8076a5d7 visuals\default\live plots scroll anim 2\8.png
-copy 1864924080e088c7d73efa563e95b980 visuals\default\live plots scroll anim 2\9.png
-copy a57c71b487c0c58eff14a1fbc8c84d5a visuals\default\add extension.png
-copy 95416d9a7555368a3ff5ccff45416e59 visuals\default\cloud widget.png
-copy f10ce76dc085f1a067178a949ec07cef visuals\default\colors.plf
-copy 2cca79a640ea9a378ce833c92a1526cc visuals\default\instrumentmenuicon_physhall.png
-copy a8504a03c3a5eda77fde76de3af43089 visuals\default\layout preview.png
-copy c708eafbfadda43bcacc75a1205fb6ca visuals\default\MENU-2-NUMERIC INPUT-01-01.png
-copy 5cc184a52bbfc80a78764c27cae3a890 visuals\default\MenuIcon_ABS.png
-copy c0b230a783289ee5212b2e87465f7a45 visuals\default\MenuIcon_BinaryAdder.png
-copy 4ade059c994275931915f29c6cad7155 visuals\default\MenuIcon_BinaryComparator.png
-copy b8dea41ebf366ddc88f672dbbf4ff5ca visuals\default\MenuIcon_BinaryMultiplier.png
-copy 3881ae8fa091852250bb6886e0ab7615 visuals\default\MenuIcon_Exponent.png
-copy 60296f1b65556ce343083c4e6750510f visuals\default\MenuIcon_Extrema.png
-copy 4010b4fa5c945b51e6322fabdb3aa1cf visuals\default\MenuIcon_Gauge.png
-copy 1d9615466277564a96b178c9be033bd2 visuals\default\MenuIcon_Gauge_Detail.png
-copy 8c2c7e12776bc3353982c37e0c58ea00 visuals\default\MenuIcon_HorizontalSlider.png
-copy 678ec6785f3019fb69b2cdc9c14f0ff5 visuals\default\MenuIcon_Integrate.png
-copy a76e9779d3adec06dad8551dbc6564ef visuals\default\MenuIcon_LivePlots.png
-copy c25628842bdc2bbea033175900b921dd visuals\default\MenuIcon_LivePlots_Detail.png
-copy 7d8fc29afa25e370d7fc13ea9a959522 visuals\default\MenuIcon_NumericIndicator.png
-copy 09fe3dbd446c19fc330c2f01f4c34132 visuals\default\MenuIcon_PID.png
-copy 41132d7adaf54f55007f5591c8ed2476 visuals\default\MenuIcon_PushButton.png
-copy 302571e458ba2bc3e31329110fd84d27 visuals\default\MenuIcon_Range.png
-copy 1c335a320f7a7d43a63b6b22b3f719fa visuals\default\MenuIcon_SawtoothGenerator.png
-copy d9a17fcb7c98ba562af086825d42b2e7 visuals\default\MenuIcon_SawtoothGenerator_Detail.png
-copy 5aab9ff1416aac43e8be34bce9f38eb0 visuals\default\MenuIcon_SineGenerator.png
-copy 2e00e8cc0d892de0e52f7f40f7e7f69d visuals\default\MenuIcon_SineGenerator_Detail.png
-copy 9d3e357f77e1c9585f14f3547ec970c3 visuals\default\MenuIcon_SquarePulseGenerator.png
-copy 9bcbfb18c6b8f0e9341b566a9691ee46 visuals\default\MenuIcon_SquarePulseGenerator_Detail.png
-copy aaef4eb36cbd20c22bc088f86b6895f6 visuals\default\MenuIcon_ToggleSwitch.png
-copy bb6905e39f6f2a90c0151f7bfd342a25 visuals\default\MenuIcon_VerticalSlider.png
-copy 8faa6f9b9fbe65234393d5b4f8fe31a3 visuals\default\MenuIcon__4Pointdifferentiation.png
-copy be143b2b347560cab85e0932fb78f386 visuals\default\password.png
-copy b0991b482fd77adec39ffba9e50cafd0 visuals\default\period.png
-copy e4c5601f0c9d6e06c29c47629a234732 visuals\default\PhysCloud.png
-copy ae511bcdd62752da4b894693c31490cc visuals\default\q_icon_EdgeCounter_bkp.png
-copy cc1d01510d87bbf909648586486fd261 visuals\default\q_icon_Magnetic Flux.png
-copy 3d1469e840ddfa8267f5c469c02f80d2 visuals\default\q_icon_PhysLoadQuantity.png
-copy 5095a612e1305f160ac18138c6b2d296 visuals\default\q_icon_pid.png
-copy 7d3ede34e0a135fbfa28dabe767bc1cc visuals\default\q_icon_SineGenerator.png
-copy edefd501590787833a38b540c39185ac visuals\default\simple_gauge.png
-copy a708b3539f7699a458cb979e164d9dc6 visuals\default\simple_gauge_needlering.png
-copy 192caa2be2af6db054bedcf76acc7eed visuals\default\ssid.png
-copy aa8ad228f87f9a57a5fc21996aebaf4e visuals\default\Template_Brochure_Empty.jpg
-copy dd74b7e35a4344c11fa1f636cd87b20c visuals\default\Template_Icon_EMI.png
-copy fcf04755b3693e6d0aec227a912fff7d visuals\default\Template_Icon_Empty.png
-copy 65ac8da2680c5aca9c12aa672f32712d visuals\default\Template_Icon_LivePlot.png
-copy 7e55c8691eaed377d1577b5f63f9bc1e visuals\default\Template_Icon_PhysCloud.png
-copy e9b2afd69449ea4d828f6d7bd942dafc visuals\default\WizardListThumbnail_Force.png
-copy cc1d01510d87bbf909648586486fd261 visuals\default\wizardlistthumbnail_magneticflux.png
-copy 971d76465a49cb72e834dd28247545a1 visuals\default\WizardMenuIcon_ConstantVoltage.png
-copy 948b8ea16282fef8149c84e01b354adf visuals\default\WizardMenuIcon_Force.png
-copy af62b7cc66e8cd483574e4ac98458fcf visuals\default\WizardMenuIcon_Function.png
-copy 2cca79a640ea9a378ce833c92a1526cc visuals\default\WizardMenuIcon_MagneticFlux.png
-copy 52bc5449989e32a996287d506a133f0c visuals\default\WizardMenuIcon_PhysCompass.png
-copy 8720a5618296ea38af21e6e051a2efdd visuals\default\wizardmenuicon_pidcontroller.png
-copy fb1164874d5d302302e5b85b71fe087b visuals\default\WizardMenuIcon_Resistance.png
-copy beb0d7580609771fe2a0d02bd4dd38de visuals\default\wizardmenuicon_userinterface.png
-copy 6ba5948b222c677ea495962098f36344 ArduinoSketchUploader.dll
-copy 5d183f09006f4c3f58cf6f79d321f817 ArduinoSketchUploader.dll.config
-copy 0bd47e25757f7888d1286829aa49e452 ArduinoSketchUploader.pdb
-copy c7dc478cfb6f53a7fd4c16e349d9fea0 ArduinoUploader.dll
-copy 734944488ca55b01e71ea6cb9e964780 ArduinoUploader.pdb
-copy 0c052bd6d5cd6cc483b81dee9cdef14a CommandLine.dll
-copy 1d7648418a3b2fde4638eb4ed3acff5f CommandLine.xml
-copy 9bd3d161557a220984ad6c4302b4e821 DXVideoPlayer.exe
-copy e577b3726c614fe4303e64da6c55e13e DXVideoPlayer.pdb
-copy b43f36ee4db391474c38119e9f55ea0e IntelHexFormatReader.dll
-copy 766e089f9af0dad5bfd8b77167d1e0fd NLog.config
-copy a05caa12953e45b0e24aebc3653920ff PhysLogger2.exe
-copy 292cf7e355cd2d28e76f83e6542b0d96 PhysLogger2.pdb
-copy 38b1493e16f35eedd36c9875aa0d9cad RJCP.SerialPortStream.dll
-copy 61db9c3e3366ba770c5e8424c5d04369 RJCP.SerialPortStream.pdb
-copy 240583de0feee327772acbd038257b4e RJCP.SerialPortStream.xml
-copy 48ca896501b7711065a4049ec3fcdb97 WpfMath.dll
-copy 7508cee7bb4de77c573c188c48122491 WpfMath.Example.exe
-copy c37ecb32424a74fef214f88a9d2c26b6 WpfMath.Example.pdb
-copy 0a907ac193fa6f64cd57b4eea408cfd3 WpfMath.pdb
+copy b3e2e6acb3b5f662768722ad6fd30ede CrashFormApp.deps.json
+copy bec8d9fa0682e2f5c812e19c2d2e44bb CrashFormApp.dll
+copy 41de417b5251fac25e45ec9457729281 CrashFormApp.exe
+copy 8dbff911a41b3f774100ce3ceabf57af CrashFormApp.pdb
+copy 13a2627e4bfd9364c399071a3acd3ba8 CrashForm_Basic.dll
+copy 602f2935041dfcb127c398caea4a8b26 CrashForm_Basic.exe
+copy adf3e3eecde20b7c9661e9c47106a14a Newtonsoft.Json.dll
+copy c8bd7ff5efa1b2cef468c79c0e2f3c21 PhysLogger2_DNC.deps.json
+copy 3806ca8b0659691f8757b36a4207162a PhysLogger2_DNC.dll
+copy 322f9d82184f55d0ae272412b5bd6d6e PhysLogger2_DNC.exe
+copy 7b8e6315daf61af094a6ae50ee9c9591 PhysLogger2_DNC.pdb
 Version = 4
-Whats New = * Minor Bug fixes<$lb$>+ Added lots of updated visuals<$lb$>+ Added PhysLoad and its calibration<$lb$>+ Added ArduinoUploader for arduino firmware flashing<$lb$>
-Update Size = 8.35 MB
-Final Size = 49.75 MB
-Published on = 2021-Mar-12 03:00:23
-zip Hash = 3a06257a1d9d31cddcde10e39f9ae960
-Zip Size = 3.3 MB
+Whats New = Working:<$lb$>+ Can run without sound card<$lb$>* Newtonsoft added<$lb$>* Logger Stuck after detection fix<$lb$>* Kill Existing App fix<$lb$>+ Custom file name in saver<$lb$>* Latex string in file name fixed<$lb$>* Some crashes fixed<$lb$>* High CPU sage in Crashform fixed
+Update Size = 3.61 MB
+Final Size = 230.84 MB
+Published on = 2024-Mar-26 12:51:46
+zip Hash = 9a0f17175bfda304e2f706ce3b4eca1a
+Zip Size = 1.52 MB
 Zip Parts = 1
