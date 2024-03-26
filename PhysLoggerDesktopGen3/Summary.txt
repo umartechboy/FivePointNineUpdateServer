@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop 2023
 Company = Qosain Scientific
-Last Updated = 2024-Mar-26 11:09:12
+Last Updated = 2024-Mar-26 11:22:28
 Whats New = Working:<$lb$>* Newtonsoft added<$lb$>* Logger Stuck after detection fix<$lb$>* Kill Existing App fix<$lb$>+ Custom file name in saver<$lb$>* Latex string in file name fixed<$lb$>* Some crashes fixed<$lb$>* High CPU sage in Crashform fixed
 Current Version = 4
 About = PhysLogger Desktop
 App ID = 526152853C0973FC59A2CBC9C2DDF619
-Update Size= 3.46 MB
+Update Size= 3.61 MB
 Final Size = 230.84 MB
 Default Exe = PhysLogger2_DNC.exe
 Zip Parts = 1
