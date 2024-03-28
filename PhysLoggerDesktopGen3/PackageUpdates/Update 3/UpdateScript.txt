@@ -6,14 +6,14 @@ copy 13a2627e4bfd9364c399071a3acd3ba8 CrashForm_Basic.dll
 copy 602f2935041dfcb127c398caea4a8b26 CrashForm_Basic.exe
 copy adf3e3eecde20b7c9661e9c47106a14a Newtonsoft.Json.dll
 copy c8bd7ff5efa1b2cef468c79c0e2f3c21 PhysLogger2_DNC.deps.json
-copy 706d853dcbc3b45682a891bec44627b8 PhysLogger2_DNC.dll
-copy 322f9d82184f55d0ae272412b5bd6d6e PhysLogger2_DNC.exe
-copy 7d04da7b34a486abb000a97f0559dda3 PhysLogger2_DNC.pdb
+copy 9e1cfbe5ab5c4f6750045f5612f03a5c PhysLogger2_DNC.dll
+copy ea0ebbbe032b490445b6504bfe021fdd PhysLogger2_DNC.exe
+copy e8981f85197d5481cb49f0294ed7f325 PhysLogger2_DNC.pdb
 Version = 4
-Whats New = Working:<$lb$>* Newtonsoft added<$lb$>* Logger Stuck after detection fix<$lb$>* Kill Existing App fix<$lb$>+ Custom file name in saver<$lb$>* Latex string in file name fixed<$lb$>* Some crashes fixed<$lb$>* High CPU sage in Crashform fixed
+Whats New = Working:<$lb$>+ User controlled quantities set at resume<$lb$>+ Can run without sound card<$lb$>* Newtonsoft added<$lb$>- Logger Stuck after detection fix<$lb$>* Kill Existing App fix<$lb$>+ Custom file name in saver<$lb$>* Latex string in file name fixed<$lb$>* Some crashes fixed<$lb$>* High CPU sage in Crashform fixed
 Update Size = 3.61 MB
 Final Size = 230.84 MB
-Published on = 2024-Mar-26 11:22:27
-zip Hash = 0587ce6811dc2a87280ad9a54721ab78
+Published on = 2024-Mar-28 04:00:57
+zip Hash = 306d595af1caed662cb79cea7ffc1929
 Zip Size = 1.52 MB
 Zip Parts = 1
