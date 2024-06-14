@@ -1,0 +1,16 @@
+copy eb7b6fef438373c95330618f1960c1c7 ArduinoSketchUploader_DNC.pdb
+copy 5589e787c2eebc1e578043d55c4ca064 ArduinoUploader_DNC.pdb
+copy ae8f537cc55733aa569b5f2f905f5e2c CrashForm_Basic.dll
+copy 89e2ec1855db9c3576e5f382304a1731 CrashForm_Basic.exe
+copy c6977145aff9ec28eac04f5b2a5bb835 CrashForm_Basic.pdb
+copy e4fdf9a119cc4c2a56d1df68034e7375 PhysLogger2_DNC.dll
+copy 75089ba6ea03d1924899fc143663f033 PhysLogger2_DNC.exe
+copy f99e36d4ef229b8dd5506f2c439059fd PhysLogger2_DNC.pdb
+Version = 5
+Whats New = Added:<$lb$>+ Power supply detection<$lb$>+ OpenGL detection
+Update Size = 2.6 MB
+Final Size = 230.84 MB
+Published on = 2024-Jun-14 05:31:47
+zip Hash = 6b1a080d79d0f01e31b493870351875c
+Zip Size = 1.14 MB
+Zip Parts = 1
