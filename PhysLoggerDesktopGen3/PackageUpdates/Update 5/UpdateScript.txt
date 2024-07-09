@@ -1,0 +1,11 @@
+copy bdc0698df3bda82e1dabf26955a66f7f PhysLogger2_DNC.dll
+copy eb4466b49f757c611bd8c2b674721521 PhysLogger2_DNC.exe
+copy c068f29007f335eaf5a0d8eabe54e488 PhysLogger2_DNC.pdb
+Version = 6
+Whats New = Fine improvements:<$lb$>+ ADC offset removal<$lb$>+ ADC fast, zero offset calibration<$lb$> 
+Update Size = 2.4 MB
+Final Size = 230.84 MB
+Published on = 2024-Jul-09 04:00:08
+zip Hash = a1060f608ff9248aac7327a6863558f3
+Zip Size = 1.04 MB
+Zip Parts = 1
