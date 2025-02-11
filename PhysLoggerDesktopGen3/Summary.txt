@@ -1,11 +1,11 @@
 Application Title = PhysLogger Desktop 2023
 Company = Qosain Scientific
-Last Updated = 2024-Jul-09 04:00:09
-Whats New = Fine improvements:<$lb$>+ ADC offset removal<$lb$>+ ADC fast, zero offset calibration<$lb$> * instrument health update bug fix <$lb$>+ Power failure detection<$lb$> 
-Current Version = 6
+Last Updated = 2025-Feb-11 05:14:11
+Whats New = MeasureLab V1 support added<$lb$>+ Quantity icons<$lb$>+ Quantity visual generators
+Current Version = 7
 About = PhysLogger Desktop
 App ID = 526152853C0973FC59A2CBC9C2DDF619
-Update Size= 2.4 MB
-Final Size = 230.84 MB
+Update Size= 2.74 MB
+Final Size = 231.1 MB
 Default Exe = PhysLogger2_DNC.exe
 Zip Parts = 1

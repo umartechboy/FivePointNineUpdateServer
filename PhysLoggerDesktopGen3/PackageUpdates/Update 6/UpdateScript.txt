@@ -1,0 +1,36 @@
+copy 7341bc58880b7ad6be3c4ae104e2f4f6 visuals\default\edge_icon_both.png
+copy a4591673a350c1c15994604458b59da9 visuals\default\edge_icon_falling.png
+copy 0d0413a9f3dae1834cc970d016b4683e visuals\default\edge_icon_rising.png
+copy 7ad50a5db414bad3d83ef115a9264e6d visuals\default\q_icon BiquadFilter.png
+copy c5b49ac94bb2fc5ce97c1b9ec346a8e7 visuals\default\q_icon MeasureLabOnScreenDisplay.png
+copy 8af2e0b86bc29ce8ff8bfa485940203a visuals\default\q_icon_AirQuality.png
+copy 63e53743c8060c2e78099ccfedec5022 visuals\default\q_icon_Altitude.png
+copy 75949ee55199772c3bf9e0407427e8e0 visuals\default\q_icon_ambientlight.png
+copy d71fc7d3f25a620a609e9f75a867a5d2 visuals\default\q_icon_heartbeats.png
+copy 75949ee55199772c3bf9e0407427e8e0 visuals\default\q_icon_light.png
+copy c5b49ac94bb2fc5ce97c1b9ec346a8e7 visuals\default\q_icon_MeasureLabOnScreenDisplay.png
+copy 75949ee55199772c3bf9e0407427e8e0 visuals\default\q_icon_physlumen.png
+copy 9508cb150a5b2bf25ba0056b54240847 visuals\default\q_icon_sound.png
+copy 8af2e0b86bc29ce8ff8bfa485940203a visuals\default\wizardlistthumbnail_AirQuality.png
+copy 63e53743c8060c2e78099ccfedec5022 visuals\default\wizardlistthumbnail_altitude.png
+copy 75949ee55199772c3bf9e0407427e8e0 visuals\default\wizardlistthumbnail_ambientlight.png
+copy d71fc7d3f25a620a609e9f75a867a5d2 visuals\default\wizardlistthumbnail_heartbeats.png
+copy 4c6b123bf7b938ba4e99c60d5269cd9b visuals\default\WizardListThumbnail_sound.png
+copy 0738823fed35ccff3fafc38e2a5bc597 visuals\default\WizardMenuIcon_AirQuality.png
+copy 0ea61b354038c91024d275d7049b683e visuals\default\WizardMenuIcon_Altitude.png
+copy 7350b2ac44380b72d314f6987c7c6aaa visuals\default\WizardMenuIcon_AmbientLight.png
+copy e1256dc56bce917aba8280ca7c01de8a visuals\default\WizardMenuIcon_HeartBeats.png
+copy e24280e9e9512099243ad09e0aee41b4 visuals\default\WizardMenuIcon_Potentiometer.png
+copy a81449a813c7931d96e981d80a6da19d visuals\default\WizardMenuIcon_Sound.png
+copy cb4fd8e13a0a7e8ff4820984f662fbd8 PhysLogger2_DNC.deps.json
+copy b3828e063d32a1d86e594e30125e8348 PhysLogger2_DNC.dll
+copy 5e06878f9376bca6a91305117e8ba5c7 PhysLogger2_DNC.exe
+copy 1d4134af97a45d8d71fc50260ab483df PhysLogger2_DNC.pdb
+Version = 7
+Whats New = MeasureLab V1 support added<$lb$>+ Quantity icons<$lb$>+ Quantity visual generators
+Update Size = 2.74 MB
+Final Size = 231.1 MB
+Published on = 2025-Feb-11 05:14:10
+zip Hash = 115cd1cda7ac01f04b82ff0859bfc0cc
+Zip Size = 1.29 MB
+Zip Parts = 1
